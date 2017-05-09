@@ -11,7 +11,7 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
+#[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -23,7 +23,7 @@ bld/
 [Oo]bj/
 
 # Visual Studio 2015 cache/options directory
-.vs/
+#.vs/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -47,7 +47,7 @@ artifacts/
 *_i.h
 *.ilk
 *.meta
-*.obj
+#*.obj
 *.pch
 *.pdb
 *.pgc
