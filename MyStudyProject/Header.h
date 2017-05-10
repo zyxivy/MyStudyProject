@@ -497,4 +497,10 @@ public:
     //149
 public:
     static int maxPoints(vector<Point>& points);
+    //150
+public:
+    static int evalRPN(vector<string>& tokens);
+    //151
+public:
+    static void reverseWords(string &s);
 };

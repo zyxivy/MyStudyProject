@@ -194,8 +194,20 @@ int main()
     left->left = left2;
     //right->right = right2;
 
-    vector<string> list = { "cat","cats","and","sand","dog" };
-    Solution::sortList(l10);
+    vector<string> list = { "4", "13", "5", "/", "+" };
+
+    Point p1(0, 0);    
+    Point p2(94911152, 94911151);
+    Point p3(94911151, 94911150);
+    Point p4(9, -25);
+    vector<Point> pts;
+    pts.push_back(p1);
+    pts.push_back(p2);
+    pts.push_back(p3);
+    //pts.push_back(p4);
+
+    string words = "the sky is blue";
+    Solution::reverseWords(words);
 
     //LRUCache cache(2);
     //cache.put(1, 1);

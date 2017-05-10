@@ -462,6 +462,12 @@
     <ClCompile Include="149 - Max Points on a Line.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="150 - Evaluate Reverse Polish Notation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="151 - Reverse Words in a String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

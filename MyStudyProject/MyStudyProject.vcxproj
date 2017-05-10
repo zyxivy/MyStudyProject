@@ -205,6 +205,8 @@
     <ClCompile Include="000-146 - LRU Cache.cpp" />
     <ClCompile Include="147 - Insertion Sort List.cpp" />
     <ClCompile Include="149 - Max Points on a Line.cpp" />
+    <ClCompile Include="150 - Evaluate Reverse Polish Notation.cpp" />
+    <ClCompile Include="151 - Reverse Words in a String.cpp" />
     <ClCompile Include="[148 - Sort List].cpp" />
     <ClCompile Include="[145 - Binary Tree Postorder Traversal].cpp" />
     <ClCompile Include="[142 - Linked List Cycle II].cpp" />
