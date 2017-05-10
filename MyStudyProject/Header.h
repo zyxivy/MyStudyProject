@@ -72,6 +72,21 @@ struct Point {
     Point() : x(0), y(0) {}
     Point(int a, int b) : x(a), y(b) {}
 };
+
+class MinStack {
+public:
+    /** initialize your data structure here. */
+    MinStack();
+
+    void push(int x);
+
+    void pop();
+
+    int top();
+
+    int getMin();
+};
+
 class Solution {
     // 001
 public:
@@ -503,4 +518,16 @@ public:
     //151
 public:
     static void reverseWords(string &s);
+    //152
+public:
+    static int maxProduct(vector<int>& nums);
+    //153
+public:
+    static int findMin(vector<int>& nums);
+    //154
+public:
+    static int findMinII(vector<int>& nums);
+    //160
+public:
+    static ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
 };

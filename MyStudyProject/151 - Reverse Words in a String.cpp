@@ -16,44 +16,47 @@
 
 #include "Header.h";
 void Solution::reverseWords(string &s) {
-    string::iterator i = s.begin();
-    string::iterator j = s.end()-1;
+    int i = 0;
+    int j = s.length()-1;
 
     while (i < j) {
-        string::iterator i1 = i;
-        string::iterator i2 = i;
+        int i1 = i;
+        int i2 = i;
 
-        string::iterator j1 = j;
-        string::iterator j2 = j;
+        int j1 = j;
+        int j2 = j;
 
-        while (*i1 == ' ') {
+        while (i1 < s.length() && s[i1] == ' ') {
             i1++;
             i2 = i1;
         }
 
-        while (*j2 == ' ') {
+        while (j2 >= 0 && s[j2] == ' ') {
             j2--;
             j1 = j2;
         }
 
-        if (*i1 != ' ' && *j2 != ' ') {
-            while (*i2 != ' ') {
+        if (s[i1] != ' ' && s[j2] != ' ') {
+            while (s[i2] != ' ') {
                 i2++;
             }
-            while (*j1 != ' ') {
+            while (s[j1] != ' ') {
                 j1--;
             }
 
             if (i2 <= j1) {
-                string word1 = s.substr(i1 - s.begin(), i2 - i1);
-                string word2 = s.substr(j1 - s.begin() + 1, j2 - j1);
-                s.erase(j1+1, j+1);
-                s.insert(j1 + 1, word1.begin(), word1.end());
+                string word1 = s.substr(i1, i2 - i1);
+                string word2 = s.substr(j1, j2 - j1);
+                s.erase(j1 + 1, j - j1);
+                s.insert(j1 + 1, word1);
                 //s.insert(j1 + 1, ' ');
                 
-                s.erase(i, i2);
-                s.insert(i, word2.begin(), word2.end());
-
+                s.erase(i, i2 - i);
+                j1 = j1 - (i2 - i);
+                i2 = i2 - (i2 - i);
+                s.insert(i2, word2);
+                j1 = j1 + word2.length();
+                i2 = i2 + word2.length();
                 if (word2.length() > (i2 - i)) {
                     j = j1 + word2.length() - (i2 - i) + 1;
                 }
@@ -61,7 +64,8 @@ void Solution::reverseWords(string &s) {
                     j = j1 - ((i2 - i)-word2.length()  ) + 1;
                 }
 
-                i = i2 + word2.length() - (i2 - i) + 1;
+                i = i2;
+                j = j1;
             }
 
         }
