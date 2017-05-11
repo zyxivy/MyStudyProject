@@ -17,8 +17,23 @@
 #include "Header.h";
 void Solution::reverseWords(string &s) {
     int i = 0;
-    int j = s.length()-1;
+    while (i < s.length() && s[i] == ' ') {
+        i++;
+    }
+    if (i > 0) {
+        s.erase(0, i);
+    }
 
+    int j = s.length() - 1;
+    while (j >= 0 && s[j] == ' ') {
+        j--;
+    }
+    if (j<s.length() - 1) {
+        s.erase(j+1, s.length() - 1-j);
+    }
+
+    i = 0;
+    j = s.length() - 1;
     while (i < j) {
         int i1 = i;
         int i2 = i;
@@ -36,6 +51,11 @@ void Solution::reverseWords(string &s) {
             j1 = j2;
         }
 
+        if (i1 > j2) {
+            s.erase(i, j - i);
+            break;
+        }
+
         if (s[i1] != ' ' && s[j2] != ' ') {
             while (s[i2] != ' ') {
                 i2++;
@@ -45,29 +65,47 @@ void Solution::reverseWords(string &s) {
             }
 
             if (i2 <= j1) {
+                bool bi = s[i] == ' ';
+                bool bj = s[j] == ' ';
+
                 string word1 = s.substr(i1, i2 - i1);
-                string word2 = s.substr(j1, j2 - j1);
+                string word2 = s.substr(j1+1, j2 - j1);
+
                 s.erase(j1 + 1, j - j1);
-                s.insert(j1 + 1, word1);
-                //s.insert(j1 + 1, ' ');
-                
+                if (bj) {
+                    s.insert(j1 + 1, word1+" ");
+                }
+                else
+                {
+                    s.insert(j1 + 1, word1);
+                }
+
                 s.erase(i, i2 - i);
                 j1 = j1 - (i2 - i);
                 i2 = i2 - (i2 - i);
-                s.insert(i2, word2);
-                j1 = j1 + word2.length();
-                i2 = i2 + word2.length();
-                if (word2.length() > (i2 - i)) {
-                    j = j1 + word2.length() - (i2 - i) + 1;
+                if (bi) {
+                    s.insert(i2, " "+word2);
+                    j1 = j1 + word2.length()+1;
+                    i2 = i2 + word2.length()+1;
                 }
                 else {
-                    j = j1 - ((i2 - i)-word2.length()  ) + 1;
+                    s.insert(i2, word2);
+                    j1 = j1 + word2.length();
+                    i2 = i2 + word2.length();
                 }
 
                 i = i2;
                 j = j1;
             }
-
+            else {
+                if (i < i1 - 1) {
+                    s.erase(i, i1-i-1);
+                }
+                if (j > j2 + 1) {
+                    s.erase(j2+1, j - j2 - 1);
+                }
+                break;
+            }
         }
 
     }

@@ -20,17 +20,33 @@
     }
 
     void MinStack::push(int x) {
-
+        stack.push_back(x);
+        if (minTrack.empty() || x <= minTrack.back()) {
+            minTrack.push_back(x);
+        }
     }
 
     void MinStack::pop() {
-
+        if (stack.empty()) {
+            return;
+        }
+        int n = stack.back();
+        if (n <= minTrack.back()) {
+            minTrack.pop_back();
+        }
+        stack.pop_back();
     }
 
     int MinStack::top() {
-
+        if (stack.empty()) {
+            return 0;
+        }
+        return stack.back();
     }
 
     int MinStack::getMin() {
-
+        if (stack.empty()) {
+            return 0;
+        }
+        return minTrack.back();
     }

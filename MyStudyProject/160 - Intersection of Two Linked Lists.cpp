@@ -20,5 +20,61 @@
 
 #include "Header.h";
 ListNode *Solution::getIntersectionNode(ListNode *headA, ListNode *headB) {
+    ListNode* pA = headA;
+    ListNode* pB = headB;
+    int stepA = 0;
+    int stepB = 0;
 
+    if (!headA || !headB) {
+        return NULL;
+    }
+
+    //find if there's intercection
+    while (pA->next) {
+        stepA++;
+        pA = pA->next;
+    }
+    while (pB->next) {
+        stepB++;
+        pB = pB->next;
+    }
+
+    if (pA != pB) {
+        return NULL;
+    }
+
+    //make smaller one a circle
+    ListNode* head;
+    if (stepA < stepB) {
+        pA->next = headA;
+        head = headB;
+    }
+    else {
+        pB->next = headB;
+        head = headA;
+    }
+
+    //slow fast find intercetion
+    ListNode* slow = head;
+    ListNode* fast = head;
+
+    fast = fast->next->next;
+    slow = slow->next;
+    while (slow != fast) {
+        fast = fast->next->next;
+        slow = slow->next;
+    }
+    slow = head;
+    while (slow != fast) {
+        fast = fast->next;
+        slow = slow->next;
+    }
+
+    if (stepA < stepB) {
+        pA->next = NULL;
+    }
+    else {
+        pB->next = NULL;
+    }
+    return fast;
 }

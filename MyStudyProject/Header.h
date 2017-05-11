@@ -85,6 +85,10 @@ public:
     int top();
 
     int getMin();
+
+private:
+    vector<int> stack;
+    vector<int> minTrack;
 };
 
 class Solution {
@@ -527,7 +531,28 @@ public:
     //154
 public:
     static int findMinII(vector<int>& nums);
+    //156
+public:
+    static TreeNode *upsideDownBinaryTree(TreeNode *root);
+    //157
+public:
+    static int read(char *buf, int n);
+    //159
+public:
+    static int lengthOfLongestSubstringTwoDistinct(string s);
     //160
 public:
     static ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
+    //161
+public:
+    static bool oneEditDistance(string word1, string word2);
+    //162
+public:
+    static int findPeakElement(vector<int>& nums);
+    //163
+public:
+    static vector<string> findMissingRanges(vector<int> nums, int start, int end);
+    //164
+public:
+    static int maximumGap(vector<int>& nums);
 };

@@ -3,32 +3,7 @@
 
 int main()
 {
-    ListNode* l10 = new ListNode(2);
-    ListNode* l11 = new ListNode(1);
-    ListNode* l12 = new ListNode(3);
-    ListNode* l13 = new ListNode(1);
-    ListNode* l14 = new ListNode(4);
-    ListNode* l15 = new ListNode(2);
 
-    ListNode* l20 = new ListNode(-5);
-    ListNode* l21 = new ListNode(-3);
-    ListNode* l22 = new ListNode(0);
-    ListNode* l23 = new ListNode(7);
-    ListNode* l24 = new ListNode(8);
-    ListNode* l25 = new ListNode(8);
-
-    l10->next = l11;
-    //l11->next = l12;
-    //l12->next = l13;
-    //l13->next = l14;
-    //l14->next = l15;
-
-
-    l20->next = l21;
-    l21->next = l22;
-    l22->next = l23;
-    l23->next = l24;
-    l24->next = l25;
 
     string input003 = "1213";
 
@@ -151,11 +126,6 @@ int main()
     board.push_back(line9);
 
 
-    vector<vector<int>> nums;
-    vector<int> num;
-    num.push_back(1);
-    num.push_back(2);
-    num.push_back(3);
 
     vector<string> strs = { "Listen","to","many,","speak","to","a","few." };
 
@@ -192,7 +162,7 @@ int main()
     root->left = left;
     root->right = right;
     left->left = left2;
-    //right->right = right2;
+    left->right = right2;
 
     vector<string> list = { "4", "13", "5", "/", "+" };
 
@@ -206,8 +176,45 @@ int main()
     pts.push_back(p3);
     //pts.push_back(p4);
 
-    string words = "the sky is blue";
-    Solution::reverseWords(words);
+    string words = "      ";
+
+    ListNode* l10 = new ListNode(2);
+    ListNode* l11 = new ListNode(3);
+    ListNode* l12 = new ListNode(3);
+    ListNode* l13 = new ListNode(1);
+    ListNode* l14 = new ListNode(4);
+    ListNode* l15 = new ListNode(2);
+
+    ListNode* l20 = new ListNode(-5);
+    ListNode* l21 = new ListNode(-3);
+    ListNode* l22 = new ListNode(0);
+    ListNode* l23 = new ListNode(7);
+    ListNode* l24 = new ListNode(8);
+    ListNode* l25 = new ListNode(8);
+
+    l10->next = l11;
+    //l11->next = l12;
+    //l12->next = l13;
+    //l13->next = l14;
+    //l14->next = l15;
+
+
+    //l20->next = l21;
+    //l21->next = l22;
+    //l22->next = l23;
+    //l23->next = l24;
+    //l24->next = l25;
+
+
+    vector<vector<int>> nums;
+    vector<int> num;
+    num.push_back(1);
+    num.push_back(4);
+    num.push_back(2);
+    num.push_back(9);
+    num.push_back(3);
+    num.push_back(5);
+    Solution::maximumGap(num);
 
     //LRUCache cache(2);
     //cache.put(1, 1);
@@ -219,4 +226,5 @@ int main()
     //cache.get(1);
     //cache.get(3);
     //cache.get(4);
+
 }

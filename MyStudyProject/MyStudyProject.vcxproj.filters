@@ -228,9 +228,6 @@
     <ClCompile Include="071-Simplify Path.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="[072-Edit Distance].cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="073-Set Matrix Zeroes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -466,6 +463,45 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="151 - Reverse Words in a String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="152 - Maximum Product Subarray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="153 - Find Minimum in Rotated Sorted Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="154 - Find Minimum in Rotated Sorted Array II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="155 - Min Stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="160 - Intersection of Two Linked Lists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="156  - Binary Tree Upside Down.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="157 - Read N Characters Given Read4 .cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="159 - Longest Substring with At Most Two Distinct Characters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="161 - One Edit Distance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[072-Edit Distance].cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="162 - Find Peak Element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="163 - Missing Ranges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="164 - Maximum Gap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
