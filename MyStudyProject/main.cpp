@@ -145,7 +145,6 @@ int main()
 
     vector<vector<int>> matrix = {{2},{3,4},{6,5,7},{4,1,3,8}};
 
-    vector<int> colors = { 1,4,5,7,6,3,2,9 };
 
     vector<vector<char>> existBoard = {{ 'a','b', 'c', 'e'},{ 's','f', 'e', 's' },{ 'a','d', 'e', 'e' }};
     vector<int> hist = {4,2,3,2,3,1,4};
@@ -214,7 +213,9 @@ int main()
     num.push_back(9);
     num.push_back(3);
     num.push_back(5);
-    Solution::maximumGap(num);
+
+    vector<int> colors = { 1,2,3,4 };
+    Solution::trailingZeroes(32);
 
     //LRUCache cache(2);
     //cache.put(1, 1);

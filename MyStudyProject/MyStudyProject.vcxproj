@@ -145,7 +145,12 @@
     <ClCompile Include="000-065-Valid Number.cpp" />
     <ClCompile Include="033-Search in Rotated Sorted Array.cpp" />
     <ClCompile Include="00-010-Regular Expression Matching.cpp" />
-    <ClCompile Include="001-TwoSum.cpp" />
+    <ClCompile Include="169 - Majority Element.cpp" />
+    <ClCompile Include="170 - Two Sum III - Data structure design.cpp" />
+    <ClCompile Include="171 - Excel Sheet Column Number.cpp" />
+    <ClCompile Include="[172 - Factorial Trailing Zeroes].cpp" />
+    <ClCompile Include="[168 - Excel Sheet Column Title].cpp" />
+    <ClCompile Include="[001-TwoSum].cpp" />
     <ClCompile Include="002-AddTwoNumbers.cpp" />
     <ClCompile Include="003-Longest Substring Without Repeating Characters.cpp" />
     <ClCompile Include="005-Longest Palindromic Substring.cpp" />
@@ -218,7 +223,10 @@
     <ClCompile Include="161 - One Edit Distance.cpp" />
     <ClCompile Include="162 - Find Peak Element.cpp" />
     <ClCompile Include="163 - Missing Ranges.cpp" />
-    <ClCompile Include="164 - Maximum Gap.cpp" />
+    <ClCompile Include="167 - Two Sum II - Input array is sorted.cpp" />
+    <ClCompile Include="[166 - Fraction to Recurring Decimal].cpp" />
+    <ClCompile Include="[164 - Maximum Gap].cpp" />
+    <ClCompile Include="165 - Compare Version Numbers.cpp" />
     <ClCompile Include="[148 - Sort List].cpp" />
     <ClCompile Include="[145 - Binary Tree Postorder Traversal].cpp" />
     <ClCompile Include="[142 - Linked List Cycle II].cpp" />

@@ -91,6 +91,15 @@ private:
     vector<int> minTrack;
 };
 
+class TwoSumIII {
+public:
+    TwoSumIII();
+    void add(int number);
+    bool find(int value);
+private:
+    map<int, int> elements;
+};
+
 class Solution {
     // 001
 public:
@@ -555,4 +564,25 @@ public:
     //164
 public:
     static int maximumGap(vector<int>& nums);
+    //165
+public:
+    static int compareVersion(string version1, string version2);
+    //166
+public:
+    static string fractionToDecimal(int numerator, int denominator);
+    //167
+public:
+    static vector<int> twoSumII(vector<int>& numbers, int target);
+    //189
+public:
+    static string convertToTitle(int n);
+    //169
+public:
+    static int majorityElement(vector<int>& nums);
+    //171
+public:
+    static int titleToNumber(string s);
+    //172
+public:
+    static int trailingZeroes(int n);
 };

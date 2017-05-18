@@ -27,9 +27,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="001-TwoSum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="002-AddTwoNumbers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -501,7 +498,34 @@
     <ClCompile Include="163 - Missing Ranges.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="164 - Maximum Gap.cpp">
+    <ClCompile Include="165 - Compare Version Numbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[164 - Maximum Gap].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[166 - Fraction to Recurring Decimal].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="167 - Two Sum II - Input array is sorted.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[001-TwoSum].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[168 - Excel Sheet Column Title].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="169 - Majority Element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="170 - Two Sum III - Data structure design.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="171 - Excel Sheet Column Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[172 - Factorial Trailing Zeroes].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
