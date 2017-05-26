@@ -215,7 +215,7 @@ int main()
     num.push_back(5);
 
     vector<int> colors = { 1,2,3,4 };
-    Solution::trailingZeroes(32);
+    Solution::findRepeatedDnaSequences("ACGTACGTACGT");
 
     //LRUCache cache(2);
     //cache.put(1, 1);

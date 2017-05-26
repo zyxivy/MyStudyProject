@@ -5,7 +5,7 @@ using namespace std;
 #include <vector>
 #include <set>
 #include <map>
-//#include <math.h>
+#include <math.h>
 #include <iostream>
 #include <unordered_set>
 
@@ -98,6 +98,17 @@ public:
     bool find(int value);
 private:
     map<int, int> elements;
+};
+
+class BSTIterator {
+public:
+    BSTIterator(TreeNode *root);
+    /** @return whether we have a next smallest number */
+    bool hasNext();
+    /** @return the next smallest number */
+    int next();
+private:
+    TreeNode* m_root;
 };
 
 class Solution {
@@ -585,4 +596,22 @@ public:
     //172
 public:
     static int trailingZeroes(int n);
+    //174
+public:
+    static int calculateMinimumHP(vector<vector<int>>& dungeon);
+    //179
+public:
+    static string largestNumber(vector<int>& nums);
+    //187
+public:
+    static vector<string> findRepeatedDnaSequences(string s);
+    //188
+public:
+    static int maxProfit(int k, vector<int>& prices);
+    //189
+public:
+    static void rotate(vector<int>& nums, int k);
+    //190
+public:
+    static uint32_t reverseBits(uint32_t n);
 };

@@ -312,15 +312,6 @@
     <ClCompile Include="[120-Triangle].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="[122-Best Time to Buy and Sell Stock II].cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="[121-Best Time to Buy and Sell Stock].cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="[123-Best Time to Buy and Sell Stock III].cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="125-Valid Palindrome.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -526,6 +517,36 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="[172 - Factorial Trailing Zeroes].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="173 - Binary Search Tree Iterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[174 - Dungeon Game].cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="179 - Largest Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="187 - Repeated DNA Sequences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[121-Best Time to Buy and Sell Stock].cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="[122-Best Time to Buy and Sell Stock II].cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="[123-Best Time to Buy and Sell Stock III].cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="[188 - Best Time to Buy and Sell Stock IV].cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="189 - Rotate Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="190 - Reverse Bits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
