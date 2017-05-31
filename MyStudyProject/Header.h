@@ -614,4 +614,10 @@ public:
     //190
 public:
     static uint32_t reverseBits(uint32_t n);
+    //191
+public:
+    static int hammingWeight(uint32_t n);
+    //198
+public:
+    static int rob(vector<int>& nums);
 };
