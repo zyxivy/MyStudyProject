@@ -155,6 +155,15 @@
     <ClCompile Include="190 - Reverse Bits.cpp" />
     <ClCompile Include="191 - Number of 1 Bits.cpp" />
     <ClCompile Include="198 - House Robber.cpp" />
+    <ClCompile Include="199 - Binary Tree Right Side View.cpp" />
+    <ClCompile Include="200-  Number of Islands.cpp" />
+    <ClCompile Include="201 - Bitwise AND of Numbers Range.cpp" />
+    <ClCompile Include="202 - Happy Number.cpp" />
+    <ClCompile Include="203 - Remove Linked List Elements.cpp" />
+    <ClCompile Include="205 - Isomorphic Strings.cpp" />
+    <ClCompile Include="206 - Reverse Linked List.cpp" />
+    <ClCompile Include="207 - Course Schedule.cpp" />
+    <ClCompile Include="[204 - Count Primes].cpp" />
     <ClCompile Include="[188 - Best Time to Buy and Sell Stock IV].cpp" />
     <ClCompile Include="[174 - Dungeon Game].cpp" />
     <ClCompile Include="[172 - Factorial Trailing Zeroes].cpp" />

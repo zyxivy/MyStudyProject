@@ -177,12 +177,12 @@ int main()
 
     string words = "      ";
 
-    ListNode* l10 = new ListNode(2);
-    ListNode* l11 = new ListNode(3);
+    ListNode* l10 = new ListNode(1);
+    ListNode* l11 = new ListNode(2);
     ListNode* l12 = new ListNode(3);
-    ListNode* l13 = new ListNode(1);
-    ListNode* l14 = new ListNode(4);
-    ListNode* l15 = new ListNode(2);
+    ListNode* l13 = new ListNode(4);
+    ListNode* l14 = new ListNode(5);
+    ListNode* l15 = new ListNode(6);
 
     ListNode* l20 = new ListNode(-5);
     ListNode* l21 = new ListNode(-3);
@@ -192,10 +192,10 @@ int main()
     ListNode* l25 = new ListNode(8);
 
     l10->next = l11;
-    //l11->next = l12;
-    //l12->next = l13;
-    //l13->next = l14;
-    //l14->next = l15;
+    l11->next = l12;
+    l12->next = l13;
+    l13->next = l14;
+    l14->next = l15;
 
 
     //l20->next = l21;
@@ -215,7 +215,7 @@ int main()
     num.push_back(5);
 
     vector<int> colors = { 1,2,3,4 };
-    Solution::hammingWeight(11);
+    Solution::reverseList(l10);
 
     //LRUCache cache(2);
     //cache.put(1, 1);

@@ -620,4 +620,31 @@ public:
     //198
 public:
     static int rob(vector<int>& nums);
+    //199
+public:
+    static vector<int> rightSideView(TreeNode* root);
+    //200
+public:
+    static int numIslands(vector<vector<char>>& grid);
+    //201
+public:
+    static int rangeBitwiseAnd(int m, int n);
+    //202
+public:
+    static bool isHappy(int n);
+    //203
+public:
+    static ListNode* removeElements(ListNode* head, int val);
+    //204
+public: 
+    static int countPrimes(int n);
+    //205
+public:
+    static bool isIsomorphic(string s, string t);
+    //205
+public:
+    static ListNode* reverseList(ListNode* head);
+    //207
+public:
+    static bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
 };
