@@ -579,7 +579,19 @@
     <ClCompile Include="206 - Reverse Linked List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="207 - Course Schedule.cpp">
+    <ClCompile Include="[207 - Course Schedule].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="208 - Implement Trie (Prefix Tree).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="209 - Minimum Size Subarray Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="211 - Add and Search Word - Data structure design.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[210 - Course Schedule II].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

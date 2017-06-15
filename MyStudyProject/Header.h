@@ -111,6 +111,50 @@ private:
     TreeNode* m_root;
 };
 
+class TrieNode {
+public:
+    char m_c;
+    map<char, TrieNode*> children;
+    bool isLeaf;
+    TrieNode() { isLeaf = false; };
+    TrieNode(char c) {
+        m_c = c; 
+        isLeaf = false;
+    };
+};
+class Trie {
+public:
+    /** Initialize your data structure here. */
+
+    Trie();
+    /** Inserts a word into the trie. */
+    void insert(string word);
+
+    /** Returns if the word is in the trie. */
+    bool search(string word);
+
+    /** Returns if there is any word in the trie that starts with the given prefix. */
+    bool startsWith(string prefix);
+
+private:
+    TrieNode* root;
+    TrieNode* searchNode(string word);
+};
+
+class WordDictionary {
+public:
+    /** Initialize your data structure here. */
+    WordDictionary();
+
+    /** Adds a word into the data structure. */
+    void addWord(string word);
+
+    /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
+    bool search(string word);
+private:
+    TrieNode* root;
+};
+
 class Solution {
     // 001
 public:
@@ -647,4 +691,10 @@ public:
     //207
 public:
     static bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
+    //209
+public:
+    static int minSubArrayLen(int s, vector<int>& nums);
+    //210
+public:
+    static vector<int> findOrder(int numCourses, vector<pair<int, int>>& prerequisites);
 };

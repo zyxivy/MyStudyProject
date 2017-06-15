@@ -215,8 +215,16 @@ int main()
     num.push_back(5);
 
     vector<int> colors = { 1,2,3,4 };
-    Solution::reverseList(l10);
 
+    pair<int, int> pr(1, 0);
+    vector<pair<int, int>> pre;
+    pre.push_back(pr);
+    Solution::findOrder(2, pre);
+
+    Trie obj;
+    obj.insert("abcdef");
+    obj.search("abcdef");
+    obj.startsWith("ab");
     //LRUCache cache(2);
     //cache.put(1, 1);
     //cache.put(2,2);
