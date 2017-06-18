@@ -697,4 +697,7 @@ public:
     //210
 public:
     static vector<int> findOrder(int numCourses, vector<pair<int, int>>& prerequisites);
+    //212
+public:
+    static vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
 };
