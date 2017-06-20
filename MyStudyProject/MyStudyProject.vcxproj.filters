@@ -25,6 +25,9 @@
     <Filter Include="Source Files\String">
       <UniqueIdentifier>{46653850-5f2c-45ea-bea1-d79cac567dc9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Trie">
+      <UniqueIdentifier>{2992b381-8826-4d5b-ba33-883b222f1c75}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="002-AddTwoNumbers.cpp">
@@ -55,9 +58,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="014-Longest Common Prefix.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="015-3Sum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="019-Remove Nth Node From End of List.cpp">
@@ -582,16 +582,34 @@
     <ClCompile Include="[207 - Course Schedule].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="208 - Implement Trie (Prefix Tree).cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="209 - Minimum Size Subarray Sum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="211 - Add and Search Word - Data structure design.cpp">
+    <ClCompile Include="[210 - Course Schedule II].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="[210 - Course Schedule II].cpp">
+    <ClCompile Include="208 - Implement Trie (Prefix Tree).cpp">
+      <Filter>Source Files\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="211 - Add and Search Word - Data structure design.cpp">
+      <Filter>Source Files\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 212 - Word Search II.cpp">
+      <Filter>Source Files\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="213 - House Robber II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 214 - Shortest Palindrome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="215 - Kth Largest Element in an Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="216 - Combination Sum III.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[015-3Sum].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -164,6 +164,11 @@
     <ClCompile Include="206 - Reverse Linked List.cpp" />
     <ClCompile Include="208 - Implement Trie (Prefix Tree).cpp" />
     <ClCompile Include="209 - Minimum Size Subarray Sum.cpp" />
+    <ClCompile Include="000 - 212 - Word Search II.cpp" />
+    <ClCompile Include="213 - House Robber II.cpp" />
+    <ClCompile Include="000 - 214 - Shortest Palindrome.cpp" />
+    <ClCompile Include="215 - Kth Largest Element in an Array.cpp" />
+    <ClCompile Include="216 - Combination Sum III.cpp" />
     <ClCompile Include="[210 - Course Schedule II].cpp" />
     <ClCompile Include="211 - Add and Search Word - Data structure design.cpp" />
     <ClCompile Include="[207 - Course Schedule].cpp" />
@@ -184,7 +189,7 @@
     <ClCompile Include="012-Integer to Roman.cpp" />
     <ClCompile Include="00-013-Roman to Integer.cpp" />
     <ClCompile Include="014-Longest Common Prefix.cpp" />
-    <ClCompile Include="015-3Sum.cpp" />
+    <ClCompile Include="[015-3Sum].cpp" />
     <ClCompile Include="029-Divide Two Integers.cpp" />
     <ClCompile Include="035-Search Insert Position.cpp" />
     <ClCompile Include="036-Valid Sudoku.cpp" />

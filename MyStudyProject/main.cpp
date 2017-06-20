@@ -214,17 +214,18 @@ int main()
     num.push_back(3);
     num.push_back(5);
 
-    vector<int> colors = { 1,2,3,4 };
+    vector<int> colors = { 5,2,1,3,4 };
 
     pair<int, int> pr(1, 0);
     vector<pair<int, int>> pre;
     pre.push_back(pr);
-    Solution::findOrder(2, pre);
+    Solution::combinationSum3(3, 7);
 
-    Trie obj;
-    obj.insert("abcdef");
-    obj.search("abcdef");
-    obj.startsWith("ab");
+    //Trie obj;
+    //obj.insert("abcdef");
+    //obj.search("abcdef");
+    //obj.startsWith("ab");
+
     //LRUCache cache(2);
     //cache.put(1, 1);
     //cache.put(2,2);

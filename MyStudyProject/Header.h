@@ -700,4 +700,16 @@ public:
     //212
 public:
     static vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
+    //213
+public:
+    static int robII(vector<int>& nums);
+    //214
+public:
+    static string shortestPalindrome(string s);
+    //215
+public:
+    static int findKthLargest(vector<int>& nums, int k);
+    //216
+public:
+    static vector<vector<int>> combinationSum3(int k, int n);
 };

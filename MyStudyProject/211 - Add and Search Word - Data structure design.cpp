@@ -40,7 +40,7 @@ void WordDictionary::addWord(string word) {
     }
 }
 
-bool dfsSearch(map<char, TrieNode> children, string word, int start) {
+bool dfsSearch(map<char, TrieNode*> children, string word, int start) {
     if (start == word.length()) {
         if (children.size() == 0)
             return true;
@@ -51,21 +51,21 @@ bool dfsSearch(map<char, TrieNode> children, string word, int start) {
     char c = word[start];
 
     if (children.find(c)!=children.end()) {
-        if (start == word.length() - 1 && children[c].isLeaf) {
+        if (start == word.length() - 1 && children[c]->isLeaf) {
             return true;
         }
 
-        return dfsSearch(children[c].children, word, start + 1);
+        return dfsSearch(children[c]->children, word, start + 1);
     }
     else if (c == '.') {
         bool result = false;
-        for (Map.Entry<Character, TrieNode> child : children.entrySet()) {
-            if (start == word.length() - 1 && child.getValue().isLeaf) {
+        for (map<char, TrieNode*>::iterator it = children.begin(); it != children.end();it++) {
+            if (start == word.length() - 1 && it->second->isLeaf) {
                 return true;
             }
 
             //if any path is true, set result to be true; 
-            if (dfsSearch(child.getValue().children, word, start + 1)) {
+            if (dfsSearch(it->second->children, word, start + 1)) {
                 result = true;
             }
         }
@@ -78,15 +78,5 @@ bool dfsSearch(map<char, TrieNode> children, string word, int start) {
 }
 /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
 bool WordDictionary::search(string word) {
-    TrieNode* node = root;
-    for (int i = 0; i < word.length(); i++) {
-        char c = word[i];
-        map<char, TrieNode*> children = node->children;
-        if (children.find(c) != children.end()) {
-            node = children[c];
-        }
-        else {
-            return NULL;
-        }
-    }
+    return dfsSearch(root->children, word, 0);
 }
