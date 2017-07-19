@@ -606,10 +606,16 @@
     <ClCompile Include="215 - Kth Largest Element in an Array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="216 - Combination Sum III.cpp">
+    <ClCompile Include="[015-3Sum].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="[015-3Sum].cpp">
+    <ClCompile Include="[216 - Combination Sum III].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="217 - Contains Duplicate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="218 - The Skyline Problem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

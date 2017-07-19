@@ -712,4 +712,10 @@ public:
     //216
 public:
     static vector<vector<int>> combinationSum3(int k, int n);
+    //217 
+public:
+    static bool containsDuplicate(vector<int>& nums);
+    //218
+public:
+    static vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings;
 };
