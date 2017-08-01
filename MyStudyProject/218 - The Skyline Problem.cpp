@@ -19,6 +19,39 @@
 #include "Header.h";
 
 //http://www.cnblogs.com/easonliu/p/4531020.html
-vector<pair<int, int>> Solution::getSkyline(vector<vector<int>>& buildings{
+
+
+struct Edge {
+    int x;
+    int height;
+    bool isLeft;
+    Edge(int x, int h, bool left) : x(x), height(h), isLeft(left) {};
+};
+
+
+int compar (const void* a, const void* b) {
+    if (((Edge*)a)->x!= ((Edge*)b)->x) {
+        return ((Edge*)a)->x - ((Edge*)b)->x;
+    }
+    else if (((Edge*)a)->isLeft && ((Edge*)b)->isLeft) {
+        return ((Edge*)b)->height - ((Edge*)a)->height;
+    }
+    else if (!((Edge*)a)->isLeft && !((Edge*)b)->isLeft) {
+        return ((Edge*)a)->height - ((Edge*)b)->height;
+    }
+    return ((Edge*)a)->isLeft ? -1 : 1;
+}
+vector<pair<int, int>> Solution::getSkyline(vector<vector<int>>& buildings){
+    vector<pair<int, int>> result;
+    if (buildings.empty()) {
+        return result;
+    }
+    vector<Edge> edges;
+    for (int i = 0; i < buildings.size(); i++) {
+        Edge e(buildings[i][0], buildings[i][2], true);
+        Edge e(buildings[i][1], buildings[i][2], false);
+        edges.push_back(e);
+    }
+    qsort(&edges, edges.size(), sizeof(Edge), compar);
 
 }
