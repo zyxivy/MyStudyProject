@@ -8,6 +8,7 @@ using namespace std;
 #include <math.h>
 #include <iostream>
 #include <unordered_set>
+#include <queue>
 
 struct ListNode
 {
@@ -717,5 +718,23 @@ public:
     static bool containsDuplicate(vector<int>& nums);
     //218
 public:
-    static vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings;
+    static vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings);
+	//219
+public:
+	static bool containsNearbyDuplicate(vector<int>& nums, int k);
+	//220 
+public:
+	static bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t);
+	//221
+public:
+	static int maximalSquare(vector<vector<int>>& matrix);
+	//222
+public:
+	static int countNodes(TreeNode* root);
+	//223
+public:
+	static int computeArea(int A, int B, int C, int D, int E, int F, int G, int H);
+	//224
+public:
+	static int calculate(string s);
 };

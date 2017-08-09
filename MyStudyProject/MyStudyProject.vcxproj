@@ -170,6 +170,12 @@
     <ClCompile Include="215 - Kth Largest Element in an Array.cpp" />
     <ClCompile Include="217 - Contains Duplicate.cpp" />
     <ClCompile Include="218 - The Skyline Problem.cpp" />
+    <ClCompile Include="219 - Contains Duplicate II.cpp" />
+    <ClCompile Include="220 - Contains Duplicate III.cpp" />
+    <ClCompile Include="223 - Rectangle Area.cpp" />
+    <ClCompile Include="224 - Basic Calculator.cpp" />
+    <ClCompile Include="[221 - Maximal Square].cpp" />
+    <ClCompile Include="[222 - Count Complete Tree Nodes].cpp" />
     <ClCompile Include="[216 - Combination Sum III].cpp" />
     <ClCompile Include="[210 - Course Schedule II].cpp" />
     <ClCompile Include="211 - Add and Search Word - Data structure design.cpp" />

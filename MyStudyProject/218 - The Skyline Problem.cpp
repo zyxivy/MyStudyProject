@@ -48,10 +48,38 @@ vector<pair<int, int>> Solution::getSkyline(vector<vector<int>>& buildings){
     }
     vector<Edge> edges;
     for (int i = 0; i < buildings.size(); i++) {
-        Edge e(buildings[i][0], buildings[i][2], true);
-        Edge e(buildings[i][1], buildings[i][2], false);
-        edges.push_back(e);
+        Edge e1(buildings[i][0], buildings[i][2], true);
+        Edge e2(buildings[i][1], buildings[i][2], false);
+        edges.push_back(e1);
+		edges.push_back(e2);
     }
     qsort(&edges, edges.size(), sizeof(Edge), compar);
+
+	priority_queue<int> queue;
+	vector<int> vec;
+	for (Edge edge : edges) {
+		if (edge.isLeft) {
+			if (queue.empty() || edge.height > queue.top()) {
+				pair<int, int> p(edge.x, edge.height);
+				result.push_back(p);
+			}
+			vec.push_back(edge.height);
+			queue.push(edge.height);
+		}
+		else {
+			//queue.remove(edge.height);
+
+			if (queue.empty()) {
+				pair<int, int> p(edge.x, edge.height);
+				result.push_back(p);
+			}
+			else if (edge.height > queue.top()) {
+				pair<int, int> p(edge.x, queue.top());
+				result.push_back(p);
+			}
+		}
+	}
+
+	return result;
 
 }

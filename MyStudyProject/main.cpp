@@ -143,7 +143,7 @@ int main()
     //intervals.push_back(int3);
     //intervals.push_back(int4);
 
-    vector<vector<int>> matrix = {{2},{3,4},{6,5,7},{4,1,3,8}};
+	vector<vector<int>> matrix = { { 1,0,1,0,0 },{ 1,0,1,1,1 },{ 1,1,1,1,1 },{ 1,0,0,1,0 } };
 
 
     vector<vector<char>> existBoard = {{ 'a','b', 'c', 'e'},{ 's','f', 'e', 's' },{ 'a','d', 'e', 'e' }};
@@ -219,7 +219,7 @@ int main()
     pair<int, int> pr(1, 0);
     vector<pair<int, int>> pre;
     pre.push_back(pr);
-    Solution::combinationSum3(3, 7);
+    Solution::computeArea(-1500000001,0,-1500000000,1,1500000000,0, 1500000001,1);
 
     //Trie obj;
     //obj.insert("abcdef");

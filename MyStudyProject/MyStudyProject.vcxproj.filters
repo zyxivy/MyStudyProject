@@ -618,6 +618,24 @@
     <ClCompile Include="218 - The Skyline Problem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="219 - Contains Duplicate II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="220 - Contains Duplicate III.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[222 - Count Complete Tree Nodes].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[221 - Maximal Square].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="223 - Rectangle Area.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="224 - Basic Calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
