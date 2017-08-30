@@ -299,23 +299,17 @@ public:
     //052
 public:
     static int solveNQueensII(int n);
-    //053
-public:
+    //053  
     static int maxSubArray(vector<int>& nums);
     //054
-public:
     static vector<int> spiralOrder(vector<vector<int>>& matrix);
     //055
-public:
     static bool canJump(vector<int>& nums);
     //056
-public:
     static vector<Interval> mergeIntervals(vector<Interval>& intervals);
     //057
-public:
     static vector<Interval> insertInterval(vector<Interval>& intervals, Interval newInterval);
     //058
-public:
     static int lengthOfLastWord(string s);
     //059
 public:
@@ -717,24 +711,25 @@ public:
 public:
     static bool containsDuplicate(vector<int>& nums);
     //218
-public:
     static vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings);
-	//219
-public:
+	//219  
 	static bool containsNearbyDuplicate(vector<int>& nums, int k);
 	//220 
-public:
 	static bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t);
 	//221
-public:
 	static int maximalSquare(vector<vector<int>>& matrix);
 	//222
-public:
 	static int countNodes(TreeNode* root);
 	//223
-public:
 	static int computeArea(int A, int B, int C, int D, int E, int F, int G, int H);
 	//224
-public:
 	static int calculate(string s);
+    //226
+    static TreeNode* invertTree(TreeNode* root);
+    //227
+    static int calculateII(string s);
+    //228 
+    static vector<string> summaryRanges(vector<int>& nums);
+    //229
+    static vector<int> majorElement(vector<int>& nums);
 };

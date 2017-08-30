@@ -173,7 +173,13 @@
     <ClCompile Include="219 - Contains Duplicate II.cpp" />
     <ClCompile Include="220 - Contains Duplicate III.cpp" />
     <ClCompile Include="223 - Rectangle Area.cpp" />
-    <ClCompile Include="224 - Basic Calculator.cpp" />
+    <ClCompile Include="000 - 224 - Basic Calculator.cpp" />
+    <ClCompile Include="225 - Implement Stack using Queues.cpp" />
+    <ClCompile Include="226 - Invert Binary Tree.cpp" />
+    <ClCompile Include="227 - Basic Calculator II.cpp" />
+    <ClCompile Include="228 - Summary Ranges.cpp" />
+    <ClCompile Include="229 - Majority Element II.cpp" />
+    <ClCompile Include="230 - Kth Smallest Element in a BST.cpp" />
     <ClCompile Include="[221 - Maximal Square].cpp" />
     <ClCompile Include="[222 - Count Complete Tree Nodes].cpp" />
     <ClCompile Include="[216 - Combination Sum III].cpp" />

@@ -162,6 +162,7 @@ int main()
     root->right = right;
     left->left = left2;
     left->right = right2;
+    //Solution::invertTree(root);
 
     vector<string> list = { "4", "13", "5", "/", "+" };
 
@@ -207,19 +208,21 @@ int main()
 
     vector<vector<int>> nums;
     vector<int> num;
-    num.push_back(1);
-    num.push_back(4);
-    num.push_back(2);
-    num.push_back(9);
     num.push_back(3);
-    num.push_back(5);
+    num.push_back(2);
+    num.push_back(3);
+    //num.push_back(5);
+    //num.push_back(1);
+    //num.push_back(1);
+    //num.push_back(1);
+    //num.push_back(2);
 
     vector<int> colors = { 5,2,1,3,4 };
 
     pair<int, int> pr(1, 0);
     vector<pair<int, int>> pre;
     pre.push_back(pr);
-    Solution::computeArea(-1500000001,0,-1500000000,1,1500000000,0, 1500000001,1);
+    //Solution::computeArea(-1500000001,0,-1500000000,1,1500000000,0, 1500000001,1);
 
     //Trie obj;
     //obj.insert("abcdef");
@@ -236,5 +239,8 @@ int main()
     //cache.get(1);
     //cache.get(3);
     //cache.get(4);
+   
 
+
+    Solution::majorElement(num);
 }

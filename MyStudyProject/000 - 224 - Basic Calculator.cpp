@@ -12,5 +12,5 @@
 
 #include "Header.h";
 int Solution::calculate(string s) {
-
+    return 0;
 }

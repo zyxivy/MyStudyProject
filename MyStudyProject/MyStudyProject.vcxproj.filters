@@ -633,7 +633,25 @@
     <ClCompile Include="223 - Rectangle Area.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="224 - Basic Calculator.cpp">
+    <ClCompile Include="225 - Implement Stack using Queues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 224 - Basic Calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="226 - Invert Binary Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="227 - Basic Calculator II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="228 - Summary Ranges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="229 - Majority Element II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="230 - Kth Smallest Element in a BST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
