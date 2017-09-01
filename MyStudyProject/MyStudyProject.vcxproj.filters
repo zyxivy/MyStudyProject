@@ -654,6 +654,33 @@
     <ClCompile Include="230 - Kth Smallest Element in a BST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="231 - Power of Two.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="232 - Implement Queue using Stacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[233 - Number of Digit One].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="234 - Palindrome Linked List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="235 - Lowest Common Ancestor of a Binary Search Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 236 -  Lowest Common Ancestor of a Binary Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="237 - Delete Node in a Linked List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[238 - Product of Array Except Self].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="239 - Sliding Window Maximum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

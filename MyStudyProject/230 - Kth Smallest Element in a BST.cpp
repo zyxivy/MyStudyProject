@@ -6,6 +6,30 @@
 
 #include "Header.h";
 
-int kthSmallest(TreeNode* root, int k) {
 
+void inOrderKthSmallest(TreeNode* node, vector<int>& vc, int k) {
+    if (node == nullptr || vc.size() == k) {
+        return;
+    }
+
+    inOrderKthSmallest(node->left, vc, k);
+    if (vc.size() >= k) {
+        return;
+    }
+    vc.push_back(node->val);
+    if (vc.size() == k) {
+        return;
+    }
+    inOrderKthSmallest(node->right, vc, k);
+    if (vc.size() >= k) {
+        return;
+    }
+}
+int Solution::kthSmallest(TreeNode* root, int k) {
+    vector<int> vc;
+    if (root == nullptr) {
+        return 0;
+    }
+    inOrderKthSmallest(root, vc, k);
+    return vc.back();
 }

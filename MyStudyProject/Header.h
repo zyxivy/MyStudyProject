@@ -732,4 +732,22 @@ public:
     static vector<string> summaryRanges(vector<int>& nums);
     //229
     static vector<int> majorElement(vector<int>& nums);
+    //230
+    static int kthSmallest(TreeNode* root, int k);
+    //231
+    static bool isPowerOfTwo(int n);
+    //233
+    static int countDigitOne(int n);
+    //234
+    static bool isPalindrome(ListNode* head);
+    //235
+    static TreeNode* lowestCommonBinaryAncestor(TreeNode* root, TreeNode* p, TreeNode* q);
+    //236
+    static TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q);
+    //237
+    static void deleteNode(ListNode* node);
+    //238
+    static vector<int> productExceptSelf(vector<int>& nums);
+    //239
+    static vector<int> maxSlidingWindow(vector<int>& nums, int k)
 };

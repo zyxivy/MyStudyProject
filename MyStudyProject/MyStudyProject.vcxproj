@@ -180,6 +180,15 @@
     <ClCompile Include="228 - Summary Ranges.cpp" />
     <ClCompile Include="229 - Majority Element II.cpp" />
     <ClCompile Include="230 - Kth Smallest Element in a BST.cpp" />
+    <ClCompile Include="231 - Power of Two.cpp" />
+    <ClCompile Include="232 - Implement Queue using Stacks.cpp" />
+    <ClCompile Include="234 - Palindrome Linked List.cpp" />
+    <ClCompile Include="235 - Lowest Common Ancestor of a Binary Search Tree.cpp" />
+    <ClCompile Include="000 - 236 -  Lowest Common Ancestor of a Binary Tree.cpp" />
+    <ClCompile Include="237 - Delete Node in a Linked List.cpp" />
+    <ClCompile Include="239 - Sliding Window Maximum.cpp" />
+    <ClCompile Include="[238 - Product of Array Except Self].cpp" />
+    <ClCompile Include="[233 - Number of Digit One].cpp" />
     <ClCompile Include="[221 - Maximal Square].cpp" />
     <ClCompile Include="[222 - Count Complete Tree Nodes].cpp" />
     <ClCompile Include="[216 - Combination Sum III].cpp" />

@@ -151,18 +151,18 @@ int main()
     vector<int> m1 = { 4,0,0,0, 0 };
     vector<int> m2 = { 1,2,2 };
 
-    TreeNode* root=new TreeNode(1);
-    TreeNode* left = new TreeNode(2);
-    TreeNode* right = new TreeNode(3);
+    TreeNode* root=new TreeNode(5);
+    TreeNode* left = new TreeNode(3);
+    TreeNode* right = new TreeNode(8);
 
-    TreeNode* left2 = new TreeNode(4);
+    TreeNode* left2 = new TreeNode(2);
 
-    TreeNode* right2 = new TreeNode(5);
+    TreeNode* right2 = new TreeNode(4);
     root->left = left;
     root->right = right;
-    left->left = left2;
+    //left->left = left2;
     left->right = right2;
-    //Solution::invertTree(root);
+    //Solution::lowestCommonAncestor(root, left2, left);
 
     vector<string> list = { "4", "13", "5", "/", "+" };
 
@@ -181,9 +181,9 @@ int main()
     ListNode* l10 = new ListNode(1);
     ListNode* l11 = new ListNode(2);
     ListNode* l12 = new ListNode(3);
-    ListNode* l13 = new ListNode(4);
-    ListNode* l14 = new ListNode(5);
-    ListNode* l15 = new ListNode(6);
+    ListNode* l13 = new ListNode(2);
+    ListNode* l14 = new ListNode(1);
+    ListNode* l15 = new ListNode(1);
 
     ListNode* l20 = new ListNode(-5);
     ListNode* l21 = new ListNode(-3);
@@ -204,6 +204,8 @@ int main()
     //l22->next = l23;
     //l23->next = l24;
     //l24->next = l25;
+
+    Solution::deleteNode(l13);
 
 
     vector<vector<int>> nums;
@@ -242,5 +244,5 @@ int main()
    
 
 
-    Solution::majorElement(num);
+    //Solution::majorElement(num);
 }
