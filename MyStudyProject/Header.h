@@ -749,5 +749,9 @@ public:
     //238
     static vector<int> productExceptSelf(vector<int>& nums);
     //239
-    static vector<int> maxSlidingWindow(vector<int>& nums, int k)
+    static vector<int> maxSlidingWindow(vector<int>& nums, int k);
+    //240
+    static bool searchMatrix2D(vector<vector<int>>& matrix, int target);
+    //241
+    static vector<int> diffWaysToCompute(string input);
 };

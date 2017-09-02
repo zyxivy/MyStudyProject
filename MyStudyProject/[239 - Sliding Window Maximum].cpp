@@ -16,6 +16,26 @@
 //Could you solve it in linear time ?
 
 #include "Header.h";
+//https://lefttree.gitbooks.io/leetcode-categories/Heap/slidingWindowMax.html
+//http://www.jianshu.com/p/7662caf4f39c
 vector<int> Solution::maxSlidingWindow(vector<int>& nums, int k) {
+    deque<int> queue;
+    vector<int> result;
+    if (nums.empty()) {
+        return result;
+    }
+    for (int i = 0; i < nums.size(); i++) {
+        while (!queue.empty() && queue.back()<nums[i]){
+            queue.pop_back();
+        }
+        queue.push_back(nums[i]);
+        if (i >= k && nums[i - k] == queue[0]) {
+            queue.pop_front();
+        }
+        if (i >= k - 1) {
+            result.push_back(queue[0]);
+        }
+    }
 
+    return result;
 }

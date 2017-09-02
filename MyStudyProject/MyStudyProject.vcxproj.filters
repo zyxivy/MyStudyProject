@@ -678,7 +678,13 @@
     <ClCompile Include="[238 - Product of Array Except Self].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="239 - Sliding Window Maximum.cpp">
+    <ClCompile Include="[240 - Search a 2D Matrix II].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[239 - Sliding Window Maximum].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="241 - Different Ways to Add Parentheses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

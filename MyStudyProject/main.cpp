@@ -143,8 +143,8 @@ int main()
     //intervals.push_back(int3);
     //intervals.push_back(int4);
 
-	vector<vector<int>> matrix = { { 1,0,1,0,0 },{ 1,0,1,1,1 },{ 1,1,1,1,1 },{ 1,0,0,1,0 } };
-
+    vector<vector<int>> matrix = { {1, 4, 7, 11, 15},{2, 5, 8, 12, 19},{3, 6, 9, 16, 22},{10, 13, 14, 17, 24},{18, 21, 23, 26, 30} };
+    Solution::searchMatrix2D(matrix, 5);
 
     vector<vector<char>> existBoard = {{ 'a','b', 'c', 'e'},{ 's','f', 'e', 's' },{ 'a','d', 'e', 'e' }};
     vector<int> hist = {4,2,3,2,3,1,4};
@@ -205,7 +205,6 @@ int main()
     //l23->next = l24;
     //l24->next = l25;
 
-    Solution::deleteNode(l13);
 
 
     vector<vector<int>> nums;
@@ -219,7 +218,8 @@ int main()
     //num.push_back(1);
     //num.push_back(2);
 
-    vector<int> colors = { 5,2,1,3,4 };
+    vector<int> colors = {1 , -1 };
+    //Solution::maxSlidingWindow(colors, 1);
 
     pair<int, int> pr(1, 0);
     vector<pair<int, int>> pre;
