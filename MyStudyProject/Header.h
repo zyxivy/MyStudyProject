@@ -754,4 +754,16 @@ public:
     static bool searchMatrix2D(vector<vector<int>>& matrix, int target);
     //241
     static vector<int> diffWaysToCompute(string input);
+    //242
+    static bool isAnagram(string s, string t);
+    //243
+    static int shortestDistance(vector<string> words, string word1, string word2);
+    //245
+    static int shortestWordDistanceIII(vector<string> words, string word1, string word2);
+    //246
+    static bool isStrobogrammatic(string num);
+    //247
+    static vector<string> findStrobogrammatic(int n);
+    //248
+    static int strobogrammaticInRange(string low, string high);
 };

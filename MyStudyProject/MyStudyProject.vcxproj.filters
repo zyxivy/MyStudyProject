@@ -684,7 +684,28 @@
     <ClCompile Include="[239 - Sliding Window Maximum].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="241 - Different Ways to Add Parentheses.cpp">
+    <ClCompile Include="000 - 241 - Different Ways to Add Parentheses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="242 - Valid Anagram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="243 - Shortest Word Distance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="244 -Shortest Word Distance II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="245 - Shortest Word Distance III.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="246 - Strobogrammatic Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="247 - Strobogrammatic Number II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="248 - Strobogrammatic Number III.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
