@@ -7,5 +7,5 @@
 
 #include "Header.h";
 int Solution::strobogrammaticInRange(string low, string high) {
-
+    return 0;
 }

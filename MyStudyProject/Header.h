@@ -766,4 +766,10 @@ public:
     static vector<string> findStrobogrammatic(int n);
     //248
     static int strobogrammaticInRange(string low, string high);
+    //249
+    static vector<vector<string>> groupStrings(vector<string>& strings);
+    //250
+    static int countUnivalSubtrees(TreeNode* root);
+    //254
+    static vector<vector<int>> Solution::getFactors(int n);
 };

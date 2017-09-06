@@ -193,7 +193,13 @@
     <ClCompile Include="245 - Shortest Word Distance III.cpp" />
     <ClCompile Include="246 - Strobogrammatic Number.cpp" />
     <ClCompile Include="247 - Strobogrammatic Number II.cpp" />
-    <ClCompile Include="248 - Strobogrammatic Number III.cpp" />
+    <ClCompile Include="000 - 248 - Strobogrammatic Number III.cpp" />
+    <ClCompile Include="249 - Group Shifted Strings.cpp" />
+    <ClCompile Include="250 - Count Univalue Subtrees.cpp" />
+    <ClCompile Include="251 - Flatten 2D Vector.cpp" />
+    <ClCompile Include="252 - Meeting Rooms.cpp" />
+    <ClCompile Include="253 - Meeting Rooms II.cpp" />
+    <ClCompile Include="254 - Factor Combinations.cpp" />
     <ClCompile Include="[239 - Sliding Window Maximum].cpp" />
     <ClCompile Include="[240 - Search a 2D Matrix II].cpp" />
     <ClCompile Include="[238 - Product of Array Except Self].cpp" />
