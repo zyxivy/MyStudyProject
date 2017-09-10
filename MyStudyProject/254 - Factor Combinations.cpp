@@ -35,6 +35,27 @@
 //                    ]
 
 #include "Header.h";
-vector<vector<int>> Solution::getFactors(int n) {
 
+void getFactorsHelper(vector<vector<int>>& factors, vector<int>& fac, int n, int start) {
+    if (n < 2) {
+        factors.push_back(fac);
+        return;
+    }
+    for (int i = start; i <= n; i++) {
+        if (n%i == 0) {
+            fac.push_back(i);
+            getFactorsHelper(factors, fac, n / i, i);
+            fac.pop_back();
+        }
+    }
+}
+
+vector<vector<int>> Solution::getFactors(int n) {
+    vector<vector<int>> factors;
+    if (n <= 3) {
+        return factors;
+    }
+    vector<int> fac;
+    getFactorsHelper(factors, fac, n, 2);
+    return factors;
 }

@@ -3,6 +3,7 @@
 using namespace std;
 #include <string>
 #include <vector>
+#include <stack>
 #include <set>
 #include <map>
 #include <math.h>
@@ -772,4 +773,13 @@ public:
     static int countUnivalSubtrees(TreeNode* root);
     //254
     static vector<vector<int>> Solution::getFactors(int n);
+    //255
+    static bool verifyPreorder(vector<int> preorder);
+    //256
+    static int minPaintHouseCost(vector<vector<int>> costs);
+    //257
+    static vector<string> binaryTreePaths(TreeNode* root);
+    //258
+    static int addDigits(int num);
 };
+

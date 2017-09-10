@@ -200,6 +200,10 @@
     <ClCompile Include="252 - Meeting Rooms.cpp" />
     <ClCompile Include="253 - Meeting Rooms II.cpp" />
     <ClCompile Include="254 - Factor Combinations.cpp" />
+    <ClCompile Include="256 - Paint House.cpp" />
+    <ClCompile Include="257 - Binary Tree Paths.cpp" />
+    <ClCompile Include="258 - Add Digits.cpp" />
+    <ClCompile Include="[255 - Verify Preorder Sequence in Binary Search Tree].cpp" />
     <ClCompile Include="[239 - Sliding Window Maximum].cpp" />
     <ClCompile Include="[240 - Search a 2D Matrix II].cpp" />
     <ClCompile Include="[238 - Product of Array Except Self].cpp" />

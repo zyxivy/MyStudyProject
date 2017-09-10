@@ -144,25 +144,25 @@ int main()
     //intervals.push_back(int4);
 
     vector<vector<int>> matrix = { {1, 4, 7, 11, 15},{2, 5, 8, 12, 19},{3, 6, 9, 16, 22},{10, 13, 14, 17, 24},{18, 21, 23, 26, 30} };
-    Solution::searchMatrix2D(matrix, 5);
+    //Solution::searchMatrix2D(matrix, 5);
 
     vector<vector<char>> existBoard = {{ 'a','b', 'c', 'e'},{ 's','f', 'e', 's' },{ 'a','d', 'e', 'e' }};
     vector<int> hist = {4,2,3,2,3,1,4};
     vector<int> m1 = { 4,0,0,0, 0 };
     vector<int> m2 = { 1,2,2 };
 
-    TreeNode* root=new TreeNode(5);
-    TreeNode* left = new TreeNode(3);
-    TreeNode* right = new TreeNode(8);
+    TreeNode* root=new TreeNode(37);
+    TreeNode* left = new TreeNode(-34);
+    TreeNode* right = new TreeNode(-48);
 
-    TreeNode* left2 = new TreeNode(2);
+    TreeNode* left2 = new TreeNode(-100);
 
-    TreeNode* right2 = new TreeNode(4);
+    TreeNode* right2 = new TreeNode(-100);
     root->left = left;
     root->right = right;
-    //left->left = left2;
-    left->right = right2;
-    //Solution::lowestCommonAncestor(root, left2, left);
+    left->right = left2;
+    right->left = right2;
+    Solution::binaryTreePaths(root);
 
     vector<string> list = { "4", "13", "5", "/", "+" };
 
@@ -243,6 +243,6 @@ int main()
     //cache.get(4);
    
 
-
+    //Solution::getFactors(32);
     //Solution::majorElement(num);
 }

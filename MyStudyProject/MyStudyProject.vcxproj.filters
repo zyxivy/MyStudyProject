@@ -726,6 +726,18 @@
     <ClCompile Include="226 - Invert Binary Tree.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="[255 - Verify Preorder Sequence in Binary Search Tree].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="256 - Paint House.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="257 - Binary Tree Paths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="258 - Add Digits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

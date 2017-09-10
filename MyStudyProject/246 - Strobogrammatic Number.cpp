@@ -12,7 +12,7 @@ bool Solution::isStrobogrammatic(string num) {
     int i = 0;
     int j = num.size() - 1;
     while(i<j) {
-        if (mp.find[num[i]] == mp.end()|| mp.find[num[j]] == mp.end()) {
+        if (mp.find(num[i]) == mp.end()|| mp.find(num[j]) == mp.end()) {
             return false;
         }
         if (mp[num[i]] != num[j]|| mp[num[j]] != num[i]) {
