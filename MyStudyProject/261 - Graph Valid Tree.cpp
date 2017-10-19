@@ -9,6 +9,7 @@
 //Related Problems
 //Medium Find the Connected Component in the Undirected Graph
 
+//https://aaronice.gitbooks.io/lintcode/content/union_find/graph_valid_tree.html
 #include "Header.h";
 bool Solution::validTree(int n, vector<pair<int, int>>& edges) {
 
