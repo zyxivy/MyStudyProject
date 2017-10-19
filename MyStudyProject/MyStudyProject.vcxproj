@@ -203,6 +203,9 @@
     <ClCompile Include="256 - Paint House.cpp" />
     <ClCompile Include="257 - Binary Tree Paths.cpp" />
     <ClCompile Include="258 - Add Digits.cpp" />
+    <ClCompile Include="259 - 3Sum Smaller.cpp" />
+    <ClCompile Include="260 - Single Number III.cpp" />
+    <ClCompile Include="261 - Graph Valid Tree.cpp" />
     <ClCompile Include="[255 - Verify Preorder Sequence in Binary Search Tree].cpp" />
     <ClCompile Include="[239 - Sliding Window Maximum].cpp" />
     <ClCompile Include="[240 - Search a 2D Matrix II].cpp" />

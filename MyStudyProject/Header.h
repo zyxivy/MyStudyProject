@@ -781,5 +781,11 @@ public:
     static vector<string> binaryTreePaths(TreeNode* root);
     //258
     static int addDigits(int num);
+    //259
+    static int threeSumSmaller(vector<int>& nums, int target);
+    //260
+    static vector<int> singleNumberIII(vector<int>& nums);
+    //261
+    static bool validTree(int n, vector<pair<int, int>>& edges);
 };
 

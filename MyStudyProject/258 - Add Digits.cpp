@@ -6,5 +6,5 @@
 
 #include "Header.h";
 int Solution::addDigits(int num) {
-
+    return  (num - 1) % 9 + 1;
 }

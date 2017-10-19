@@ -738,6 +738,15 @@
     <ClCompile Include="258 - Add Digits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="259 - 3Sum Smaller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="260 - Single Number III.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="261 - Graph Valid Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
