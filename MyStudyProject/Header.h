@@ -791,5 +791,11 @@ public:
     static bool isUgly(int num);
     //264
     static int nthUglyNumber(int n);
+    //265
+    static int minCostII(vector<vector<int>> costs);
+    //266
+    static bool Solution::canPermutePalindrome(string s);
+    //267
+    static vector<string> generatePalindromes(string s);
 };
 
