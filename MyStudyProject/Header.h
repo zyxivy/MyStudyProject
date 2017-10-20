@@ -787,5 +787,9 @@ public:
     static vector<int> singleNumberIII(vector<int>& nums);
     //261
     static bool validTree(int n, vector<pair<int, int>>& edges);
+    //263
+    static bool isUgly(int num);
+    //264
+    static int nthUglyNumber(int n);
 };
 

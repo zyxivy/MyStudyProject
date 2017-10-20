@@ -744,7 +744,16 @@
     <ClCompile Include="260 - Single Number III.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="261 - Graph Valid Tree.cpp">
+    <ClCompile Include="[261 - Graph Valid Tree].cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="263 - Ugly Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="264 - Ugly Number II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="265 - Paint House II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
