@@ -797,5 +797,13 @@ public:
     static bool Solution::canPermutePalindrome(string s);
     //267
     static vector<string> generatePalindromes(string s);
+    //268
+    static int missingNumber(vector<int>& nums);
+    //269
+    static string alienOrder(vector<string> words);
+    //270
+    static int closestValue(TreeNode* root, double target);
+    //271 
+    static vector<int> closestKValues(TreeNode* root, double target, int k);
 };
 

@@ -162,7 +162,7 @@ int main()
     root->right = right;
     left->right = left2;
     right->left = right2;
-    Solution::binaryTreePaths(root);
+    Solution::generatePalindromes("ababv");
 
     vector<string> list = { "4", "13", "5", "/", "+" };
 

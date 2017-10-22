@@ -762,6 +762,18 @@
     <ClCompile Include="267 - Palindrome Permutation II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="268 - Missing Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="269 - Alien Dictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="270 - Closest Binary Search Tree Value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="271 - Closest Binary Search Tree Value II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
