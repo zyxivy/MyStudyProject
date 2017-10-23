@@ -805,5 +805,10 @@ public:
     static int closestValue(TreeNode* root, double target);
     //271 
     static vector<int> closestKValues(TreeNode* root, double target, int k);
+    //271
+    static string encode(vector<string> strs);
+    static vector<string> decode(string s);
+    //273
+    static string numberToWords(int num);
 };
 

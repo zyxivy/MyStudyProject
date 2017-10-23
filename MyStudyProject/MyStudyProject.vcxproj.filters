@@ -774,6 +774,12 @@
     <ClCompile Include="271 - Closest Binary Search Tree Value II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="271 - Encode and Decode Strings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="273 - Integer to English Words   .cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

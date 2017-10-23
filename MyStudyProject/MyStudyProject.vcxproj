@@ -214,6 +214,8 @@
     <ClCompile Include="269 - Alien Dictionary.cpp" />
     <ClCompile Include="270 - Closest Binary Search Tree Value.cpp" />
     <ClCompile Include="271 - Closest Binary Search Tree Value II.cpp" />
+    <ClCompile Include="271 - Encode and Decode Strings.cpp" />
+    <ClCompile Include="273 - Integer to English Words   .cpp" />
     <ClCompile Include="[261 - Graph Valid Tree].cpp" />
     <ClCompile Include="[255 - Verify Preorder Sequence in Binary Search Tree].cpp" />
     <ClCompile Include="[239 - Sliding Window Maximum].cpp" />
