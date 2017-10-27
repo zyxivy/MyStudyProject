@@ -818,5 +818,13 @@ public:
     static int numWays(int n, int k);
     //277
     static int findCelebrity(int n);
+    //278
+    static int firstBadVersion(int n);
+    //279
+    static int numSquares(int n);
+    //280
+    static void wiggleSort(vector<int>& nums);
+    //282
+    static vector<string> addOperators(string num, int target);
 };
 

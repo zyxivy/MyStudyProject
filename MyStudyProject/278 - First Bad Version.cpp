@@ -7,23 +7,20 @@
 
 #include "Header.h";
 bool isBadVersion(int n) {
-    return false;
+    return true;
 }
-int firstBadVersion(int n) {
-    int l = 1;
-    int r = n;
+int Solution::firstBadVersion(int n) {
+    int l = 0;
+    int r = n - 1;
     int m = 0;
     while (l <= r) {
-        m = (l + r) / 2;
-        if (isBadVersion(m)) {
-            r = m;
+        m = l+(r-l) / 2;
+        if (isBadVersion(m + 1)) {
+            r = m - 1;
         }
         else {
-            l = m+1;
+            l = m + 1;
         }
     }
-    if (isBadVersion(l)) {
-        return l;
-    }
-    return r;
+    return r + 2;
 }

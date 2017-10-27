@@ -162,7 +162,7 @@ int main()
     root->right = right;
     left->right = left2;
     right->left = right2;
-    Solution::generatePalindromes("ababv");
+    Solution::numSquares(13);
 
     vector<string> list = { "4", "13", "5", "/", "+" };
 

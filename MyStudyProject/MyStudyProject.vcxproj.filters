@@ -795,6 +795,18 @@
     <ClCompile Include="278 - First Bad Version.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="[279 - Perfect Squares].cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="280 - Wiggle Sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="281 - Zigzag Iterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="282 - Expression Add Operators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

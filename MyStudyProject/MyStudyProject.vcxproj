@@ -219,6 +219,10 @@
     <ClCompile Include="274 - H-Index.cpp" />
     <ClCompile Include="275 - H-Index II.cpp" />
     <ClCompile Include="278 - First Bad Version.cpp" />
+    <ClCompile Include="280 - Wiggle Sort.cpp" />
+    <ClCompile Include="281 - Zigzag Iterator.cpp" />
+    <ClCompile Include="282 - Expression Add Operators.cpp" />
+    <ClCompile Include="[279 - Perfect Squares].cpp" />
     <ClCompile Include="[276 - Paint Fence].cpp" />
     <ClCompile Include="277 - Find the Celebrity.cpp" />
     <ClCompile Include="[261 - Graph Valid Tree].cpp" />
