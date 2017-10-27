@@ -6,5 +6,5 @@
 
 #include "Header.h";
 string Solution::numberToWords(int num) {
-
+    return "";
 }

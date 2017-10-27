@@ -810,5 +810,13 @@ public:
     static vector<string> decode(string s);
     //273
     static string numberToWords(int num);
+    //274
+    static int hIndex(vector<int>& citations);
+    //275
+    static int hIndexII(vector<int>& citations);
+    //276
+    static int numWays(int n, int k);
+    //277
+    static int findCelebrity(int n);
 };
 

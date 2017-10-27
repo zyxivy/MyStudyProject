@@ -780,6 +780,21 @@
     <ClCompile Include="273 - Integer to English Words   .cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="274 - H-Index.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="275 - H-Index II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="277 - Find the Celebrity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[276 - Paint Fence].cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="278 - First Bad Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
