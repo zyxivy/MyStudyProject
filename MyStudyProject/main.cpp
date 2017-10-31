@@ -162,7 +162,7 @@ int main()
     root->right = right;
     left->right = left2;
     right->left = right2;
-    Solution::numSquares(13);
+    //Solution::numSquares(13);
 
     vector<string> list = { "4", "13", "5", "/", "+" };
 
@@ -245,4 +245,9 @@ int main()
 
     //Solution::getFactors(32);
     //Solution::majorElement(num);
+
+    vector<int> moveZero = { 0, 1, 0, 3, 12 };
+
+    vector<vector<int>> matrix2 = { { INT_MAX, -1, 0, INT_MAX},{ INT_MAX, INT_MAX, INT_MAX, -1 },{ INT_MAX, -1, INT_MAX, -1 },{ 0, -1, INT_MAX, INT_MAX } };
+    Solution::wallsAndGates(matrix2);
 }

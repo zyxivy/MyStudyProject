@@ -7,6 +7,35 @@
 //"3456237490", 9191 ->[]
 
 #include "Header.h";
-vector<string> Solution::addOperators(string num, int target) {
+void addOperatorsDFS(string num, int target, vector<string> &result, string curr, int pos, long multiPrev, long currResult) {
+    if (pos >= num.length()) {
+        if (currResult == target) {
+            result.push_back(curr);
+        }
+        return;
+    }
+    for (int i = pos; i < num.length(); i++) {
+        if (i != pos&& num[pos] == '0') {
+            break;
+        }
+        string op = num.substr(pos, i - pos + 1);
+        long opValue = stol(op);
+        if (pos == 0) {
+            addOperatorsDFS(num, target, result, curr + op, i + 1, opValue, opValue);
+        }
+        else {
+            addOperatorsDFS(num, target, result, curr + "+" + op, i + 1, opValue, currResult + opValue);
+            addOperatorsDFS(num, target, result, curr + "-" + op, i + 1, -opValue, currResult - opValue);
+            addOperatorsDFS(num, target, result, curr + "*" + op, i + 1, multiPrev * opValue, currResult - multiPrev + multiPrev* opValue);
+        }
+    }
+}
 
+vector<string> Solution::addOperators(string num, int target) {
+    vector<string> results;
+    if (num.length() == 0) {
+        return results;
+    }
+    addOperatorsDFS(num, target, results, "", 0, 0, 0);
+    return results;
 }

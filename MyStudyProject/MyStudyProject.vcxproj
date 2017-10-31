@@ -222,6 +222,11 @@
     <ClCompile Include="280 - Wiggle Sort.cpp" />
     <ClCompile Include="281 - Zigzag Iterator.cpp" />
     <ClCompile Include="282 - Expression Add Operators.cpp" />
+    <ClCompile Include="283 - Move Zeroes.cpp" />
+    <ClCompile Include="284 - Peeking Iterator.cpp" />
+    <ClCompile Include="285 - Inorder Successor in BST.cpp" />
+    <ClCompile Include="286 - Walls and Gates.cpp" />
+    <ClCompile Include="287 - Find the Duplicate Number.cpp" />
     <ClCompile Include="[279 - Perfect Squares].cpp" />
     <ClCompile Include="[276 - Paint Fence].cpp" />
     <ClCompile Include="277 - Find the Celebrity.cpp" />

@@ -826,5 +826,13 @@ public:
     static void wiggleSort(vector<int>& nums);
     //282
     static vector<string> addOperators(string num, int target);
+    //283
+    static void moveZeroes(vector<int>& nums);
+    //285
+    static TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p);
+    //286
+    static void wallsAndGates(vector<vector<int>> rooms);
+    //287
+    static int findDuplicate(vector<int>& nums);
 };
 

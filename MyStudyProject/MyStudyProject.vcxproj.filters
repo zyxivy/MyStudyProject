@@ -804,7 +804,22 @@
     <ClCompile Include="281 - Zigzag Iterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="283 - Move Zeroes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="282 - Expression Add Operators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="284 - Peeking Iterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="285 - Inorder Successor in BST.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="286 - Walls and Gates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="287 - Find the Duplicate Number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
