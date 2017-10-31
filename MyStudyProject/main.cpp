@@ -248,6 +248,10 @@ int main()
 
     vector<int> moveZero = { 0, 1, 0, 3, 12 };
 
-    vector<vector<int>> matrix2 = { { INT_MAX, -1, 0, INT_MAX},{ INT_MAX, INT_MAX, INT_MAX, -1 },{ INT_MAX, -1, INT_MAX, -1 },{ 0, -1, INT_MAX, INT_MAX } };
-    Solution::wallsAndGates(matrix2);
+    vector<vector<int>> matrix2 = { 
+        { 1, 0, 0, 1},
+        { 1, 1, 0, 1 },
+        { 1, 1, 0, 1 },
+        { 0, 1, 1, 1 } };
+    Solution::gameOfLife(matrix2);
 }

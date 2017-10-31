@@ -822,6 +822,15 @@
     <ClCompile Include="287 - Find the Duplicate Number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="288 - Unique Word Abbreviation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="289 - Game of Life.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="290 - Word Pattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

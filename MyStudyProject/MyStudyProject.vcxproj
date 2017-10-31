@@ -227,6 +227,9 @@
     <ClCompile Include="285 - Inorder Successor in BST.cpp" />
     <ClCompile Include="286 - Walls and Gates.cpp" />
     <ClCompile Include="287 - Find the Duplicate Number.cpp" />
+    <ClCompile Include="288 - Unique Word Abbreviation.cpp" />
+    <ClCompile Include="289 - Game of Life.cpp" />
+    <ClCompile Include="290 - Word Pattern.cpp" />
     <ClCompile Include="[279 - Perfect Squares].cpp" />
     <ClCompile Include="[276 - Paint Fence].cpp" />
     <ClCompile Include="277 - Find the Celebrity.cpp" />
