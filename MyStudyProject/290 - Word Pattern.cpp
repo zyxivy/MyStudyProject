@@ -10,7 +10,7 @@
 //    You may assume pattern contains only lowercase letters, and str contains lowercase letters separated by a single space.
 
 #include "Header.h";
-bool wordPattern(string pattern, string str) {
+bool Solution::wordPattern(string pattern, string str) {
     if (pattern == "" || str == "") {
         return false;
     }

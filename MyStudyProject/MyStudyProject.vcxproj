@@ -230,6 +230,7 @@
     <ClCompile Include="288 - Unique Word Abbreviation.cpp" />
     <ClCompile Include="289 - Game of Life.cpp" />
     <ClCompile Include="290 - Word Pattern.cpp" />
+    <ClCompile Include="291 - word pattern II.cpp" />
     <ClCompile Include="[279 - Perfect Squares].cpp" />
     <ClCompile Include="[276 - Paint Fence].cpp" />
     <ClCompile Include="277 - Find the Celebrity.cpp" />

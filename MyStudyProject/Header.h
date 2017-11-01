@@ -834,7 +834,11 @@ public:
     static void wallsAndGates(vector<vector<int>> rooms);
     //287
     static int findDuplicate(vector<int>& nums);
-    //288
+    //289
     static void gameOfLife(vector<vector<int>>& board);
+    //290
+    static bool wordPattern(string pattern, string str);
+    //291
+    static bool wordPatternMatch(string pattern, string str);
 };
 
