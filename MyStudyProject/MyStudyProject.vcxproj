@@ -231,6 +231,12 @@
     <ClCompile Include="289 - Game of Life.cpp" />
     <ClCompile Include="290 - Word Pattern.cpp" />
     <ClCompile Include="291 - word pattern II.cpp" />
+    <ClCompile Include="292 - Nim Game.cpp" />
+    <ClCompile Include="293 - Flip Game .cpp" />
+    <ClCompile Include="294 - Flip Game II.cpp" />
+    <ClCompile Include="295 - Find Median from Data Stream.cpp" />
+    <ClCompile Include="296 - Best Meeting Point.cpp" />
+    <ClCompile Include="297 - Serialize and Deserialize Binary Tree.cpp" />
     <ClCompile Include="[279 - Perfect Squares].cpp" />
     <ClCompile Include="[276 - Paint Fence].cpp" />
     <ClCompile Include="277 - Find the Celebrity.cpp" />

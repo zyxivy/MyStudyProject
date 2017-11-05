@@ -834,6 +834,24 @@
     <ClCompile Include="291 - word pattern II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="292 - Nim Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="293 - Flip Game .cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="294 - Flip Game II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="295 - Find Median from Data Stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="296 - Best Meeting Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="297 - Serialize and Deserialize Binary Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

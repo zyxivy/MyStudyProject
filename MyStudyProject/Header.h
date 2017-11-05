@@ -840,5 +840,13 @@ public:
     static bool wordPattern(string pattern, string str);
     //291
     static bool wordPatternMatch(string pattern, string str);
+    //292
+    static bool canWinNim(int n);
+    //293
+    static vector<string> generatePossibleNextMoves(string s);
+    //294
+    static bool canWinFlip(string s);
+    //296
+    static int minTotalDistance(vector<vector<int>>& grid);
 };
 
