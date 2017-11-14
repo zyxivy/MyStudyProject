@@ -21,7 +21,19 @@ public:
 
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
+        string s;
+        preOrderSerialize(root, s);
+        return s;
+    }
 
+    void preOrderSerialize(TreeNode* node, string& s) {
+        if (node == nullptr) {
+            s.append("##,");
+            return;
+        }
+        s.append(to_string(node->val) + ",");
+        preOrderSerialize(node->left, s);
+        preOrderSerialize(node->right, s);
     }
 
     // Decodes your encoded data to tree.
