@@ -237,6 +237,7 @@
     <ClCompile Include="295 - Find Median from Data Stream.cpp" />
     <ClCompile Include="296 - Best Meeting Point.cpp" />
     <ClCompile Include="297 - Serialize and Deserialize Binary Tree.cpp" />
+    <ClCompile Include="298 - Binary Tree Longest Consecutive Sequence.cpp" />
     <ClCompile Include="[279 - Perfect Squares].cpp" />
     <ClCompile Include="[276 - Paint Fence].cpp" />
     <ClCompile Include="277 - Find the Celebrity.cpp" />

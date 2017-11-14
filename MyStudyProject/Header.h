@@ -848,5 +848,7 @@ public:
     static bool canWinFlip(string s);
     //296
     static int minTotalDistance(vector<vector<int>>& grid);
+    //298
+    static int longestConsecutive(TreeNode root);
 };
 
