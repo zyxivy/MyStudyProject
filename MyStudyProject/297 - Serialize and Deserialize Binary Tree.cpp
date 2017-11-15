@@ -28,7 +28,7 @@ public:
 
     void preOrderSerialize(TreeNode* node, string& s) {
         if (node == nullptr) {
-            s.append("##,");
+            s.append("#,");
             return;
         }
         s.append(to_string(node->val) + ",");
@@ -38,6 +38,34 @@ public:
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
+        queue<string> q;
 
+        int len = data.length();
+        int i = 0;
+        int j = 0;
+        while (i < len) {
+            j = i;
+            while (data[j] != ','&&j < len) {
+                j++;
+            }
+            string s = data.substr(i, j - i);
+            q.push(s);
+            i = j + 1;
+        }
+
+        TreeNode* node = buildTree(q);
+        return node;
+    }
+
+    TreeNode* buildTree(queue<string>& q) {
+        string s = q.front();
+        q.pop();
+        if (s == "#") {
+            return nullptr;
+        }
+        TreeNode *node = new TreeNode(stoi(s));
+        node->left = buildTree(q);
+        node->right = buildTree(q);
+        return node;
     }
 };

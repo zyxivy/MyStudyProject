@@ -849,10 +849,16 @@
     <ClCompile Include="296 - Best Meeting Point.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="297 - Serialize and Deserialize Binary Tree.cpp">
+    <ClCompile Include="298 - Binary Tree Longest Consecutive Sequence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="298 - Binary Tree Longest Consecutive Sequence.cpp">
+    <ClCompile Include="297 - Serialize and Deserialize Binary Tree.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="299 - Bulls and Cows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="300 - Longest Increasing Subsequence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

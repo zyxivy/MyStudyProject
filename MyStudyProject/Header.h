@@ -849,6 +849,10 @@ public:
     //296
     static int minTotalDistance(vector<vector<int>>& grid);
     //298
-    static int longestConsecutive(TreeNode root);
+    static int longestConsecutive(TreeNode* root);
+    //299
+    static string getHint(string secret, string guess);
+    //300
+    static int lengthOfLIS(vector<int>& nums);
 };
 

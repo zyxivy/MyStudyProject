@@ -19,6 +19,12 @@
 //Longest consecutive sequence path is 2 - 3, not 3 - 2 - 1, so return 2.
 
 #include "Header.h";
-int Solution::longestConsecutive(TreeNode root) {
 
+int longestConsecutiveDFS(TreeNode *root, TreeNode *parent, int len) {
+    if (!root) return len;
+    len = (parent && root->val == parent->val + 1) ? len + 1 : 1;
+    return max(len, max(longestConsecutiveDFS(root->left, root, len), longestConsecutiveDFS(root->right, root, len)));
+}
+int Solution::longestConsecutive(TreeNode* root) {
+    return longestConsecutiveDFS(root, nullptr, 0);
 }

@@ -253,5 +253,8 @@ int main()
         { 1, 1, 0, 1 },
         { 1, 1, 0, 1 },
         { 0, 1, 1, 1 } };
-    Solution::gameOfLife(matrix2);
+    //Codec::deserialize("");
+
+
+    Solution::getHint("1807", "7810");
 }
