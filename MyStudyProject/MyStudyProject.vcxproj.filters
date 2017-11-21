@@ -861,6 +861,9 @@
     <ClCompile Include="300 - Longest Increasing Subsequence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="301 - Remove Invalid Parentheses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

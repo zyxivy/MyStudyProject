@@ -854,5 +854,7 @@ public:
     static string getHint(string secret, string guess);
     //300
     static int lengthOfLIS(vector<int>& nums);
+    //301
+    static vector<string> removeInvalidParentheses(string s);
 };
 

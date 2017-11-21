@@ -240,6 +240,7 @@
     <ClCompile Include="298 - Binary Tree Longest Consecutive Sequence.cpp" />
     <ClCompile Include="299 - Bulls and Cows.cpp" />
     <ClCompile Include="300 - Longest Increasing Subsequence.cpp" />
+    <ClCompile Include="301 - Remove Invalid Parentheses.cpp" />
     <ClCompile Include="[279 - Perfect Squares].cpp" />
     <ClCompile Include="[276 - Paint Fence].cpp" />
     <ClCompile Include="277 - Find the Celebrity.cpp" />

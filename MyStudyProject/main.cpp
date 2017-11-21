@@ -246,7 +246,7 @@ int main()
     //Solution::getFactors(32);
     //Solution::majorElement(num);
 
-    vector<int> moveZero = { 0, 1, 0, 3, 12 };
+    vector<int> moveZero = { 0,8,4,12,2,10,6,14,1,9,5,13,3,11,7,15 };
 
     vector<vector<int>> matrix2 = { 
         { 1, 0, 0, 1},
@@ -256,5 +256,5 @@ int main()
     //Codec::deserialize("");
 
 
-    Solution::getHint("1807", "7810");
+    Solution::removeInvalidParentheses("((()");
 }
