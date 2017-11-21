@@ -9,9 +9,6 @@
 
 bool isValid(string s) {
     int cnt = 0;
-    if (s.length() == 0) {
-        return false;
-    }
     for (auto c : s) {
         if (c != '('&&c != ')') {
             continue;
@@ -30,7 +27,7 @@ bool isValid(string s) {
 }
 vector<string> Solution::removeInvalidParentheses(string s) {
     set<string> visited;
-    vector<string> q;
+    queue<string> q;
 
     vector<string> res;
 
@@ -41,20 +38,19 @@ vector<string> Solution::removeInvalidParentheses(string s) {
     bool found = false;
     
     visited.insert(s);
-    q.push_back(s);
+    q.push(s);
     while (!q.empty()) {
+        string str = q.front();
+        q.pop();
 
-        for (string qs : q) {
-            if (isValid(qs)) {
-                found = true;
-                res.push_back(qs);
-            }
+        if (isValid(str)) {
+            res.push_back(str);
+            found = true;
         }
         if (found)
             break;
 
-        string str = q.back();
-        q.pop_back();
+ 
         for (int i = 0; i < str.length(); i++) {
             if (str[i] != '('&&str[i] != ')') {
                 continue;
@@ -62,12 +58,9 @@ vector<string> Solution::removeInvalidParentheses(string s) {
             string t = str.substr(0, i) + str.substr(i + 1, str.length() - i - 1);
             if (visited.find(t) == visited.end()) {
                 visited.insert(t);
-                q.push_back(t);
+                q.push(t);
             }
         }
-    }
-    if (res.empty()) {
-        res.push_back("");
     }
     return res;
 
