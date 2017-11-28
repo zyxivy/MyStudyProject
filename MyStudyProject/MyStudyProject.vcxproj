@@ -241,6 +241,10 @@
     <ClCompile Include="299 - Bulls and Cows.cpp" />
     <ClCompile Include="300 - Longest Increasing Subsequence.cpp" />
     <ClCompile Include="301 - Remove Invalid Parentheses.cpp" />
+    <ClCompile Include="302 - Smallest Rectangle Enclosing Black Pixels.cpp" />
+    <ClCompile Include="303 - Range Sum Query - Immutable.cpp" />
+    <ClCompile Include="304 - Range Sum Query 2D - Immutable.cpp" />
+    <ClCompile Include="305 - Number of Islands II.cpp" />
     <ClCompile Include="[279 - Perfect Squares].cpp" />
     <ClCompile Include="[276 - Paint Fence].cpp" />
     <ClCompile Include="277 - Find the Celebrity.cpp" />

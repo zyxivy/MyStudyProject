@@ -856,5 +856,9 @@ public:
     static int lengthOfLIS(vector<int>& nums);
     //301
     static vector<string> removeInvalidParentheses(string s);
+    //302
+    static int minArea(vector<vector<char>>& image, int x, int y);
+    //305
+    static int minArea(vector<vector<char>> image, int x, int y);
 };
 

@@ -25,22 +25,6 @@ bool isValid(string s) {
     }
     return cnt == 0;
 }
-
-vector<string> Solution::removeInvalidParentheses(string s) {
-    int num1 = 0, num2 = 0;
-    for (char &c : s) {
-        num1 += c == '(';
-        if (num1 == 0) {
-            num2 += c == ')';
-        }
-        else {
-            num1 -= c == ')';
-        }
-    }
-    vector<string> ret;
-    removeInvalidParenthesesdfs(s, 0, num1, num2, ret);
-    return ret;
-}
 void removeInvalidParenthesesdfs(string s, int beg, int num1, int num2, vector<string> &ret) {
     if (num1 == 0 && num2 == 0) {
         if (isValid(s))
@@ -63,6 +47,22 @@ void removeInvalidParenthesesdfs(string s, int beg, int num1, int num2, vector<s
             }
         }
     }
+}
+
+vector<string> Solution::removeInvalidParentheses(string s) {
+    int num1 = 0, num2 = 0;
+    for (char &c : s) {
+        num1 += c == '(';
+        if (num1 == 0) {
+            num2 += c == ')';
+        }
+        else {
+            num1 -= c == ')';
+        }
+    }
+    vector<string> ret;
+    removeInvalidParenthesesdfs(s, 0, num1, num2, ret);
+    return ret;
 }
 
 //vector<string> Solution::removeInvalidParentheses(string s) {

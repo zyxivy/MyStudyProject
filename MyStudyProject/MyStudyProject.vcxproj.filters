@@ -864,6 +864,18 @@
     <ClCompile Include="301 - Remove Invalid Parentheses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="302 - Smallest Rectangle Enclosing Black Pixels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="303 - Range Sum Query - Immutable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="304 - Range Sum Query 2D - Immutable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="305 - Number of Islands II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
