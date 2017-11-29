@@ -859,6 +859,6 @@ public:
     //302
     static int minArea(vector<vector<char>>& image, int x, int y);
     //305
-    static int minArea(vector<vector<char>> image, int x, int y);
+    static vector<int> numIslands2(int m, int n, vector<pair<int, int>>& positions);
 };
 

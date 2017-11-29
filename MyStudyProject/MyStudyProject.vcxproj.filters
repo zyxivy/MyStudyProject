@@ -28,6 +28,9 @@
     <Filter Include="Source Files\Trie">
       <UniqueIdentifier>{2992b381-8826-4d5b-ba33-883b222f1c75}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\UnionFind">
+      <UniqueIdentifier>{18640031-95a6-4332-b53f-088b934eeffd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="002-AddTwoNumbers.cpp">
@@ -321,13 +324,7 @@
     <ClCompile Include="127 - Word Ladder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="128 - Longest Consecutive Sequence.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="129 - Sum Root to Leaf Numbers.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="130 - Surrounded Regions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="[131 - Palindrome Partitioning].cpp">
@@ -549,9 +546,6 @@
     <ClCompile Include="198 - House Robber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="200-  Number of Islands.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="201 - Bitwise AND of Numbers Range.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -744,9 +738,6 @@
     <ClCompile Include="260 - Single Number III.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="[261 - Graph Valid Tree].cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="263 - Ugly Number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -874,7 +865,19 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="305 - Number of Islands II.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\UnionFind</Filter>
+    </ClCompile>
+    <ClCompile Include="128 - Longest Consecutive Sequence.cpp">
+      <Filter>Source Files\UnionFind</Filter>
+    </ClCompile>
+    <ClCompile Include="130 - Surrounded Regions.cpp">
+      <Filter>Source Files\UnionFind</Filter>
+    </ClCompile>
+    <ClCompile Include="200-  Number of Islands.cpp">
+      <Filter>Source Files\UnionFind</Filter>
+    </ClCompile>
+    <ClCompile Include="[261 - Graph Valid Tree].cpp">
+      <Filter>Source Files\UnionFind</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
