@@ -52,6 +52,7 @@ public:
 };
 
 //https://www.topcoder.com/community/data-science/data-science-tutorials/range-minimum-query-and-lowest-common-ancestor/
+//https://www.hackerearth.com/practice/notes/segment-tree-and-lazy-propagation/
 
 int main() {
     NumArray na({ 1,3,5 });
