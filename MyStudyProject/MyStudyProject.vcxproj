@@ -245,6 +245,8 @@
     <ClCompile Include="303 - Range Sum Query - Immutable.cpp" />
     <ClCompile Include="304 - Range Sum Query 2D - Immutable.cpp" />
     <ClCompile Include="305 - Number of Islands II.cpp" />
+    <ClCompile Include="306 - Additive Number.cpp" />
+    <ClCompile Include="307 - Range Sum Query - Mutable.cpp" />
     <ClCompile Include="[279 - Perfect Squares].cpp" />
     <ClCompile Include="[276 - Paint Fence].cpp" />
     <ClCompile Include="277 - Find the Celebrity.cpp" />

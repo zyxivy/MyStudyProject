@@ -879,6 +879,12 @@
     <ClCompile Include="[261 - Graph Valid Tree].cpp">
       <Filter>Source Files\UnionFind</Filter>
     </ClCompile>
+    <ClCompile Include="306 - Additive Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="307 - Range Sum Query - Mutable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
