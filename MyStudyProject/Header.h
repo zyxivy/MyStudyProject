@@ -862,5 +862,7 @@ public:
     static vector<int> numIslands2(int m, int n, vector<pair<int, int>>& positions);
     //306
     static bool isAdditiveNumber(string num);
+    //309
+    static int maxProfitCoolDown(vector<int>& prices);
 };
 

@@ -22,7 +22,7 @@
     <ProjectGuid>{C32AC76B-5487-45D0-9B68-3D8B2416B9C2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>MyStudyProject</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -246,7 +246,9 @@
     <ClCompile Include="304 - Range Sum Query 2D - Immutable.cpp" />
     <ClCompile Include="305 - Number of Islands II.cpp" />
     <ClCompile Include="306 - Additive Number.cpp" />
-    <ClCompile Include="307 - Range Sum Query - Mutable.cpp" />
+    <ClCompile Include="308 - Range Sum Query 2D - Mutable.cpp" />
+    <ClCompile Include="[309 - Best Time to Buy and Sell Stock with Cooldown].cpp" />
+    <ClCompile Include="[307 - Range Sum Query - Mutable].cpp" />
     <ClCompile Include="[279 - Perfect Squares].cpp" />
     <ClCompile Include="[276 - Paint Fence].cpp" />
     <ClCompile Include="277 - Find the Celebrity.cpp" />
