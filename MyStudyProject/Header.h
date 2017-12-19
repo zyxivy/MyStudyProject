@@ -864,5 +864,19 @@ public:
     static bool isAdditiveNumber(string num);
     //309
     static int maxProfitCoolDown(vector<int>& prices);
+    //310
+    static vector<int> findMinHeightTrees(int n, vector<pair<int, int>>& edges);
+    //311
+    static vector<vector<int>> multiplySparseMatrix(vector<vector<int>>& A, vector<vector<int>>& B);
+    //312
+    static int maxCoins(vector<int>& nums);
+    //313
+    static int nthSuperUglyNumber(int n, vector<int>& primes);
+    //314
+    static vector<vector<int>> verticalOrder(TreeNode* root);
+    //315
+    static vector<int> countSmaller(vector<int>& nums);
+    //316
+    static string removeDuplicateLetters(string s);
 };
 

@@ -90,11 +90,11 @@ public:
 //https://www.topcoder.com/community/data-science/data-science-tutorials/range-minimum-query-and-lowest-common-ancestor/
 //https://www.hackerearth.com/practice/notes/segment-tree-and-lazy-propagation/
 
-int main() {
-    NumArray na({ 1, 2, 3, 4, 5, 6, 7 });
-    int s = 0;
-    s = na.sumRange(0, 2);
-    na.update(2, 10);
-    s = na.sumRange(0, 2);
-    return s;
-}
+//int main() {
+//    NumArray na({ 1, 2, 3, 4, 5, 6, 7 });
+//    int s = 0;
+//    s = na.sumRange(0, 2);
+//    na.update(2, 10);
+//    s = na.sumRange(0, 2);
+//    return s;
+//}

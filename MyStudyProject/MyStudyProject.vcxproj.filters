@@ -894,6 +894,27 @@
     <ClCompile Include="[309 - Best Time to Buy and Sell Stock with Cooldown].cpp">
       <Filter>Source Files\DP</Filter>
     </ClCompile>
+    <ClCompile Include="310 - Minimum Height Trees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="311 - Sparse Matrix Multiplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 312 - Burst Balloons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="313 - Super Ugly Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="314 - Binary Tree Vertical Order Traversal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="315 - Count of Smaller Numbers After Self.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="316 - Remove Duplicate Letters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

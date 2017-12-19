@@ -9,7 +9,16 @@
 //    transactions = [buy, sell, cooldown, buy, sell]
 
 #include "Header.h";
-//https://discuss.leetcode.com/topic/30421/share-my-thinking-process
+//https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/
+
+//Define Recursion
+//buy[i]: Max profit till index i.The series of transaction is ending with a buy.
+//sell[i] : Max profit till index i.The series of transaction is ending with a sell.
+//buy[i]: To make a decision whether to buy at i, we either take a rest, by just using the old decision at i - 1, or sell at / before i - 2, then buy at i, We cannot sell at i - 1, then buy at i, because of cooldown.
+//sell[i] : To make a decision whether to sell at i, we either take a rest, by just using the old decision at i - 1, or buy at / before i - 1, then sell at i.
+//So we get the following formula :
+//buy[i] = Math.max(buy[i - 1], sell[i - 2] - prices[i]);
+//sell[i] = Math.max(sell[i - 1], buy[i - 1] + prices[i]);
 int Solution::maxProfitCoolDown(vector<int>& prices) {
     int buy(INT_MIN), sell(0), prev_sell(0), prev_buy;
     for (int price : prices) {
