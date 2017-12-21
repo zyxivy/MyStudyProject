@@ -34,6 +34,9 @@
     <Filter Include="Source Files\Tree\Trie">
       <UniqueIdentifier>{2992b381-8826-4d5b-ba33-883b222f1c75}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Backtracking">
+      <UniqueIdentifier>{b8f0d1e4-8695-42fc-9081-cdfe145af49b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="002-AddTwoNumbers.cpp">
@@ -912,7 +915,22 @@
     <ClCompile Include="315 - Count of Smaller Numbers After Self.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="316 - Remove Duplicate Letters.cpp">
+    <ClCompile Include="[316 - Remove Duplicate Letters].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[317 - Shortest Distance from All Buildings].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="318 - Maximum Product of Word Lengths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[319 - Bulb Switcher].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[320 - Generalized Abbreviation].cpp">
+      <Filter>Source Files\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="321 - Create Maximum Number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

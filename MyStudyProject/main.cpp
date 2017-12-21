@@ -256,5 +256,5 @@ int main()
     //Codec::deserialize("");
 
     vector<int> a{ 5,2,6,1 };
-    Solution::countSmaller(a);
+    Solution::generateAbbreviations("word");
 }

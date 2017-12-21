@@ -878,5 +878,15 @@ public:
     static vector<int> countSmaller(vector<int>& nums);
     //316
     static string removeDuplicateLetters(string s);
+    //317
+    static int shortestDistance(vector<vector<int>> grid);
+    //318
+    static int maxProduct(vector<string>& words);
+    //319
+    static int bulbSwitch(int n);
+    //320
+    static vector<string> generateAbbreviations(string word);
+    //321
+    static vector<int> maxNumber(vector<int>& nums1, vector<int>& nums2, int k);
 };
 

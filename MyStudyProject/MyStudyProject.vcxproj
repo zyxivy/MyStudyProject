@@ -253,7 +253,12 @@
     <ClCompile Include="313 - Super Ugly Number.cpp" />
     <ClCompile Include="314 - Binary Tree Vertical Order Traversal.cpp" />
     <ClCompile Include="315 - Count of Smaller Numbers After Self.cpp" />
-    <ClCompile Include="316 - Remove Duplicate Letters.cpp" />
+    <ClCompile Include="318 - Maximum Product of Word Lengths.cpp" />
+    <ClCompile Include="321 - Create Maximum Number.cpp" />
+    <ClCompile Include="[319 - Bulb Switcher].cpp" />
+    <ClCompile Include="[320 - Generalized Abbreviation].cpp" />
+    <ClCompile Include="[316 - Remove Duplicate Letters].cpp" />
+    <ClCompile Include="[317 - Shortest Distance from All Buildings].cpp" />
     <ClCompile Include="[309 - Best Time to Buy and Sell Stock with Cooldown].cpp" />
     <ClCompile Include="[307 - Range Sum Query - Mutable].cpp" />
     <ClCompile Include="[279 - Perfect Squares].cpp" />
