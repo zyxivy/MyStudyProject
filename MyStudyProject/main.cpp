@@ -255,6 +255,8 @@ int main()
         { 0, 1, 1, 1 } };
     //Codec::deserialize("");
 
-    vector<int> a{ 5,2,6,1 };
-    Solution::generateAbbreviations("word");
+    vector<int> a{ 3, 4, 6, 5 };
+
+    vector<int>b{ 9, 1, 2, 5, 8, 3 };
+    Solution::maxNumber(a, b, 5);
 }
