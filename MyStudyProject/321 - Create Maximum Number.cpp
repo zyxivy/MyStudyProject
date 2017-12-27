@@ -18,7 +18,7 @@
 //https://discuss.leetcode.com/topic/36805/c-16ms-fastest-beats-97
 
 // create max number of length t from single non-empty vector
-void getMax(vector<int> num, int len, vector<int>& result, int k, int& sortedLen)
+void getMax(vector<int> num, int len, vector<int>& result, int k)
 {
     if (k <= 0) {
         return;
@@ -38,7 +38,6 @@ void getMax(vector<int> num, int len, vector<int>& result, int k, int& sortedLen
             top--;
         }
         if (i - top > need2Drop) {//
-            sortedLen = max(1, top);
             while (++top < k) result[top] = num[i++];
             return;
         }
@@ -50,38 +49,151 @@ void getMax(vector<int> num, int len, vector<int>& result, int k, int& sortedLen
 }
 
 // create max number of different length from single vector
-void getDP(vector<int> nums, int len, int minL, int maxL, vector<vector<int>>& vec, int& sortedLen, int k) {
-    getMax(nums, len, vec[vec.size() - 1], vec[vec.size() - 1].size(), sortedLen); //get the max numbers with the longest possible k
+void getDP(vector<int> nums, int len, int minL, int maxL, vector<vector<int>>& vec, int k) {
+    getMax(nums, len, vec[vec.size() - 1], vec[vec.size() - 1].size()); //get the max numbers with the longest possible k
     vector<int> prev = vec[vec.size() - 1];
-    for (int i = vec.size()-2; i >= max(minL - 1, 0); i--) {
+    for (int i = vec.size()-2; i >= 0; i--) {
         vector<int> v = vec[i];
         if (v.size() == 0) {
-            continue;
+            break;
         }
-        v[0] = prev[0];
-        if (v.size() < 2) {
-            prev = v;
-            vec[i] = v;
-            continue;
-        }
-        v[1] = prev[1];
-        int j = sortedLen;
-        for (; j < v.size() - 1; j++) {
+        int j = 0;
+        for (; j < v.size(); j++) {
+            v[j] = prev[j];
             if (v[j] < prev[j + 1]) {
-                sortedLen = max(1, j - 1);
                 for (int p = j; p < v.size(); p++) {
                     v[p] = prev[p + 1];
                 }
                 break;
             }
         }
-        if (j == v.size()) {
-            for (int p = j; p < v.size(); p++) {
-                v[p] = prev[p + 1];
-            }
-        }
+        //if (j < v.size()) {
+        //    for (int p = j; p < v.size(); p++) {
+        //        v[p] = prev[p + 1];
+        //    }
+        //}
         prev = v;
         vec[i] = v;
+    }
+}
+
+//vec1 < vec2 return false;
+bool compareVectors(vector<int> vec1, vector<int> vec2) {
+    if (vec1.empty()) {
+        return false;
+    }
+    if (vec2.empty()) {
+        return true;
+    }
+    if (vec1.size() != vec2.size()) {
+        return false;
+    }
+    int len = vec1.size();
+    for (int i = 0; i < len; i++) {
+        if (vec1[i] < vec2[i]) {
+            return false;
+        }
+        else if (vec1[i] > vec2[i]) {
+            return true;
+        }
+    }
+    return false;
+}
+void maxNumberMerge(vector<vector<int>> vec1, vector<vector<int>> vec2, vector<int>& res, int k) {
+    if (vec1.empty() || vec1[vec1.size() - 1].empty()) {
+        vector<int> vec = vec2[vec2.size() - 1];
+        int len = min(k, (int)vec.size());
+        for (int i = 0; i < len; i++) {
+            res.push_back(vec[i]);
+        }
+        return;
+    }
+    if (vec2.empty() || vec2[vec2.size() - 1].empty()) {
+        vector<int> vec = vec1[vec1.size() - 1];
+        int len = min(k, (int)vec.size());
+        for (int i = 0; i < len; i++) {
+            res.push_back(vec[i]);
+        }
+        return;
+    }
+    if (vec1.size() != vec2.size()) {
+        return;
+    }
+    int len = vec1.size();
+    for (int i = 0; i < len; i++) {
+        vector<int> v1 = vec1[i];
+        vector<int> v2 = vec2[len - i - 1];
+        vector<int> v(k, 0);
+        if (v1.empty()) {
+            v = v2;
+        }
+        else if (v2.empty()) {
+            v = v1;
+        }
+        else {
+            int p1 = 0, p2 = 0;
+            int j = 0;
+            for (j = 0; j < k; j++) {
+                if (p1 < v1.size() && p2<v2.size()) {
+                    if (v1[p1] == v2[p2]){
+                        int tmpP1 = p1;
+                        int tmpP2 = p2;
+                        while (tmpP1 < v1.size() && tmpP2 < v2.size() && v1[tmpP1]==v2[tmpP2]) {
+                            tmpP1++;
+                            tmpP2++;
+                        }
+                        if (tmpP1 < v1.size() && tmpP2 < v2.size()) {
+                            if (v1[tmpP1] > v2[tmpP2]) {
+                                v[j] = v1[p1];
+                                p1++;
+                            }
+                            else {
+                                v[j] = v2[p2];
+                                p2++;
+                            }
+                        }
+                        else if (tmpP1 == v1.size()) {
+                            v[j] = v2[p2];
+                            p2++;
+                        }
+                        else {
+                            v[j] = v1[p1];
+                            p1++;
+                        }
+                    }
+                    else if (v1[p1] > v2[p2]) {
+                        v[j] = v1[p1];
+                        p1++;
+                    }
+                    else {
+                        v[j] = v2[p2];
+                        p2++;
+                    }
+                }
+                else {
+                    break;
+                }
+            }
+            if (j < k){
+                if (p1 == v1.size()) {
+                    while (j < k && p2 < v2.size()) {
+                        v[j] = v2[p2];
+                        p2++;
+                        j++;
+                    }
+                }
+                else{
+                    while (j < k && p1 < v1.size()) {
+                        v[j] = v1[p1];
+                        p1++;
+                        j++;
+                    }
+                }
+            }
+        }
+        if (compareVectors(v, res)) {//v vector is greater than v;
+            res = v;
+        }
     }
 }
 
@@ -95,7 +207,6 @@ vector<int> Solution::maxNumber(vector<int>& nums1, vector<int>& nums2, int k) {
     int maxL2 = k - minL1; //same as min(k, len2);
 
     vector<int> result(k, 0);
-    int sortedLen1 = 1, sortedLen2 = 1;
     vector<vector<int>> vec1(maxL1 - minL1 + 1); //Stores the max numbers of different length from nums1. Length : minL1 ~ maxL1.
     vector<vector<int>> vec2(maxL2 - minL2 + 1); //Stores the max numbers of different length from nums2. Length : minL2 ~ maxL2.
     for (int l = minL1; l <= maxL1; l++) {
@@ -106,14 +217,15 @@ vector<int> Solution::maxNumber(vector<int>& nums1, vector<int>& nums2, int k) {
     }
 
     if (len1 == 0 && len2 > 0) {
-        getMax(nums2, len2, result, k, sortedLen2);
+        getMax(nums2, len2, result, k);
     }
     else if (len1 > 0 && len2 == 0) {
-        getMax(nums2, len2, result, k, sortedLen1);
+        getMax(nums1, len1, result, k);
     }
     else if (len1 > 0 && len2 > 0) {
-        getDP(nums1, len1, minL1, maxL1, vec1, sortedLen1, k);
-        getDP(nums2, len2, minL2, maxL2, vec2, sortedLen2, k);
+        getDP(nums1, len1, minL1, maxL1, vec1, k);
+        getDP(nums2, len2, minL2, maxL2, vec2, k);
+        maxNumberMerge(vec1, vec2, result, k);
     }
     return result;
 }

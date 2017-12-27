@@ -888,5 +888,11 @@ public:
     static vector<string> generateAbbreviations(string word);
     //321
     static vector<int> maxNumber(vector<int>& nums1, vector<int>& nums2, int k);
+    //322
+    static int coinChange(vector<int>& coins, int amount);
+    //323
+    static int countComponents(int n, vector<vector<int>> edges);
+    //324
+    static void wiggleSort(vector<int>& nums);
 };
 

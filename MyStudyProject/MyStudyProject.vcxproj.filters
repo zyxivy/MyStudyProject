@@ -933,6 +933,15 @@
     <ClCompile Include="321 - Create Maximum Number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="[322 - Coin Change].cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="323 - Number of Connected Components in an Undirected Graph.cpp">
+      <Filter>Source Files\UnionFind</Filter>
+    </ClCompile>
+    <ClCompile Include="324 - Wiggle Sort II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

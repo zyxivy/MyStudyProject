@@ -13,16 +13,12 @@ int quickSelectpartition(vector<int>& nums, int l, int r) {
     int pivot = nums[r];
     while (l < r) {
         if (nums[l]<pivot) {
-            int tmp = nums[l];
-            nums[l] = nums[wall];
-            nums[wall] = tmp;
+            swap(nums[wall], nums[l]);
             wall++;
         }
         l++;
     }
-    int tmp = nums[r];
-    nums[r] = nums[wall];
-    nums[wall] = tmp;
+    swap(nums[wall], nums[r]);
     return wall;
 }
 int quickSelect(vector<int>& nums, int k, int l, int r) {

@@ -255,6 +255,9 @@
     <ClCompile Include="315 - Count of Smaller Numbers After Self.cpp" />
     <ClCompile Include="318 - Maximum Product of Word Lengths.cpp" />
     <ClCompile Include="321 - Create Maximum Number.cpp" />
+    <ClCompile Include="323 - Number of Connected Components in an Undirected Graph.cpp" />
+    <ClCompile Include="324 - Wiggle Sort II.cpp" />
+    <ClCompile Include="[322 - Coin Change].cpp" />
     <ClCompile Include="[319 - Bulb Switcher].cpp" />
     <ClCompile Include="[320 - Generalized Abbreviation].cpp" />
     <ClCompile Include="[316 - Remove Duplicate Letters].cpp" />
