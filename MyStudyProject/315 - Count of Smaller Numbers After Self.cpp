@@ -10,36 +10,36 @@
 
 #include "Header.h";
 //vector<int> Solution::countSmaller(vector<int>& nums) {
-//    vector<int> result;
-//    if (nums.empty()) {
-//        return result;
-//    }
-//
-//     result.push_back(0);
-//    if (nums.size() == 1) {
-//        return result;
-//    }
-//
-//    int len = nums.size();
-//    for (int cur = len - 2; cur >= 0; cur--) {
-//        int i = cur + 1;
-//        int j = len - 1;
-//        while (i <= j && cur < i && cur < j && i<len && j<len) {
-//            int mid = i - (i - j) / 2;
-//            if (nums[cur] > nums[mid]) {
-//                j = mid - 1;
-//            }
-//            else{
-//                i = mid + 1;
-//            }
-//        }
-//        if (cur != j) {
-//            nums.insert(nums.begin() + j + 1, nums[cur]);
-//            nums.erase(nums.begin() + cur);
-//        }
-//        result.insert(result.begin(), len - j -1);
-//    }
-//    return result;
+    //vector<int> result;
+    //if (nums.empty()) {
+    //    return result;
+    //}
+
+    // result.push_back(0);
+    //if (nums.size() == 1) {
+    //    return result;
+    //}
+
+    //int len = nums.size();
+    //for (int cur = len - 2; cur >= 0; cur--) {
+    //    int i = cur + 1;
+    //    int j = len - 1;
+    //    while (i <= j && cur < i && cur < j && i<len && j<len) {
+    //        int mid = i - (i - j) / 2;
+    //        if (nums[cur] > nums[mid]) {
+    //            j = mid - 1;
+    //        }
+    //        else{
+    //            i = mid + 1;
+    //        }
+    //    }
+    //    if (cur != j) {
+    //        nums.insert(nums.begin() + j + 1, nums[cur]);
+    //        nums.erase(nums.begin() + cur);
+    //    }
+    //    result.insert(result.begin(), len - j -1);
+    //}
+    //return result;
 //}
 
 //https://discuss.leetcode.com/topic/31405/9ms-short-java-bst-solution-get-answer-when-building-bst/2

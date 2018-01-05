@@ -939,7 +939,16 @@
     <ClCompile Include="323 - Number of Connected Components in an Undirected Graph.cpp">
       <Filter>Source Files\UnionFind</Filter>
     </ClCompile>
-    <ClCompile Include="324 - Wiggle Sort II.cpp">
+    <ClCompile Include="[324 - Wiggle Sort II].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="325 - Maximum Size Subarray Sum Equals k.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="326 - Power of Three.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="327 - Count of Range Sum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

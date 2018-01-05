@@ -893,6 +893,12 @@ public:
     //323
     static int countComponents(int n, vector<vector<int>> edges);
     //324
-    static void wiggleSort(vector<int>& nums);
+    static void wiggleSortII(vector<int>& nums);
+    //325
+    static int maxSubArrayLen(vector<int> nums, int k);
+    //326
+    static bool isPowerOfThree(int n);
+    //327
+    static int countRangeSum(vector<int>& nums, int lower, int upper);
 };
 

@@ -14,7 +14,7 @@
 
 #include "Header.h";
 
-int findRoot(vector<int>& root, int id) {
+int findRootCountComponents(vector<int>& root, int id) {
     while (root[id] != id) {
         root[id] = root[root[id]];
         id = root[id];
@@ -28,8 +28,8 @@ int Solution::countComponents(int n, vector<vector<int>> edges) {
     }
 
     for (auto e:edges) {
-        int r1 = findRoot(root, e[0]);
-        int r2 = findRoot(root, e[1]);
+        int r1 = findRootCountComponents(root, e[0]);
+        int r2 = findRootCountComponents(root, e[1]);
         if (r1 != r2) {
             root[r1] = r2;
             n--;
