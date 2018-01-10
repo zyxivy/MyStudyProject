@@ -25,4 +25,5 @@ int Solution::maxSubArrayLen(vector<int> nums, int k) {
             mp[sum] = i;
         }
     }
+    return count;
 }

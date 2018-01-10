@@ -899,6 +899,12 @@ public:
     //326
     static bool isPowerOfThree(int n);
     //327
-    static int countRangeSum(vector<int>& nums, int lower, int upper);
+    static int countRangeSum(vector<int> nums, int lower, int upper);
+    //328
+    static ListNode* oddEvenList(ListNode* head);
+    //329
+    static int longestIncreasingPath(vector<vector<int>>& matrix);
+    //330
+    static int minPatches(vector<int>& nums, int n);
 };
 

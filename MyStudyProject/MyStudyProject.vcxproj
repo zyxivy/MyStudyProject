@@ -258,7 +258,10 @@
     <ClCompile Include="323 - Number of Connected Components in an Undirected Graph.cpp" />
     <ClCompile Include="325 - Maximum Size Subarray Sum Equals k.cpp" />
     <ClCompile Include="326 - Power of Three.cpp" />
-    <ClCompile Include="327 - Count of Range Sum.cpp" />
+    <ClCompile Include="328 - Odd Even Linked List.cpp" />
+    <ClCompile Include="329 - Longest Increasing Path in a Matrix.cpp" />
+    <ClCompile Include="330 - Patching Array.cpp" />
+    <ClCompile Include="[327 - Count of Range Sum].cpp" />
     <ClCompile Include="[324 - Wiggle Sort II].cpp" />
     <ClCompile Include="[322 - Coin Change].cpp" />
     <ClCompile Include="[319 - Bulb Switcher].cpp" />
