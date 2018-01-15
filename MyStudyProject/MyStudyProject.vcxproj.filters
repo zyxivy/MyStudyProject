@@ -960,6 +960,15 @@
     <ClCompile Include="330 - Patching Array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="331 - Verify Preorder Serialization of a Binary Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="332 - Reconstruct Itinerary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="333 - Largest BST Subtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

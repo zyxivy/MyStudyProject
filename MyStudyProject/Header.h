@@ -906,5 +906,9 @@ public:
     static int longestIncreasingPath(vector<vector<int>>& matrix);
     //330
     static int minPatches(vector<int>& nums, int n);
+    //331
+    static bool isValidSerialization(string preorder);
+    //332
+    static vector<string> findItinerary(vector<pair<string, string>> tickets);
 };
 

@@ -20,5 +20,18 @@
 //    Return 0.
 #include "Header.h";
 int Solution::minPatches(vector<int>& nums, int n) {
-
+    int missing = 0;
+    long nxtSum = 1;
+    int i = 0;
+    while (nxtSum <= n) {
+        if (i < nums.size() && nxtSum >= nums[i]) {
+            nxtSum += nums[i];
+            i++;
+        }
+        else {
+            missing++;
+            nxtSum = nxtSum + nxtSum;
+        }
+    }
+    return missing;
 }
