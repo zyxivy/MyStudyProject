@@ -910,5 +910,7 @@ public:
     static bool isValidSerialization(string preorder);
     //332
     static vector<string> findItinerary(vector<pair<string, string>> tickets);
+    //333
+    static  int largestBSTSubtree(TreeNode* root);
 };
 
