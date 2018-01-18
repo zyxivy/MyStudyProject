@@ -258,8 +258,5 @@ int main()
     vector<int> a{ 1,5,10 };
 
     vector<int>b{ 9,7,7,1,3,6,8,6,9,6,0,4,3,6,6,1,0,4,6,2,2,6,4,6,0,4,9,7,4,9,8,4,9,8,4,6,6,5,8,2,8,6,6,6,1,0,9,0,8,0,4,0,4,4,1,7,9,8,4,2,2,0,3,2,3,9,1,8,9,5,2,7,9,2,7,7,8,5,4,4,8,6,5,5,9,6,1,4,6,0,8,5,3,4,2,0,0,9,5,2 };
-    Solution::findItinerary(
-        {
-            { { "EZE","TIA" },{ "EZE","HBA" },{ "AXA","TIA" },{ "JFK","AXA" },{ "ANU","JFK" },{ "ADL","ANU" },{ "TIA","AUA" },{ "ANU","AUA" },{ "ADL","EZE" },{ "ADL","EZE" },{ "EZE","ADL" },{ "AXA","EZE" },{ "AUA","AXA" },{ "JFK","AXA" },{ "AXA","AUA" },{ "AUA","ADL" },{ "ANU","EZE" },{ "TIA","ADL" },{ "EZE","ANU" },{ "AUA","ANU" } }
-        });
+    Solution::palindromePairs({ "abcd", "dcba", "lls", "s", "sssll" });
 }

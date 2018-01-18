@@ -143,6 +143,20 @@ private:
     TrieNode* searchNode(string word);
 };
 
+class NestedInteger {
+public:
+    // @return true if this NestedInteger holds a single integer, rather than a nested list.
+    bool isInteger() const;
+
+    // @return the single integer that this NestedInteger holds, if it holds a single integer
+    // Return null if this NestedInteger holds a nested list
+    bool getInteger() const;
+
+    // @return the nested list that this NestedInteger holds, if it holds a nested list
+    // Return null if this NestedInteger holds a single integer
+    const vector<NestedInteger> &getList() const;
+};
+
 class WordDictionary {
 public:
     /** Initialize your data structure here. */
@@ -912,5 +926,29 @@ public:
     static vector<string> findItinerary(vector<pair<string, string>> tickets);
     //333
     static  int largestBSTSubtree(TreeNode* root);
+    //334
+    static bool increasingTriplet(vector<int>& nums);
+    //335
+    static bool isSelfCrossing(vector<int>& x);
+    //336
+    static vector<vector<int>> palindromePairs(vector<string> words);
+    //337
+    static int rob(TreeNode* root);
+    //338
+    static vector<int> countBits(int num);
+    //339
+    static int Solution::depthSum(vector<NestedInteger>& nestedList);
+    //340
+    static int lengthOfLongestSubstringKDistinct(string s, int k);
+    //342
+    static bool isPowerOfFour(int num);
+    //343
+    static int integerBreak(int n);
+    //344 
+    static string reverseString(string s);
+    //345
+    static string reverseVowels(string s);
+    //347
+    static vector<int> topKFrequent(vector<int>& nums, int k);
 };
 
