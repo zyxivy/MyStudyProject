@@ -6,5 +6,20 @@
 //Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
 #include "Header.h";
 vector<int> Solution::topKFrequent(vector<int>& nums, int k) {
+    map<int, int> mp;
+    for (int n : nums) {
+        mp[n]++;
+    }
 
+    vector<int> ans;
+    priority_queue<pair<int, int>> pq;
+    int pqSize = mp.size() - k;
+    for (map<int, int>::iterator it = mp.begin(); it != mp.end(); it++) {
+        pq.push(make_pair(it->second, it->first));
+        if (pq.size() > pqSize) {
+            ans.push_back(pq.top().second);
+            pq.pop();
+        }
+    }
+    return ans;
 }

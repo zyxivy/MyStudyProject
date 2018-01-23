@@ -1011,6 +1011,18 @@
     <ClCompile Include="347 - Top K Frequent Elements.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="348 - Design Tic-Tac-Toe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="349 - Intersection of Two Arrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="350 - Intersection of Two Arrays II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="351 - Android Unlock Patterns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

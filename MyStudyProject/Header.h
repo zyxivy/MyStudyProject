@@ -950,5 +950,11 @@ public:
     static string reverseVowels(string s);
     //347
     static vector<int> topKFrequent(vector<int>& nums, int k);
+    //349
+    static vector<int> intersection(vector<int>& nums1, vector<int>& nums2);
+    //350
+    static vector<int> intersectII(vector<int>& nums1, vector<int>& nums2);
+    //351
+    static int numberOfPatterns(int m, int n);
 };
 
