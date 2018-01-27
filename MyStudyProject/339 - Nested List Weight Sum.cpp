@@ -26,15 +26,15 @@
 int DFSdepthSum(vector<NestedInteger>& nestedList, int depth) {
     int n = (int)nestedList.size();
     int sum = 0;
-    for (int i = 0; i<n; i++) {
-        if (nestedList[i].isInteger()) {
-            sum += nestedList[i].getInteger()*depth;
-        }
-        else {
-            vector<NestedInteger> l = nestedList[i].getList();
-            sum += DFSdepthSum(l, depth + 1);
-        }
-    }
+    //for (int i = 0; i<n; i++) {
+    //    if (nestedList[i].isInteger()) {
+    //        sum += nestedList[i].getInteger()*depth;
+    //    }
+    //    else {
+    //        vector<NestedInteger> l = nestedList[i].getList();
+    //        sum += DFSdepthSum(l, depth + 1);
+    //    }
+    //}
     return sum;
 }
 

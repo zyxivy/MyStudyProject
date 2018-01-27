@@ -1020,7 +1020,28 @@
     <ClCompile Include="350 - Intersection of Two Arrays II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="351 - Android Unlock Patterns.cpp">
+    <ClCompile Include="000-351 - Android Unlock Patterns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="352 - Data Stream as Disjoint Intervals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="353 - Design Snake Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="354 - Russian Doll Envelopes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="355 - Design Twitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="356 - Line Reflection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="357 - Count Numbers with Unique Digits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="358 - Rearrange String k Distance Apart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

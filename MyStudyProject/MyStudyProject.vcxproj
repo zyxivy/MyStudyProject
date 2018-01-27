@@ -281,7 +281,14 @@
     <ClCompile Include="348 - Design Tic-Tac-Toe.cpp" />
     <ClCompile Include="349 - Intersection of Two Arrays.cpp" />
     <ClCompile Include="350 - Intersection of Two Arrays II.cpp" />
-    <ClCompile Include="351 - Android Unlock Patterns.cpp" />
+    <ClCompile Include="000-351 - Android Unlock Patterns.cpp" />
+    <ClCompile Include="352 - Data Stream as Disjoint Intervals.cpp" />
+    <ClCompile Include="353 - Design Snake Game.cpp" />
+    <ClCompile Include="354 - Russian Doll Envelopes.cpp" />
+    <ClCompile Include="355 - Design Twitter.cpp" />
+    <ClCompile Include="356 - Line Reflection.cpp" />
+    <ClCompile Include="357 - Count Numbers with Unique Digits.cpp" />
+    <ClCompile Include="358 - Rearrange String k Distance Apart.cpp" />
     <ClCompile Include="[327 - Count of Range Sum].cpp" />
     <ClCompile Include="[324 - Wiggle Sort II].cpp" />
     <ClCompile Include="[322 - Coin Change].cpp" />

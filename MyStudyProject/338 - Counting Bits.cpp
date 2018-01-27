@@ -13,4 +13,5 @@ vector<int> Solution::countBits(int num) {
     for (int i = 1; i <= num; i++) {
         f[i] = f[i&(i - 1)] + 1;
     }
+    return f;
 }

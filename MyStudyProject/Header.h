@@ -9,6 +9,7 @@ using namespace std;
 #include <math.h>
 #include <iostream>
 #include <unordered_set>
+#include <unordered_map>
 #include <queue>
 
 struct ListNode
@@ -956,5 +957,13 @@ public:
     static vector<int> intersectII(vector<int>& nums1, vector<int>& nums2);
     //351
     static int numberOfPatterns(int m, int n);
+    //354
+    static int maxEnvelopes(vector<pair<int, int>> envelopes);
+    //356
+    static bool isReflected(vector<pair<int, int>>& points);
+    //357
+    static int countNumbersWithUniqueDigits(int n);
+    //358
+    static string rearrangeString(string str, int k);
 };
 
