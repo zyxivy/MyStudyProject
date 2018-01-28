@@ -965,5 +965,11 @@ public:
     static int countNumbersWithUniqueDigits(int n);
     //358
     static string rearrangeString(string str, int k);
+    //360
+    static vector<int> sortTransformedArray(vector<int>& nums, int a, int b, int c);
+    //361
+    static int maxKilledEnemies(vector<vector<char>>& grid);
+    //363
+    static int maxSumSubmatrix(vector<vector<int>>& matrix, int k);
 };
 

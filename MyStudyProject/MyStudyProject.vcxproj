@@ -289,6 +289,11 @@
     <ClCompile Include="356 - Line Reflection.cpp" />
     <ClCompile Include="357 - Count Numbers with Unique Digits.cpp" />
     <ClCompile Include="358 - Rearrange String k Distance Apart.cpp" />
+    <ClCompile Include="359 - Logger Rate Limiter.cpp" />
+    <ClCompile Include="360 - Sort Transformed Array.cpp" />
+    <ClCompile Include="361 - Bomb Enemy.cpp" />
+    <ClCompile Include="362 - Design Hit Counter.cpp" />
+    <ClCompile Include="363 - Max Sum of Rectangle No Larger Than K.cpp" />
     <ClCompile Include="[327 - Count of Range Sum].cpp" />
     <ClCompile Include="[324 - Wiggle Sort II].cpp" />
     <ClCompile Include="[322 - Coin Change].cpp" />
