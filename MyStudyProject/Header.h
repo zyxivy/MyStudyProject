@@ -147,15 +147,22 @@ private:
 class NestedInteger {
 public:
     // @return true if this NestedInteger holds a single integer, rather than a nested list.
-    bool isInteger() const;
+    bool isInteger() {
+        return true;
+    }
 
     // @return the single integer that this NestedInteger holds, if it holds a single integer
     // Return null if this NestedInteger holds a nested list
-    bool getInteger() const;
+    bool getInteger() {
+        return true;
+    }
 
     // @return the nested list that this NestedInteger holds, if it holds a nested list
     // Return null if this NestedInteger holds a single integer
-    const vector<NestedInteger> &getList() const;
+    const vector<NestedInteger> &getList() {
+        vector<NestedInteger> ans;
+        return ans;
+    }
 };
 
 class WordDictionary {
@@ -971,5 +978,19 @@ public:
     static int maxKilledEnemies(vector<vector<char>>& grid);
     //363
     static int maxSumSubmatrix(vector<vector<int>>& matrix, int k);
+    //364
+    static int depthSumInverse(vector<NestedInteger>& nestedList);
+    //365
+    static bool canMeasureWater(int x, int y, int z);
+    //366
+    static vector<vector<int>> findLeaves(TreeNode* root);
+    //367
+    static bool isPerfectSquare(int num);
+    //368
+    static vector<int> largestDivisibleSubset(vector<int>& nums);
+    //369
+    static ListNode* plusOne(ListNode* head);
+    //370
+    static vector<int> getModifiedArray(int length, vector<vector<int>>& updates);
 };
 

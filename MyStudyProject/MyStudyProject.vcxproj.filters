@@ -37,6 +37,9 @@
     <Filter Include="Source Files\Backtracking">
       <UniqueIdentifier>{b8f0d1e4-8695-42fc-9081-cdfe145af49b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\BucketSort">
+      <UniqueIdentifier>{e0415b57-ed3d-4bdd-b89c-ec88bce05291}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="002-AddTwoNumbers.cpp">
@@ -181,9 +184,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="000-054-Spiral Matrix.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="[055-Jump Game].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="056-Merge Intervals.cpp">
@@ -492,9 +492,6 @@
     <ClCompile Include="165 - Compare Version Numbers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="[164 - Maximum Gap].cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="[166 - Fraction to Recurring Decimal].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -547,9 +544,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="191 - Number of 1 Bits.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="198 - House Robber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="201 - Bitwise AND of Numbers Range.cpp">
@@ -775,9 +769,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="273 - Integer to English Words   .cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="274 - H-Index.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="275 - H-Index II.cpp">
@@ -1056,7 +1047,40 @@
     <ClCompile Include="362 - Design Hit Counter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="363 - Max Sum of Rectangle No Larger Than K.cpp">
+    <ClCompile Include="198 - House Robber.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="[055-Jump Game].cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="[164 - Maximum Gap].cpp">
+      <Filter>Source Files\BucketSort</Filter>
+    </ClCompile>
+    <ClCompile Include="274 - H-Index.cpp">
+      <Filter>Source Files\BucketSort</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 363 - Max Sum of Rectangle No Larger Than K.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="364 - Nested List Weight Sum II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="365 - Water and Jug Problem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="366 - Find Leaves of Binary Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="367 - Valid Perfect Square.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="368 - Largest Divisible Subset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="369 - Plus One Linked List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="370 - Range Addition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

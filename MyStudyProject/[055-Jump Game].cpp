@@ -18,7 +18,7 @@ bool Solution::canJump(vector<int>& nums) {
     }
     int maxReach = nums[0];
     int start = 0;
-    for (start = 0;start <= maxReach&&start < nums.size();start++) {
+    for (start = 0; start <= maxReach && start < nums.size(); start++) {
         if (nums[start] + start > maxReach) {
             maxReach = nums[start] + start;
         }

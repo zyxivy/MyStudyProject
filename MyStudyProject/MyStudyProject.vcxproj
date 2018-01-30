@@ -293,7 +293,14 @@
     <ClCompile Include="360 - Sort Transformed Array.cpp" />
     <ClCompile Include="361 - Bomb Enemy.cpp" />
     <ClCompile Include="362 - Design Hit Counter.cpp" />
-    <ClCompile Include="363 - Max Sum of Rectangle No Larger Than K.cpp" />
+    <ClCompile Include="000 - 363 - Max Sum of Rectangle No Larger Than K.cpp" />
+    <ClCompile Include="364 - Nested List Weight Sum II.cpp" />
+    <ClCompile Include="365 - Water and Jug Problem.cpp" />
+    <ClCompile Include="366 - Find Leaves of Binary Tree.cpp" />
+    <ClCompile Include="367 - Valid Perfect Square.cpp" />
+    <ClCompile Include="368 - Largest Divisible Subset.cpp" />
+    <ClCompile Include="369 - Plus One Linked List.cpp" />
+    <ClCompile Include="370 - Range Addition.cpp" />
     <ClCompile Include="[327 - Count of Range Sum].cpp" />
     <ClCompile Include="[324 - Wiggle Sort II].cpp" />
     <ClCompile Include="[322 - Coin Change].cpp" />
