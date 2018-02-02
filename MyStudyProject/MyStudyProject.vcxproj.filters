@@ -1083,6 +1083,9 @@
     <ClCompile Include="370 - Range Addition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="371 - Sum of Two Integers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

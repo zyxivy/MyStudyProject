@@ -301,6 +301,7 @@
     <ClCompile Include="368 - Largest Divisible Subset.cpp" />
     <ClCompile Include="369 - Plus One Linked List.cpp" />
     <ClCompile Include="370 - Range Addition.cpp" />
+    <ClCompile Include="371 - Sum of Two Integers.cpp" />
     <ClCompile Include="[327 - Count of Range Sum].cpp" />
     <ClCompile Include="[324 - Wiggle Sort II].cpp" />
     <ClCompile Include="[322 - Coin Change].cpp" />

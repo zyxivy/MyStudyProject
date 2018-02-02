@@ -992,5 +992,7 @@ public:
     static ListNode* plusOne(ListNode* head);
     //370
     static vector<int> getModifiedArray(int length, vector<vector<int>>& updates);
+    //371
+    static int getSum(int a, int b);
 };
 

@@ -1,4 +1,4 @@
-//Assume you have an array of length n initialized with all 0's and are given k update operations.
+﻿//Assume you have an array of length n initialized with all 0's and are given k update operations.
 //Each operation is represented as a triplet : [startIndex, endIndex, inc] which increments each element of subarray A[startIndex ... endIndex](startIndex and endIndex inclusive) with inc.
 //Return the modified array after all k operations were executed.
 //Example :
@@ -33,6 +33,19 @@
 //                    The optimal time complexity is O(k + n) and uses O(1) extra space.
 
 #include "Header.h";
-vector<int> Solution::getModifiedArray(int length, vector<vector<int>>& updates) {
 
+//在开头坐标startIndex位置加上inc，而在结束位置加1的地方加上 - inc，
+//那么根据题目中的例子，我们可以得到一个数组，nums = { -2, 2, 3, 2, -2, -3 }，
+//然后我们发现对其做累加和就是我们要求的结果result = { -2, 0, 3, 5, 3 }，
+vector<int> Solution::getModifiedArray(int length, vector<vector<int>>& updates) {
+    vector<int> res(length + 1);
+    for (auto a : updates) {
+        res[a[0]] += a[2];
+        res[a[1] + 1] -= a[2];
+    }
+    for (int i = 1; i < res.size(); ++i) {
+        res[i] += res[i - 1];
+    }
+    res.pop_back();
+    return res;
 }
