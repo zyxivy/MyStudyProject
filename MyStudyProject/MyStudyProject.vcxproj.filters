@@ -1083,10 +1083,16 @@
     <ClCompile Include="370 - Range Addition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="371 - Sum of Two Integers.cpp">
+    <ClCompile Include="460 - Least Frequently Used Cache.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="460 - Least Frequently Used Cache.cpp">
+    <ClCompile Include="372 - Super Pow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[371 - Sum of Two Integers].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="373 - Find K Pairs with Smallest Sums.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

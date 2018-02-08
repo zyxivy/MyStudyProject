@@ -994,5 +994,9 @@ public:
     static vector<int> getModifiedArray(int length, vector<vector<int>>& updates);
     //371
     static int getSum(int a, int b);
+    //372
+    static int superPow(int a, vector<int>& b);
+    //373
+    static vector<pair<int, int>> Solution::kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k);
 };
 
