@@ -8,7 +8,7 @@
 
 #include "Header.h";
 
-int getSum(int n) {
+int getSumisHappy(int n) {
     int sum = 0;
     while (n>0) {
         sum += (n % 10)*(n % 10);
@@ -20,7 +20,7 @@ bool Solution::isHappy(int n) {
     set<int> s;
     while (s.find(n) == s.end()) {
         s.insert(n);
-        n = getSum(n);
+        n = getSumisHappy(n);
         if (n == 1) {
             return true;
         }
