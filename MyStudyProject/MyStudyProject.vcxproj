@@ -301,7 +301,11 @@
     <ClCompile Include="368 - Largest Divisible Subset.cpp" />
     <ClCompile Include="369 - Plus One Linked List.cpp" />
     <ClCompile Include="370 - Range Addition.cpp" />
-    <ClCompile Include="373 - Find K Pairs with Smallest Sums.cpp" />
+    <ClCompile Include="374 - Guess Number Higher or Lower.cpp" />
+    <ClCompile Include="375 - Guess Number Higher or Lower II.cpp" />
+    <ClCompile Include="376 - Wiggle Subsequence.cpp" />
+    <ClCompile Include="377 - Combination Sum IV.cpp" />
+    <ClCompile Include="[373 - Find K Pairs with Smallest Sums].cpp" />
     <ClCompile Include="[371 - Sum of Two Integers].cpp" />
     <ClCompile Include="372 - Super Pow.cpp" />
     <ClCompile Include="460 - Least Frequently Used Cache.cpp" />

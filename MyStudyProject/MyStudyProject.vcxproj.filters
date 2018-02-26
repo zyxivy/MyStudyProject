@@ -1092,7 +1092,19 @@
     <ClCompile Include="[371 - Sum of Two Integers].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="373 - Find K Pairs with Smallest Sums.cpp">
+    <ClCompile Include="[373 - Find K Pairs with Smallest Sums].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="374 - Guess Number Higher or Lower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="375 - Guess Number Higher or Lower II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="376 - Wiggle Subsequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="377 - Combination Sum IV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

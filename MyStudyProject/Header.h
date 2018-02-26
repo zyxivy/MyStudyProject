@@ -998,5 +998,11 @@ public:
     static int superPow(int a, vector<int>& b);
     //373
     static vector<pair<int, int>> Solution::kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k);
+    //375
+    static int getMoneyAmount(int n);
+    //376
+    static int wiggleMaxLength(vector<int>& nums);
+    //377
+    static int combinationSum4(vector<int>& nums, int target);
 };
 

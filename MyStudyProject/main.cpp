@@ -257,6 +257,6 @@ int main()
 
     vector<int> a{1};
 
-    vector<int>b{ 3,5,6,7,9,10};
-    Solution::kSmallestPairs(a, b, 4);
+    vector<int>b{ 1,17,5,10,13,15,10,5,16,8 };
+    Solution::wiggleMaxLength(b);
 }
