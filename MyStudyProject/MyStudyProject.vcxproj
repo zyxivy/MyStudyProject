@@ -305,6 +305,12 @@
     <ClCompile Include="375 - Guess Number Higher or Lower II.cpp" />
     <ClCompile Include="376 - Wiggle Subsequence.cpp" />
     <ClCompile Include="377 - Combination Sum IV.cpp" />
+    <ClCompile Include="378 - Kth Smallest Element in a Sorted Matrix.cpp" />
+    <ClCompile Include="392 - Is Subsequence.cpp" />
+    <ClCompile Include="403 - Frog Jump.cpp" />
+    <ClCompile Include="410 - Split Array Largest Sum.cpp" />
+    <ClCompile Include="413 - Arithmetic Slices.cpp" />
+    <ClCompile Include="416 - Partition Equal Subset Sum.cpp" />
     <ClCompile Include="[373 - Find K Pairs with Smallest Sums].cpp" />
     <ClCompile Include="[371 - Sum of Two Integers].cpp" />
     <ClCompile Include="372 - Super Pow.cpp" />

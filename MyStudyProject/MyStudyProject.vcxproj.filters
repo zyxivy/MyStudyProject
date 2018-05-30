@@ -1107,6 +1107,24 @@
     <ClCompile Include="377 - Combination Sum IV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="378 - Kth Smallest Element in a Sorted Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="392 - Is Subsequence.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="403 - Frog Jump.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="410 - Split Array Largest Sum.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="416 - Partition Equal Subset Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="413 - Arithmetic Slices.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

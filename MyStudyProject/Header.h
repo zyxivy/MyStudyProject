@@ -1004,5 +1004,15 @@ public:
     static int wiggleMaxLength(vector<int>& nums);
     //377
     static int combinationSum4(vector<int>& nums, int target);
+    //378
+    static int kthSmallest(vector<vector<int>>& matrix, int k);
+	//403
+	static bool canCross(vector<int>& stones);
+	//410
+	static int splitArray(vector<int>& nums, int m);
+	//413
+	static int numberOfArithmeticSlices(vector<int>& A);
+	//416
+	static bool canPartition(vector<int>& nums);
 };
 
