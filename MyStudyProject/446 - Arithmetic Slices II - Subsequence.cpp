@@ -44,7 +44,7 @@ int numberOfArithmeticSlices(vector<int>& A) {
     int begin = 0;
     int step = 1;
     while (begin < n - 2) {
-        step = 1;
+        
 
         begin++;
     }
