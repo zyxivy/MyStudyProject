@@ -55,7 +55,7 @@ int Solution::splitArray(vector<int>& nums, int m) {
 			left = mid + 1;
 		}
 	}
-
+    return left;
 
 	// The method, in DP idea, costs lots of time, but the logic is very eary and clear.
 	//用时蛮长的，但思路比较清晰 

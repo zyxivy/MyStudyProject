@@ -32,24 +32,15 @@ bool Solution::canPartition(vector<int>& nums) {
 		return false;
 	}
 	target = target / 2;
-	sort(nums.begin(), nums.end());
 
-	int sum = 0;
-	int i = 0;
-	while(i<nums.size() && sum<target) {
-		sum += nums[i];
-		i++;
-	}
-	if (sum == target) {
-		sum = 0;
-		while (i < nums.size()) {
-			sum += nums[i];
-			i++;
-		}
-		return sum == target;
-	}
-	else
-	{
-		return false;
-	}
+    vector<bool> dp(target + 1, false);
+    dp[0] = true;
+    for (int n : nums) {
+        for (int i = target; i >= n; i--) {
+            if (dp[i - n]) {
+                dp[i] = true;
+            }
+        }
+    }
+    return dp[target];
 }

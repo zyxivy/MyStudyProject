@@ -310,7 +310,9 @@
     <ClCompile Include="403 - Frog Jump.cpp" />
     <ClCompile Include="410 - Split Array Largest Sum.cpp" />
     <ClCompile Include="413 - Arithmetic Slices.cpp" />
-    <ClCompile Include="416 - Partition Equal Subset Sum.cpp" />
+    <ClCompile Include="000 - 416 - Partition Equal Subset Sum.cpp" />
+    <ClCompile Include="418 - Sentence Screen Fitting.cpp" />
+    <ClCompile Include="446 - Arithmetic Slices II - Subsequence.cpp" />
     <ClCompile Include="[373 - Find K Pairs with Smallest Sums].cpp" />
     <ClCompile Include="[371 - Sum of Two Integers].cpp" />
     <ClCompile Include="372 - Super Pow.cpp" />

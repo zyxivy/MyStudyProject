@@ -1119,11 +1119,17 @@
     <ClCompile Include="410 - Split Array Largest Sum.cpp">
       <Filter>Source Files\DP</Filter>
     </ClCompile>
-    <ClCompile Include="416 - Partition Equal Subset Sum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="413 - Arithmetic Slices.cpp">
       <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 416 - Partition Equal Subset Sum.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="418 - Sentence Screen Fitting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="446 - Arithmetic Slices II - Subsequence.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

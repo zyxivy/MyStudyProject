@@ -1007,12 +1007,14 @@ public:
     //378
     static int kthSmallest(vector<vector<int>>& matrix, int k);
 	//403
-	static bool canCross(vector<int>& stones);
-	//410
-	static int splitArray(vector<int>& nums, int m);
-	//413
-	static int numberOfArithmeticSlices(vector<int>& A);
-	//416
-	static bool canPartition(vector<int>& nums);
+    static bool canCross(vector<int>& stones);
+    //410
+    static int splitArray(vector<int>& nums, int m);
+    //413
+    static int numberOfArithmeticSlices(vector<int>& A);
+    //416
+    static bool canPartition(vector<int>& nums);
+    //418
+    static int wordsTyping(vector<string>& sentence, int rows, int cols);
 };
 
