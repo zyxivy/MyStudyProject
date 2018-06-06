@@ -35,17 +35,8 @@
 //       [2, 6, 10]
 
 #include "Header.h";
+
+//https://leetcode.com/articles/arithmetic-slices-ii-subsequence/
 int numberOfArithmeticSlices(vector<int>& A) {
-    if (A.size() <= 2) {
-        return 0;
-    }
-
-    int n = A.size();
-    int begin = 0;
-    int step = 1;
-    while (begin < n - 2) {
-        
-
-        begin++;
-    }
+    return 0;
 }

@@ -40,18 +40,15 @@
     <Filter Include="Source Files\BucketSort">
       <UniqueIdentifier>{e0415b57-ed3d-4bdd-b89c-ec88bce05291}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Divide and Conquer">
+      <UniqueIdentifier>{ec938e20-8c8a-4257-8cf8-c91f3c36a325}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="002-AddTwoNumbers.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="003-Longest Substring Without Repeating Characters.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="005-Longest Palindromic Substring.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="006-ZigZag Conversion.cpp">
@@ -1125,11 +1122,20 @@
     <ClCompile Include="000 - 416 - Partition Equal Subset Sum.cpp">
       <Filter>Source Files\DP</Filter>
     </ClCompile>
-    <ClCompile Include="418 - Sentence Screen Fitting.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="000 - 446 - Arithmetic Slices II - Subsequence.cpp">
+      <Filter>Source Files\DP</Filter>
     </ClCompile>
-    <ClCompile Include="446 - Arithmetic Slices II - Subsequence.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="464 - Can I Win.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 418 - Sentence Screen Fitting.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="002-AddTwoNumbers.cpp">
+      <Filter>Source Files\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="005-Longest Palindromic Substring.cpp">
+      <Filter>Source Files\DP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

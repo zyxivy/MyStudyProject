@@ -17,6 +17,22 @@
 //cache.get(4);       // returns 4
 
 #include "Header.h";
+class LRUCache {
+public:
+    LRUCache(int capacity);
+    int get(int key);
+    void put(int key, int value);
+private:
+    int m_capacity;
+    struct CacheEntry {
+        int key;
+        int val;
+        CacheEntry(int x, int y) : key(x), val(y) {}
+    };
+    vector<CacheEntry> queue;
+    map<int, vector<CacheEntry>::iterator> mp;
+};
+//http://fisherlei.blogspot.com/2013/11/leetcode-lru-cache-solution.html
 LRUCache::LRUCache(int capacity) {
     m_capacity = capacity;
 }

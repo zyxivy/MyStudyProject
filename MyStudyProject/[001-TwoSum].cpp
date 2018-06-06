@@ -30,43 +30,56 @@ void quickSort(vector<int>& arr, int left, int right) {
     if (i < right)
         quickSort(arr, i, right);
 }
-
 vector<int> Solution::twoSum(vector<int>& nums, int target) {
-        vector<int> ret;
-        if (nums.size() == 0) {
-            return ret;
+    vector<int> ans(2, 0);
+    unordered_map<int, int> mp;
+    for (int i = 0; i < nums.size();i++) {
+        if (mp.count(target - nums[i])) {
+            ans[0] = mp[target-nums[i]];
+            ans[1] = i;
+            return ans;
         }
-
-        vector<int> copy(nums.size());
-        for (int i = 0;i < nums.size();i++) {
-            copy[i] = nums[i];
-        }
-
-        quickSort(copy, 0, copy.size() - 1);
-        int low = 0;
-        int high = copy.size()-1;
-        while (low < high) {       
-            if (copy[low] + copy[high] < target) {
-                low++;
-            }
-            else if (copy[low] + copy[high]>target)
-            {
-                high--;
-            }
-            else
-            {
-                break;
-            }
-        }
-
-        for (int i = 0;i < nums.size();i++) {
-            if (nums[i] == copy[low] || nums[i]==copy[high]) {
-                ret.push_back(i);
-            }
-        }
-
-        return ret;
+        mp[nums[i]] = i;    
     }
+    return ans;
+}
+
+//vector<int> Solution::twoSum(vector<int>& nums, int target) {
+//        vector<int> ret;
+//        if (nums.size() == 0) {
+//            return ret;
+//        }
+//
+//        vector<int> copy(nums.size());
+//        for (int i = 0;i < nums.size();i++) {
+//            copy[i] = nums[i];
+//        }
+//
+//        quickSort(copy, 0, copy.size() - 1);
+//        int low = 0;
+//        int high = copy.size()-1;
+//        while (low < high) {       
+//            if (copy[low] + copy[high] < target) {
+//                low++;
+//            }
+//            else if (copy[low] + copy[high]>target)
+//            {
+//                high--;
+//            }
+//            else
+//            {
+//                break;
+//            }
+//        }
+//
+//        for (int i = 0;i < nums.size();i++) {
+//            if (nums[i] == copy[low] || nums[i]==copy[high]) {
+//                ret.push_back(i);
+//            }
+//        }
+//
+//        return ret;
+//    }
 
 //int main()
 //{

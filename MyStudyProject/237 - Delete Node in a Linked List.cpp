@@ -3,5 +3,7 @@
 #include "Header.h";
 
 void Solution::deleteNode(ListNode* node) {
-    *node = *node->next;
+    ListNode* next = node->next;
+    *node = *next;
+    delete next;
 }

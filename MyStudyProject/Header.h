@@ -53,21 +53,6 @@ struct RandomListNode {
     RandomListNode *next, *random;
      RandomListNode(int x) : label(x), next(NULL), random(NULL) {}
  };
-class LRUCache {
-public:
-    LRUCache(int capacity);
-    int get(int key); 
-    void put(int key, int value);
-private:
-    int m_capacity;
-    struct CacheEntry {
-        int key;
-        int val;
-        CacheEntry(int x, int y) : key(x), val(y) {}
-    };
-    vector<CacheEntry> queue;
-    map<int, vector<CacheEntry>::iterator> mp;
-};
 
 struct Point {
     int x;
@@ -1016,5 +1001,7 @@ public:
     static bool canPartition(vector<int>& nums);
     //418
     static int wordsTyping(vector<string>& sentence, int rows, int cols);
+    //464
+    static bool canIWin(int maxChoosableInteger, int desiredTotal);
 };
 

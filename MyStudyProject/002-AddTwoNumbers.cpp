@@ -7,30 +7,29 @@
 
 
 ListNode* Solution::addTwoNumbers(ListNode* l1, ListNode* l2) {
-        int carry = 0;
-        ListNode* ret = new ListNode(-1);
-        ListNode* head = ret;
+    int carry = 0;
+    ListNode* l = new ListNode(0);
+    ListNode* h = l;
+    while (l1 || l2) {
+        int v1 = l1 != nullptr ? l1->val : 0;
+        int v2 = l2 != nullptr ? l2->val : 0;
+        int v = v1 + v2 + carry;
+        carry = v / 10;
+        v = v % 10;
+        ListNode* t = new ListNode(v);
+        l->next = t;
+        l1 = l1 != nullptr ? l1->next : l1;
+        l2 = l2 != nullptr ? l2->next : l2;
 
-        while (l1 || l2) {
-            int v1 = l1 != NULL ? l1->val : 0;
-            int v2 = l2 != NULL ? l2->val : 0;
-
-            ListNode* tmp = new ListNode((v1 + v2 + carry) % 10);
-            tmp->val = (v1 + v2 + carry) % 10;
-            carry = (v1 + v2 + carry) / 10;
-            l1 = l1 != NULL ? l1->next : l1;;
-            l2 = l2 != NULL ? l2->next : l2;;
-            ret->next = tmp;
-            ret = ret->next;
-        }
-
-        if (carry > 0) {
-            ListNode* tmp = new ListNode(carry);
-            ret->next = tmp;
-        }
-        head = head->next;
-        return head;
+        l = l->next;
     }
+
+    if (carry) {
+        ListNode* t = new ListNode(carry);
+        l->next = t;
+    }
+    return h->next;
+}
 
 //int main()
 //{
