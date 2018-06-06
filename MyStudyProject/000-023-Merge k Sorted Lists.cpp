@@ -30,7 +30,7 @@ ListNode* Solution::mergeKLists(vector<ListNode*>& lists) {
     while (end>0) {
         int begin = 0;
         while (begin<end) {
-            lists[begin] = merge2Lists(lists[begin], lists[end]);
+            lists[begin] = merge2Lists(lists[begin], lists[end]); 
             begin++;
             end--;
         }
