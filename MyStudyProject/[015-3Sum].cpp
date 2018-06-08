@@ -79,6 +79,39 @@ vector<vector<int>> KSum(vector<int>& nums, int target, int begin, int K) {
 vector<vector<int>> Solution::threeSum(vector<int>& nums) {
     qsort(&(nums[0]), nums.size(), sizeof(int), quickSortcompr);
 
-    vector<vector<int>> ret = KSum(nums, 0, 0, 3);
-    return ret;
+    //vector<vector<int>> ret = KSum(nums, 0, 0, 3);
+    //return ret;
+
+    sort(nums.begin(), nums.end());
+    vector<vector<int>> ans;
+    if (nums.size() < 3) {
+        return ans;
+    }
+    for (int i = 0; i < nums.size() - 2; i++) {
+        if (i == 0 || nums[i] != nums[i - 1]) {
+            int target = 0 - nums[i];
+            int lo = i + 1;
+            int hi = nums.size() - 1;
+            while (lo < hi) {
+                if (nums[lo] + nums[hi] == target) {
+                    vector<int> result;
+                    result.push_back(nums[i]);
+                    result.push_back(nums[lo]);
+                    result.push_back(nums[hi]);
+                    ans.push_back(result);
+                    while(nums[lo] == nums[lo+1])
+                        lo++;
+                    while (nums[hi] == nums[hi + 1])
+                        hi++;
+                }
+                else if (nums[lo] + nums[hi] > target) {
+                    hi--;
+                }
+                else {
+                    lo++;
+                }
+            }
+        }
+    }
+    return ans;
 }

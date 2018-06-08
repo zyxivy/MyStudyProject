@@ -8,6 +8,8 @@
 
 #include "Header.h";
 
+//Find smallest value first Question 153
+//binary search
 int Solution::search(vector<int>& nums, int target) {
     int l = 0;
     int r = nums.size() - 1;

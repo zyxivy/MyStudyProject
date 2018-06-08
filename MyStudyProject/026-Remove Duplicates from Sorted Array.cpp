@@ -9,35 +9,15 @@
 #include "Header.h";
 
 int Solution::removeDuplicates(vector<int>& nums) {
-	int i = 0;
-	int j = 1;
-	if (nums.size() < 2) {
-		return nums.size();
-	}
-	while (i < nums.size() && j < nums.size()) {
-		if (nums[i] == nums[j]) {
-			nums[j] = INT_MIN;
-			j++;
-		}
-		else {
-			i = j;
-			j = i + 1;
-		}
-	}
-	i = 0; j = 0;
-	while (i < nums.size() && nums[i] != INT_MIN) {
-		i++;
-	}
-	j = i + 1;
-	while (i < nums.size() && j < nums.size()) {
-		if (nums[j] != INT_MIN) {
-			nums[i] = nums[j];
-			i++;
-			j++;
-		}
-		else {
-			j++;
-		}
-	}
-	return i;
+    int i = 0;
+    int j = 1;
+    if (nums.size() < 2) {
+        return nums.size();
+    }
+    for (j = 1; j < nums.size(); j++) {
+        if (nums[i] != nums[j]) {
+            nums[++i] = nums[j];
+        }
+    }
+    return i+1;
 }

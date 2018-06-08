@@ -73,13 +73,16 @@ bool nextPermutationL(vector<int>& nums) {
     return true;
 }
 
+//https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
 
 vector<vector<int>> Solution::permute(vector<int>& nums) {
-    quicksort(nums, 0, nums.size() - 1);
-    vector<vector<int>> ret;
-    ret.push_back(nums);
-    while (nextPermutationL(nums)) {
-        ret.push_back(nums);
-    }
-    return ret;
+    //quicksort(nums, 0, nums.size() - 1);
+    //vector<vector<int>> ret;
+    //ret.push_back(nums);
+    //while (nextPermutationL(nums)) {
+    //    ret.push_back(nums);
+    //}
+    //return ret;
+
+    //BACKTRACKING
 }

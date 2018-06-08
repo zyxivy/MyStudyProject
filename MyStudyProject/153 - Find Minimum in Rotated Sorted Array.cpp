@@ -30,7 +30,7 @@ int Solution::findMin(vector<int>& nums) {
             i = mid + 1;
         }
         else {
-            j--;
+            j=mid;
         }
     }
     return nums[i];

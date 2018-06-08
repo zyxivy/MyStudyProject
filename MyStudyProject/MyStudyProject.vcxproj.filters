@@ -159,9 +159,6 @@
     <ClCompile Include="[045-Jump Game II].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="046-Permutations.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="[048-Rotate Image].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -726,9 +723,6 @@
     <ClCompile Include="257 - Binary Tree Paths.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="258 - Add Digits.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="259 - 3Sum Smaller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1136,6 +1130,12 @@
     </ClCompile>
     <ClCompile Include="005-Longest Palindromic Substring.cpp">
       <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="[258 - Add Digits].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="046-Permutations.cpp">
+      <Filter>Source Files\Backtracking</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

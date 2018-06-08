@@ -15,6 +15,11 @@
 //    Reduce them to a single space in the reversed string.
 
 #include "Header.h";
+
+// step 1. reverse the whole string
+// step 2. reverse each word
+// step 3. clean up spaces
+
 void Solution::reverseWords(string &s) {
     int i = 0;
     while (i < s.length() && s[i] == ' ') {

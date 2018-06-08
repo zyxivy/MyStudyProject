@@ -14,6 +14,11 @@
 //    In this case, no transaction is done, i.e.max profit = 0.
 
 #include "Header.h";
+//                       ----
+//----\                  /
+//     \    ----\       /
+//      ---/     \     /
+//               ----/
 
 int Solution::maxProfit(vector<int>& prices) {
     if (prices.size() == 0) {

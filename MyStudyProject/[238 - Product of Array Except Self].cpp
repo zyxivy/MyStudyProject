@@ -6,17 +6,18 @@
 
 #include "Header.h";
 
-//http://yucoding.blogspot.com/2016/04/leetcode-question-product-of-array.html
+//https://leetcode.com/problems/product-of-array-except-self/discuss/65627/O(n)-time-and-O(1)-space-C++-solution-with-explanation
 vector<int> Solution::productExceptSelf(vector<int>& nums) {
-    vector<int> res(1, 1);
-    for (int i = 0; i<nums.size(); i++) {
-        res.push_back(res.back()*nums[i]);
+    int n = nums.size();
+    int fromBegin = 1;
+    int fromLast = 1;
+    vector<int> res(n, 1);
+
+    for (int i = 0; i<n; i++) {
+        res[i] *= fromBegin;
+        fromBegin *= nums[i];
+        res[n - 1 - i] *= fromLast;
+        fromLast *= nums[n - 1 - i];
     }
-    int b = 1;
-    for (int i = 0; i<nums.size(); i++) {
-        res[nums.size() - i - 1] = res[nums.size() - i - 1] * b;
-        b = b* nums[nums.size() - i - 1];
-    }
-    res.pop_back();
     return res;
 }
