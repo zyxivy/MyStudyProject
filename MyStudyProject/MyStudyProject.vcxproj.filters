@@ -243,9 +243,6 @@
     <ClCompile Include="[077-Combinations].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="079-Word Search.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="080-Remove Duplicates from Sorted Array II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -640,9 +637,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="234 - Palindrome Linked List.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="235 - Lowest Common Ancestor of a Binary Search Tree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="000 - 236 -  Lowest Common Ancestor of a Binary Tree.cpp">
@@ -1135,6 +1129,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="046-Permutations.cpp">
+      <Filter>Source Files\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="419 - Battleships in a Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="235 - Lowest Common Ancestor of a Binary Search Tree.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="079-Word Search.cpp">
       <Filter>Source Files\Backtracking</Filter>
     </ClCompile>
   </ItemGroup>

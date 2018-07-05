@@ -257,8 +257,8 @@ int main()
 
     vector<int> a{1};
 
-    vector<int>b{ 1,2,3,4,5,6,7 };
-    Solution::romanToInt("DCXXI");
+    vector<int>b{ 1,2,3,4,5 };
+    Solution::permute(b);
 
 
 	return 0;

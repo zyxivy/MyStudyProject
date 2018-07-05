@@ -56,6 +56,7 @@ double Solution::findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) 
     }
 
     if (len % 2 == 1) {
-        ans=
+        
     }
+    return 0;
 }

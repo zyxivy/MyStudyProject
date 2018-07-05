@@ -88,16 +88,6 @@ private:
     map<int, int> elements;
 };
 
-class BSTIterator {
-public:
-    BSTIterator(TreeNode *root);
-    /** @return whether we have a next smallest number */
-    bool hasNext();
-    /** @return the next smallest number */
-    int next();
-private:
-    TreeNode* m_root;
-};
 
 class TrieNode {
 public:
@@ -1003,5 +993,7 @@ public:
     static int wordsTyping(vector<string>& sentence, int rows, int cols);
     //464
     static bool canIWin(int maxChoosableInteger, int desiredTotal);
+    //419
+    static int countBattleships(vector<vector<char>>& board);
 };
 

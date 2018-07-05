@@ -4,21 +4,41 @@
 
 #include "Header.h";
 
+class BSTIterator {
+public:
+    BSTIterator(TreeNode *root);
+    /** @return whether we have a next smallest number */
+    bool hasNext();
+    /** @return the next smallest number */
+    int next();
+private:
+    stack<TreeNode*> st;
+
+    void pushAll(TreeNode* node) {
+        while (node) {
+            st.push(node);
+            node = node->left;
+        }
+    }
+};
+
 BSTIterator::BSTIterator(TreeNode *root) {
-    m_root = root;
+    pushAll(root);
 }
+
 
 /** @return whether we have a next smallest number */
 bool BSTIterator::hasNext() {
-    return m_root != NULL;
+    return !st.empty();
 }
 
 /** @return the next smallest number */
 int BSTIterator::next() {
-    int result = 0;
-    if (m_root) {
-        result = m_root->val;
-
+    if (st.empty()) {
+        return 0;
     }
-    return result;
+    TreeNode* node = st.top();
+    st.pop();
+    pushAll(node->right);
+    return node->val;
 }
