@@ -995,5 +995,11 @@ public:
     static bool canIWin(int maxChoosableInteger, int desiredTotal);
     //419
     static int countBattleships(vector<vector<char>>& board);
+	//047
+	static vector<vector<int>> permuteUnique(vector<int>& nums);
+	//387
+	static int firstUniqChar(string s);
+	//654
+	static TreeNode* constructMaximumBinaryTree(vector<int>& nums);
 };
 

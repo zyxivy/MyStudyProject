@@ -11,18 +11,16 @@
 //Return 6.
 #include "Header.h";
 
-int getMax(TreeNode* root, int &max) {
+int getMax(TreeNode* root, int &maxmax) {
     if (root == nullptr) {
         return 0;
     }
-    int left = getMax(root->left, max);
-    int right = getMax(root->right, max);
+    int left = max(0,getMax(root->left, maxmax));
+    int right = max(0,getMax(root->right, maxmax));
     int cur = root->val;
-    int curMax = (cur + left) > (cur + right) ? (cur + left) : (cur + right);
-    curMax = curMax > cur ? curMax : cur;
+	maxmax = max(maxmax, cur+left+right);
 
-    max = max > (curMax > (cur + left + right) ? curMax : (cur + left + right)) ? max : (curMax > (cur + left + right) ? curMax : (cur + left + right));
-    return curMax;
+    return max(left, right)+cur;//Once a path go down, it can't go up, hence max path through cur is either through left sub-tree or right sub-tree.
 }
 
 int Solution::maxPathSum(TreeNode* root) {

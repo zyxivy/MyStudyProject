@@ -11,29 +11,19 @@
 
 #include "Header.h";
 
-TreeNode* pNode = nullptr;
-bool lowestCommonAncestorPostOrderTraverse(TreeNode* node, TreeNode* p, TreeNode* q, bool& pMet, bool& qMet) {
-    if (node == nullptr) {
-        return false;
+TreeNode* lowestCommonAncestorPostOrderTraverse(TreeNode* node, TreeNode* p, TreeNode* q) {
+    if (node == nullptr || node->val==p->val||node->val==q->val) {
+        return node;
     }
-    if (node->val == p->val) {
-        pMet = true;
-    }
-    if (node->val == q->val) {
-        qMet = true;
-    }
-    bool left = lowestCommonAncestorPostOrderTraverse(node->left, p, q, pMet, qMet);
-    bool right = lowestCommonAncestorPostOrderTraverse(node->right, p, q, pMet, qMet);
+	TreeNode* left = lowestCommonAncestorPostOrderTraverse(node->left, p, q);
+	TreeNode* right = lowestCommonAncestorPostOrderTraverse(node->right, p, q);
     if (left && right) {
-        pNode = node;
-        return true;
+        return node;
     }
-    return false;
+    return left != nullptr ? left : right;
 }
 TreeNode* Solution::lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
     TreeNode* node;
-    bool pMet = false;
-    bool qMet = false;
-    lowestCommonAncestorPostOrderTraverse(root, p, q, pMet, qMet);
-    return pNode;
+	node = lowestCommonAncestorPostOrderTraverse(root, p, q);
+    return node;
 }
