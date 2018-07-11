@@ -21,7 +21,7 @@ int Solution::jump2(vector<int>& nums) {
             lastReach = curReach;
             cnt++;
         }
-        curReach = curReach < i + nums[i] ? i + nums[i] : curReach;
+		curReach = max(curReach, nums[i] + i);
     }
     return cnt;
 }

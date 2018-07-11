@@ -579,9 +579,6 @@
     <ClCompile Include="000 - 214 - Shortest Palindrome.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="215 - Kth Largest Element in an Array.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="[015-3Sum].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -821,9 +818,6 @@
     </ClCompile>
     <ClCompile Include="298 - Binary Tree Longest Consecutive Sequence.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="297 - Serialize and Deserialize Binary Tree.cpp">
-      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="299 - Bulls and Cows.cpp">
       <Filter>Source Files</Filter>
@@ -1150,6 +1144,12 @@
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="445 - Add Two Numbers II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[297 - Serialize and Deserialize Binary Tree].cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="[215 - Kth Largest Element in an Array].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -10,7 +10,7 @@
 
 #include "Header.h";
 
-//The key is n--.The minimum in 26 - bit number is mapped to 1, not 0.
+//The key is n--.A map to 1 not 0;
 
 string Solution::convertToTitle(int n) {
     string str;

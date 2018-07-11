@@ -18,28 +18,25 @@
 #include "Header.h";
 vector<vector<int>> Solution::levelOrder(TreeNode* root) {
     vector<vector<int>> ret;
-    vector<TreeNode*> level;
+    queue<TreeNode*> level;
     if (!root) {
         return ret;
     }
-    level.push_back(root);
+    level.push(root);
     while (level.size() > 0) {
-        vector<TreeNode*> tmplevel;
         vector<int> line;
-        for (int i = 0;i < level.size() ;i++) {
-            line.push_back(level[i]->val);
-            if (level[i]->left){
-                tmplevel.push_back(level[i]->left);
+		int n = level.size();
+        for (int i = 0;i < n ;i++) {
+            line.push_back(level.front()->val);
+            if (level.front()->left){
+				level.push(level.front()->left);
             }
-            if (level[i]->right) {
-                tmplevel.push_back(level[i]->right);
+            if (level.front()->right) {
+				level.push(level.front()->right);
             }
+			level.pop();
         }
-        level.clear();
         ret.push_back(line);
-        if (tmplevel.size() > 0) {
-            level = tmplevel;
-        }
     }
     return ret;
 }

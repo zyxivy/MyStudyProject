@@ -174,7 +174,7 @@
     <ClCompile Include="000 - 212 - Word Search II.cpp" />
     <ClCompile Include="213 - House Robber II.cpp" />
     <ClCompile Include="000 - 214 - Shortest Palindrome.cpp" />
-    <ClCompile Include="215 - Kth Largest Element in an Array.cpp" />
+    <ClCompile Include="[215 - Kth Largest Element in an Array].cpp" />
     <ClCompile Include="217 - Contains Duplicate.cpp" />
     <ClCompile Include="218 - The Skyline Problem.cpp" />
     <ClCompile Include="219 - Contains Duplicate II.cpp" />
@@ -247,7 +247,7 @@
     <ClCompile Include="294 - Flip Game II.cpp" />
     <ClCompile Include="295 - Find Median from Data Stream.cpp" />
     <ClCompile Include="296 - Best Meeting Point.cpp" />
-    <ClCompile Include="297 - Serialize and Deserialize Binary Tree.cpp" />
+    <ClCompile Include="[297 - Serialize and Deserialize Binary Tree].cpp" />
     <ClCompile Include="298 - Binary Tree Longest Consecutive Sequence.cpp" />
     <ClCompile Include="299 - Bulls and Cows.cpp" />
     <ClCompile Include="300 - Longest Increasing Subsequence.cpp" />
