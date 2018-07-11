@@ -211,6 +211,7 @@
     <ClCompile Include="257 - Binary Tree Paths.cpp" />
     <ClCompile Include="387 - First Unique Character in a String.cpp" />
     <ClCompile Include="419 - Battleships in a Board.cpp" />
+    <ClCompile Include="445 - Add Two Numbers II.cpp" />
     <ClCompile Include="654 - Maximum Binary Tree.cpp" />
     <ClCompile Include="[258 - Add Digits].cpp" />
     <ClCompile Include="259 - 3Sum Smaller.cpp" />

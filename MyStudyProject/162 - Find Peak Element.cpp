@@ -21,4 +21,14 @@ int Solution::findPeakElement(vector<int>& nums) {
             return i;
     }
     return -1;
+
+	//
+	for (int i = 1; i < nums.size(); i++)
+	{
+		if (nums[i] < nums[i - 1])
+		{// <
+			return i - 1;
+		}
+	}
+	return nums.size() - 1;
 }

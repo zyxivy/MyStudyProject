@@ -20,5 +20,17 @@
 //	   The size of the given array will be in the range[1, 1000].
 #include "Header.h";
 TreeNode* Solution::constructMaximumBinaryTree(vector<int>& nums) {
-
+	vector<TreeNode*> st;
+	for (int i = 0; i < nums.size(); i++) {
+		TreeNode* node = new TreeNode(nums[i]);
+		while (!st.empty() && st.back()->val < nums[i]) {
+			node->left = st.back();
+			st.pop_back();
+		}
+		if (!st.empty()) {
+			st.back()->right = node;
+		}
+		st.push_back(node);
+	}
+	return st.front();
 }

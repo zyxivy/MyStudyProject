@@ -1147,6 +1147,9 @@
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="654 - Maximum Binary Tree.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="445 - Add Two Numbers II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1001,5 +1001,7 @@ public:
 	static int firstUniqChar(string s);
 	//654
 	static TreeNode* constructMaximumBinaryTree(vector<int>& nums);
+	//445
+	static ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 };
 
