@@ -381,7 +381,7 @@
     <ClCompile Include="000-090-Subsets II.cpp" />
     <ClCompile Include="092-Reverse Linked List II.cpp" />
     <ClCompile Include="093-Restore IP Addresses.cpp" />
-    <ClCompile Include="094-Binary Tree Inorder Traversal.cpp" />
+    <ClCompile Include="[094-Binary Tree Inorder Traversal].cpp" />
     <ClCompile Include="000-097-Interleaving String.cpp" />
     <ClCompile Include="000-098-Validate Binary Search Tree.cpp" />
     <ClCompile Include="099-Recover Binary Search Tree.cpp" />
@@ -396,9 +396,9 @@
     <ClCompile Include="109-Convert Sorted List to Binary Search Tree.cpp" />
     <ClCompile Include="110-Balanced Binary Tree.cpp" />
     <ClCompile Include="111-Minimum Depth of Binary Tree.cpp" />
-    <ClCompile Include="112-Path Sum.cpp" />
+    <ClCompile Include="[112-Path Sum].cpp" />
     <ClCompile Include="113-Path Sum II.cpp" />
-    <ClCompile Include="114-Flatten Binary Tree to Linked List.cpp" />
+    <ClCompile Include="114-[Flatten Binary Tree to Linked List].cpp" />
     <ClCompile Include="116-Populating Next Right Pointers in Each Node.cpp" />
     <ClCompile Include="117-Populating Next Right Pointers in Each Node II.cpp" />
     <ClCompile Include="118-Pascal%27s Triangle.cpp" />

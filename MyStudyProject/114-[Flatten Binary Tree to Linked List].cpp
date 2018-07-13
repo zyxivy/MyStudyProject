@@ -47,6 +47,20 @@ void preorderflatten(TreeNode* root) {
     }
     preorderflatten(root->right);
 }
+
+TreeNode* prevNode = nullptr;
 void Solution::flatten(TreeNode* root) {
     preorderflatten(root);
+
+
+	//method2
+	if (root == nullptr) {
+		return;
+	}
+	flatten(root->right);
+	flatten(root->left);
+	root->right = prevNode;
+	root->left = nullptr;
+	prevNode = root;
+
 }
