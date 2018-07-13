@@ -10,6 +10,7 @@
 
 #include "Header.h";
 class MyQueue {
+	stack<int> queue;
 public:
     /** Initialize your data structure here. */
     MyQueue() {
@@ -18,21 +19,37 @@ public:
 
     /** Push element x to the back of queue. */
     void push(int x) {
-
+		stack<int> temp;
+		while (!queue.empty()) {
+			temp.push(queue.top());
+			queue.pop();
+		}
+		queue.push(x);
+		while (!temp.empty()) {
+			queue.push(temp.top());
+			temp.pop();
+		}
     }
 
     /** Removes the element from in front of queue and returns that element. */
     int pop() {
-
+		int n = queue.top();
+		queue.pop();
+		return n;
     }
 
     /** Get the front element. */
     int peek() {
-
+		if (queue.empty()) {
+			return -1;
+		}
+		else {
+			return queue.top();
+		}
     }
 
     /** Returns whether the queue is empty. */
     bool empty() {
-
+		return queue.empty();
     }
 };

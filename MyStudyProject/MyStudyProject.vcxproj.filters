@@ -285,9 +285,6 @@
     <ClCompile Include="000-090-Subsets II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="[091-Decode Ways].cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="092-Reverse Linked List II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -298,12 +295,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="[115-Distinct Subsequences].cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="116-Populating Next Right Pointers in Each Node.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="117-Populating Next Right Pointers in Each Node II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="118-Pascal%27s Triangle.cpp">
@@ -1151,6 +1142,15 @@
     </ClCompile>
     <ClCompile Include="[215 - Kth Largest Element in an Array].cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="116-Populating Next Right Pointers in Each Node.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="117-Populating Next Right Pointers in Each Node II.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="[091-Decode Ways].cpp">
+      <Filter>Source Files\DP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
