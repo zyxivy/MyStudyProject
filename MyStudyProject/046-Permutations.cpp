@@ -75,17 +75,17 @@ bool nextPermutationL(vector<int>& nums) {
 
 //https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
 
-void permuteBackTracking(vector<int> nums, vector<vector<int>>& results, vector<int>& curr, unordered_set<int>& st, int start, int len) {
-    if (curr.size() == len) {
+void permuteBackTracking(vector<int> nums, vector<vector<int>>& results, vector<int>& curr, unordered_set<int>& st) {
+    if (curr.size() == nums.size()) {
         results.push_back(curr);
         return;
     }
-    for (int i = start; i < len; i++) {
+    for (int i = 0; i < nums.size(); i++) {
         if (st.count(nums[i]))
             continue;
         curr.push_back(nums[i]);
         st.insert(nums[i]);
-        permuteBackTracking(nums, results, curr, st, i+1, len);
+        permuteBackTracking(nums, results, curr, st);
         curr.pop_back();
         st.erase(nums[i]);
     }
@@ -101,10 +101,10 @@ vector<vector<int>> Solution::permute(vector<int>& nums) {
     //return ret;
 
     //BACKTRACKING
-    sort(nums.begin(), nums.end());
+    //sort(nums.begin(), nums.end());
     vector<vector<int>> results;
     vector<int> curr;
     unordered_set<int> st;
-    permuteBackTracking(nums, results, curr, st, 0, nums.size());
+    permuteBackTracking(nums, results, curr, st);
     return results;
 }

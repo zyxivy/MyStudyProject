@@ -33,12 +33,12 @@ int Solution::calculateMinimumHP(vector<vector<int>>& dungeon) {
 
     h[m - 1][n - 1] = dungeon[m - 1][n - 1] < 0 ? 1 - dungeon[m - 1][n - 1] : 1;
 
-    //init last row
+    //init last col
     for (int i = m - 2; i >= 0; i--) {
         h[i][n - 1] = h[i + 1][n - 1] - dungeon[i][n - 1] > 1 ? h[i + 1][n - 1] - dungeon[i][n - 1] : 1;
     }
 
-    //init last column
+    //init last row
     for (int j = n - 2; j >= 0; j--) {
         h[m - 1][j] = h[m - 1][j + 1] - dungeon[m - 1][j] > 1 ? h[m - 1][j + 1] - dungeon[m - 1][j] : 1;
     }

@@ -1002,6 +1002,10 @@ public:
 	//654
 	static TreeNode* constructMaximumBinaryTree(vector<int>& nums);
 	//445
-	static ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
+	static ListNode* addTwoNumbers445(ListNode* l1, ListNode* l2);
+	//106
+	static TreeNode* buildTreePostIn(vector<int>& inorder, vector<int>& postorder);
+	//040
+	static vector<vector<int>> combinationSum2(vector<int>& candidates, int target);
 };
 

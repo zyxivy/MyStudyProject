@@ -19,13 +19,12 @@
 
 #include "Header.h";
 
-bool validBST(TreeNode* root, int min, int max) {
-    bool ret = false;
+bool isValidBSTHelper(TreeNode* root, long min, long max) {
     if (!root) {
         return true;
     }
     if (root->val < max && root->val > min) {
-        return validBST(root->left, min, root->val) && validBST(root->right, root->val, max);
+        return isValidBSTHelper(root->left, min, root->val) && isValidBSTHelper(root->right, root->val, max);
     }
     else
     {
@@ -35,6 +34,27 @@ bool validBST(TreeNode* root, int min, int max) {
 }
 
 bool Solution::isValidBST(TreeNode* root) {
+	//recursive
+    return isValidBSTHelper(root, LONG_MIN, LONG_MAX);
 
-    return validBST(root, LONG_MIN, LONG_MAX);
+	//iterative
+	if (root == nullptr) {
+		return true;
+	}
+	stack<TreeNode*> stk;
+	TreeNode* prev = nullptr;
+	while (root != nullptr || !stk.empty()) {
+		while (root != nullptr) {
+			stk.push(root);
+			root = root->left;
+		}
+		root = stk.top();
+		stk.pop();
+		if (prev != nullptr && prev->val >= root->val) {
+			return false;
+		}
+		prev = root;
+		root = root->right;
+	}
+	return true;
 }

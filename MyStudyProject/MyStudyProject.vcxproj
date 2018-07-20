@@ -151,7 +151,9 @@
     <ClCompile Include="000-065-Valid Number.cpp" />
     <ClCompile Include="033-Search in Rotated Sorted Array.cpp" />
     <ClCompile Include="00-010-Regular Expression Matching.cpp" />
+    <ClCompile Include="040 - Combination Sum II.cpp" />
     <ClCompile Include="047 - Permutation II.cpp" />
+    <ClCompile Include="106 - Construct Binary Tree from Inorder and Postorder Traversal.cpp" />
     <ClCompile Include="169 - Majority Element.cpp" />
     <ClCompile Include="170 - Two Sum III - Data structure design.cpp" />
     <ClCompile Include="171 - Excel Sheet Column Number.cpp" />
@@ -171,7 +173,7 @@
     <ClCompile Include="206 - Reverse Linked List.cpp" />
     <ClCompile Include="208 - Implement Trie (Prefix Tree).cpp" />
     <ClCompile Include="209 - Minimum Size Subarray Sum.cpp" />
-    <ClCompile Include="000 - 212 - Word Search II.cpp" />
+    <ClCompile Include="[212 - Word Search II].cpp" />
     <ClCompile Include="213 - House Robber II.cpp" />
     <ClCompile Include="000 - 214 - Shortest Palindrome.cpp" />
     <ClCompile Include="[215 - Kth Largest Element in an Array].cpp" />
@@ -222,7 +224,7 @@
     <ClCompile Include="266 - Palindrome Permutation.cpp" />
     <ClCompile Include="267 - Palindrome Permutation II.cpp" />
     <ClCompile Include="268 - Missing Number.cpp" />
-    <ClCompile Include="269 - Alien Dictionary.cpp" />
+    <ClCompile Include="[269 - Alien Dictionary].cpp" />
     <ClCompile Include="270 - Closest Binary Search Tree Value.cpp" />
     <ClCompile Include="271 - Closest Binary Search Tree Value II.cpp" />
     <ClCompile Include="271 - Encode and Decode Strings.cpp" />
@@ -250,7 +252,7 @@
     <ClCompile Include="[297 - Serialize and Deserialize Binary Tree].cpp" />
     <ClCompile Include="298 - Binary Tree Longest Consecutive Sequence.cpp" />
     <ClCompile Include="299 - Bulls and Cows.cpp" />
-    <ClCompile Include="300 - Longest Increasing Subsequence.cpp" />
+    <ClCompile Include="[300 - Longest Increasing Subsequence].cpp" />
     <ClCompile Include="301 - Remove Invalid Parentheses.cpp" />
     <ClCompile Include="302 - Smallest Rectangle Enclosing Black Pixels.cpp" />
     <ClCompile Include="303 - Range Sum Query - Immutable.cpp" />
@@ -378,7 +380,7 @@
     <ClCompile Include="039-Combination Sum.cpp" />
     <ClCompile Include="086-Partition List.cpp" />
     <ClCompile Include="088-Merge Sorted Array.cpp" />
-    <ClCompile Include="000-090-Subsets II.cpp" />
+    <ClCompile Include="090-Subsets II.cpp" />
     <ClCompile Include="092-Reverse Linked List II.cpp" />
     <ClCompile Include="093-Restore IP Addresses.cpp" />
     <ClCompile Include="[094-Binary Tree Inorder Traversal].cpp" />
@@ -480,7 +482,7 @@
     <ClCompile Include="073-Set Matrix Zeroes.cpp" />
     <ClCompile Include="074-Search a 2D Matrix.cpp" />
     <ClCompile Include="075-Sort Colors.cpp" />
-    <ClCompile Include="[078-Subsets].cpp" />
+    <ClCompile Include="078-Subsets.cpp" />
     <ClCompile Include="079-Word Search.cpp" />
     <ClCompile Include="080-Remove Duplicates from Sorted Array II.cpp" />
     <ClCompile Include="081-Search in Rotated Sorted Array II.cpp" />

@@ -147,9 +147,6 @@
     <ClCompile Include="038-Count and Say.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="039-Combination Sum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="043-Multiply Strings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -279,12 +276,6 @@
     <ClCompile Include="[089-Gray Code].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="[078-Subsets].cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="000-090-Subsets II.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="092-Reverse Linked List II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -313,9 +304,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="129 - Sum Root to Leaf Numbers.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="[131 - Palindrome Partitioning].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="[132 - Palindrome Partitioning II].cpp">
@@ -552,9 +540,6 @@
     <ClCompile Include="211 - Add and Search Word - Data structure design.cpp">
       <Filter>Source Files\Tree\Trie</Filter>
     </ClCompile>
-    <ClCompile Include="000 - 212 - Word Search II.cpp">
-      <Filter>Source Files\Tree\Trie</Filter>
-    </ClCompile>
     <ClCompile Include="213 - House Robber II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -717,9 +702,6 @@
     <ClCompile Include="268 - Missing Number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="269 - Alien Dictionary.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="270 - Closest Binary Search Tree Value.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -802,9 +784,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="299 - Bulls and Cows.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="300 - Longest Increasing Subsequence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="301 - Remove Invalid Parentheses.cpp">
@@ -1113,9 +1092,6 @@
     <ClCompile Include="079-Word Search.cpp">
       <Filter>Source Files\Backtracking</Filter>
     </ClCompile>
-    <ClCompile Include="047 - Permutation II.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="387 - First Unique Character in a String.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1151,6 +1127,36 @@
     </ClCompile>
     <ClCompile Include="[112-Path Sum].cpp">
       <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="[300 - Longest Increasing Subsequence].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="106 - Construct Binary Tree from Inorder and Postorder Traversal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="047 - Permutation II.cpp">
+      <Filter>Source Files\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="[269 - Alien Dictionary].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="039-Combination Sum.cpp">
+      <Filter>Source Files\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="040 - Combination Sum II.cpp">
+      <Filter>Source Files\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="078-Subsets.cpp">
+      <Filter>Source Files\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="[212 - Word Search II].cpp">
+      <Filter>Source Files\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="090-Subsets II.cpp">
+      <Filter>Source Files\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="[131 - Palindrome Partitioning].cpp">
+      <Filter>Source Files\Backtracking</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

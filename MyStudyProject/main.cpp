@@ -248,17 +248,20 @@ int main()
 
     vector<int> moveZero = { 0,8,4,12,2,10,6,14,1,9,5,13,3,11,7,15 };
 
-    vector<vector<int>> matrix2 = { 
-        { 9,9,4},
-        { 6,6,8 },
-        { 2,1,1 }
+    vector<vector<char>> matrix2 = { 
+        { 'o', 'a','a','n' },
+        { 'e','t','a','e' },
+        { 'i','h','k','r' },
+		{ 'i','f','l','v' }
     };
     //Codec::deserialize("");
 
-    vector<int> a{1};
+    vector<int> a{1,1,2 };
 
-    vector<int>b{ 1,2,3,4,5 };
-    Solution::permute(b);
+    vector<int>b{ 9,15,7,20,3 };
+
+	vector<string> wordss{ "oath","pea","eat","rain" };
+	Solution::permuteUnique(a);
 
 
 	return 0;

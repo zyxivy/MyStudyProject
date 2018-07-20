@@ -14,7 +14,23 @@
 
 #include "Header.h";
 
+void combinationSumHelper(vector<int> candidates, int target, vector<int>& item, vector<vector<int>>& ret, int start) {
+	if (target < 0) {
+		return;
+	}
+	if (target == 0) {
+		ret.push_back(item);
+		return;
+	}
+	for (int i = start; i < candidates.size(); i++) {
+		item.push_back(candidates[i]);
+		combinationSumHelper(candidates, target - candidates[i], item, ret, i);
+		item.pop_back();
+	}
+}
 vector<vector<int>> Solution::combinationSum(vector<int>& candidates, int target) {
     vector<vector<int>> ret;
+	vector<int> item;
+	combinationSumHelper(candidates, target, item, ret, 0);
     return ret;
 }
