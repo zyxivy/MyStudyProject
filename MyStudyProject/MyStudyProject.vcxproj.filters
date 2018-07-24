@@ -939,9 +939,6 @@
     <ClCompile Include="347 - Top K Frequent Elements.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="348 - Design Tic-Tac-Toe.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="349 - Intersection of Two Arrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1157,6 +1154,12 @@
     </ClCompile>
     <ClCompile Include="[131 - Palindrome Partitioning].cpp">
       <Filter>Source Files\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="[348 - Design Tic-Tac-Toe].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="513 - Find Bottom Left Tree Value.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

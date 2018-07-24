@@ -14,18 +14,18 @@ int Solution::robII(vector<int>& nums) {
     dp[1] = nums[0] > nums[1] ? nums[0] : nums[1];
 
     for (int i = 2; i<nums.size()-1; i++) {
-        dp[i] = dp[i - 2] + nums[i] > dp[i - 1] ? dp[i - 2] + nums[i] : dp[i - 1];
+        dp[i] = max(dp[i - 2] + nums[i], dp[i - 1]);
     }
 
-    int max = dp[nums.size() - 2];
+    int maxVal = dp[nums.size() - 2];
 
     dp[1] = nums[1];
     dp[2] = nums[1] > nums[2] ? nums[1] : nums[2];
     for (int i = 3; i<nums.size(); i++) {
-        dp[i] = dp[i - 2] + nums[i] > dp[i - 1] ? dp[i - 2] + nums[i] : dp[i - 1];
+		dp[i] = max(dp[i - 2] + nums[i], dp[i - 1]);
     }
 
-    max = max > dp[nums.size() - 1] ? max : dp[nums.size() - 1];
+	maxVal = max(maxVal, dp[nums.size() - 1]);
 
-    return max;
+    return maxVal;
 }

@@ -36,8 +36,8 @@ vector<vector<int>> Solution::subsetsWithDup(vector<int>& nums) {
 
 	//iterative
 	sort(nums.begin(), nums.end());
-	vector<vector<int>> ret;
-	vector<int> item;
+	//vector<vector<int>> ret;
+	//vector<int> item;
 	if (nums.size() > 0) {
 		vector<vector<int>> newly;
 		item.push_back(nums[0]);
