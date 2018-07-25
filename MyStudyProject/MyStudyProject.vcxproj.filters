@@ -576,12 +576,6 @@
     <ClCompile Include="225 - Implement Stack using Queues.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="000 - 224 - Basic Calculator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="227 - Basic Calculator II.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="228 - Summary Ranges.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1168,6 +1162,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="772 - Basic Calculator III.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[224 - Basic Calculator].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[227 - Basic Calculator II].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -16,8 +16,8 @@ bool calculateisDigit(char c) {
 	return c >= '0'&& c <= '9';
 }
 int Solution::calculate(string s) {
-	int ans;
-	stack<char> nums, ops;
+	int ans = 0;
+	stack<int> nums, ops;
 	int sign = 1;
 	int n = 0;
 	for (int i = 0; i < s.length();i++) {
@@ -26,7 +26,7 @@ int Solution::calculate(string s) {
 			n = n * 10 + c - '0';
 		}
 		else {
-			ans += n * sign;
+			ans += sign * n;
 			n = 0;
 			if (c == '-') {
 				sign = -1;
