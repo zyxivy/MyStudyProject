@@ -25,5 +25,21 @@
 
 #include "Header.h";
 int Solution::findBottomLeftValue(TreeNode* root) {
-
+	queue<TreeNode*> q;
+	q.push(root);
+	TreeNode* cur;
+	while (!q.empty()) {
+		int len = q.size();
+		for (int i = 0; i < len; i++) {
+			cur = q.front();
+			q.pop();
+			if (cur->right) {
+				q.push(cur->right);
+			}
+			if (cur->left) {
+				q.push(cur->left);
+			}
+		}		
+	}
+	return cur->val;
 }

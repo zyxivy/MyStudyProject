@@ -261,7 +261,7 @@ int main()
     vector<int>b{ 9,15,7,20,3 };
 
 	vector<string> wordss{ "oath","pea","eat","rain" };
-	Solution::permuteUnique(a);
+	Solution::calculate("2-1+2");
 
 
 	return 0;

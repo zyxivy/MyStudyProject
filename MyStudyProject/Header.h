@@ -1009,5 +1009,11 @@ public:
 	static vector<vector<int>> combinationSum2(vector<int>& candidates, int target);
 	//513
 	static int findBottomLeftValue(TreeNode* root);
+	//672
+	static int flipLights(int n, int m);
+	//452
+	static int findMinArrowShots(vector<pair<int, int>>& points);
+	//772
+	static int calculateIII(string s);
 };
 

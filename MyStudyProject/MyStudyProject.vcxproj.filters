@@ -1159,6 +1159,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="513 - Find Bottom Left Tree Value.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="672 - Bulb Switcher II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="452 - Minimum Number of Arrows to Burst Balloons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="772 - Basic Calculator III.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
