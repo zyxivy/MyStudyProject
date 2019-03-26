@@ -1015,5 +1015,6 @@ public:
 	static int findMinArrowShots(vector<pair<int, int>>& points);
 	//772
 	static int calculateIII(string s);
+	static void Solution::reverseStringRecursive(vector<char>& s);
 };
 

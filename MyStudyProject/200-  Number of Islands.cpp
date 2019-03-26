@@ -30,23 +30,91 @@ void searchIslands(int i, int j, vector<vector<char>>& grid, vector<vector<bool>
         searchIslands(i, j - 1, grid, mark);
     }
 }
+//
+//int Solution::  numIslands(vector<vector<char>>& grid) {
+    //int row = grid.size();
+    //if (row == 0) return 0;
+    //int col = grid[0].size();
 
-int Solution::  numIslands(vector<vector<char>>& grid) {
-    int row = grid.size();
-    if (row == 0) return 0;
-    int col = grid[0].size();
+    //int res = 0;
 
-    int res = 0;
+    //vector<vector<bool> > mark(row, vector<bool>(col, true));
 
-    vector<vector<bool> > mark(row, vector<bool>(col, true));
+    //for (int i = 0; i<row; i++) {
+    //    for (int j = 0; j<col; j++) {
+    //        if (grid[i][j] == '1' && mark[i][j] == true) {
+    //            searchIslands(i, j, grid, mark);
+    //            res += 1;
+    //        }
+    //    }
+    //}
+    //return res;
+//}
 
-    for (int i = 0; i<row; i++) {
-        for (int j = 0; j<col; j++) {
-            if (grid[i][j] == '1' && mark[i][j] == true) {
-                searchIslands(i, j, grid, mark);
-                res += 1;
-            }
-        }
-    }
-    return res;
+
+class UnionFind200 {
+public:
+	vector<int> roots;
+	int count = 0;
+
+	UnionFind200(vector<vector<char>> grid) {
+		int m = grid.size();
+		int n = grid[0].size();
+		roots.resize(m*n, -1);
+
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				if (grid[i][j] == '1') {
+					int id = i * n + j;
+					roots[id] = id;
+					count++;
+				}
+			}
+		}
+	}
+
+	void Union(int id1, int id2) {
+		int root1 = findRoot(id1);
+		int root2 = findRoot(id2);
+		if (root1 != root2) {
+			roots[root1] = root2;
+			count--;
+		}
+	}
+
+	int findRoot(int id) {
+		while (roots[id] != id) {
+			roots[id] = roots[roots[id]];
+			id = roots[id];
+		}
+		return id;
+	}
+};
+
+int Solution::numIslands(vector<vector<char>>& grid) {
+	vector<vector<int>> direction{ {0,1} ,{1,0}, {0,-1}, {-1,0} };
+	int m = grid.size();
+	if (m == 0) {
+		return 0;
+	}
+	int n = grid[0].size();
+
+	UnionFind200 uf(grid);
+
+	for (int i = 0; i < m; i++) {
+		for (int j = 0; j < n; j++) {
+			if (grid[i][j] == '1') {
+				for (vector<int> d : direction) {
+					int x = d[0] + i;
+					int y = d[1] + j;
+					if (x >= 0 && x < m && y >= 0 & y < n && grid[x][y] == '1') {
+						int id1 = i * n + j;
+						int id2 = x * n + y;
+						uf.Union(id1, id2);
+					}
+				}
+			}
+		}
+	}
+	return uf.count;
 }

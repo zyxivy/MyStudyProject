@@ -261,7 +261,12 @@ int main()
     vector<int>b{ 9,15,7,20,3 };
 
 	vector<string> wordss{ "oath","pea","eat","rain" };
-	Solution::calculate("2-1+2");
+
+	vector<char> s = { 'a','b','c','d','e' };
+	//Solution::reverseStringRecursive(s);
+
+	vector<vector<char>> grid={ {'1','1','0','0','0'},{'1','1','0','0','0'},{'0','0','1','0','0'},{'0','0','0','1','1'} };
+	Solution::numIslands(grid);
 
 
 	return 0;

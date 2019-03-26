@@ -154,6 +154,7 @@
     <ClCompile Include="040 - Combination Sum II.cpp" />
     <ClCompile Include="047 - Permutation II.cpp" />
     <ClCompile Include="106 - Construct Binary Tree from Inorder and Postorder Traversal.cpp" />
+    <ClCompile Include="146 - LRU.cpp" />
     <ClCompile Include="169 - Majority Element.cpp" />
     <ClCompile Include="170 - Two Sum III - Data structure design.cpp" />
     <ClCompile Include="171 - Excel Sheet Column Number.cpp" />
@@ -177,6 +178,7 @@
     <ClCompile Include="513 - Find Bottom Left Tree Value.cpp" />
     <ClCompile Include="672 - Bulb Switcher II.cpp" />
     <ClCompile Include="772 - Basic Calculator III.cpp" />
+    <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="[212 - Word Search II].cpp" />
     <ClCompile Include="213 - House Robber II.cpp" />
     <ClCompile Include="000 - 214 - Shortest Palindrome.cpp" />
@@ -365,7 +367,7 @@
     <ClCompile Include="[172 - Factorial Trailing Zeroes].cpp" />
     <ClCompile Include="[168 - Excel Sheet Column Title].cpp" />
     <ClCompile Include="[001-TwoSum].cpp" />
-    <ClCompile Include="002-AddTwoNumbers.cpp" />
+    <ClCompile Include="002 - AddTwoNumbers.cpp" />
     <ClCompile Include="003-Longest Substring Without Repeating Characters.cpp" />
     <ClCompile Include="005-Longest Palindromic Substring.cpp" />
     <ClCompile Include="006-ZigZag Conversion.cpp" />
@@ -421,7 +423,6 @@
     <ClCompile Include="138 - Copy List with Random Pointer.cpp" />
     <ClCompile Include="143 -Reorder List.cpp" />
     <ClCompile Include="144 - Binary Tree Preorder Traversal.cpp" />
-    <ClCompile Include="000-146 - LRU Cache.cpp" />
     <ClCompile Include="147 - Insertion Sort List.cpp" />
     <ClCompile Include="149 - Max Points on a Line.cpp" />
     <ClCompile Include="150 - Evaluate Reverse Polish Notation.cpp" />

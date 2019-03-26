@@ -43,6 +43,9 @@
     <Filter Include="Source Files\Divide and Conquer">
       <UniqueIdentifier>{ec938e20-8c8a-4257-8cf8-c91f3c36a325}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Recursive">
+      <UniqueIdentifier>{2a6a3f83-4253-42c4-b70a-a9e5321d505b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="003-Longest Substring Without Repeating Characters.cpp">
@@ -395,9 +398,6 @@
     </ClCompile>
     <ClCompile Include="[145 - Binary Tree Postorder Traversal].cpp">
       <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="000-146 - LRU Cache.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="147 - Insertion Sort List.cpp">
       <Filter>Source Files\LinkedList</Filter>
@@ -1062,9 +1062,6 @@
     <ClCompile Include="000 - 418 - Sentence Screen Fitting.cpp">
       <Filter>Source Files\DP</Filter>
     </ClCompile>
-    <ClCompile Include="002-AddTwoNumbers.cpp">
-      <Filter>Source Files\LinkedList</Filter>
-    </ClCompile>
     <ClCompile Include="005-Longest Palindromic Substring.cpp">
       <Filter>Source Files\DP</Filter>
     </ClCompile>
@@ -1169,6 +1166,15 @@
     </ClCompile>
     <ClCompile Include="[227 - Basic Calculator II].cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseString.cpp">
+      <Filter>Source Files\Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="002 - AddTwoNumbers.cpp">
+      <Filter>Source Files\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="146 - LRU.cpp">
+      <Filter>Source Files\LinkedList</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
