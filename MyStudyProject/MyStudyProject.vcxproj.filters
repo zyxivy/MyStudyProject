@@ -84,19 +84,7 @@
     <ClCompile Include="[022-Generate Parentheses].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="00-013-Roman to Integer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="00-018-4Sum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="00-008-String to Integer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="[017- Letter Combinations of a Phone Number].cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="00-010-Regular Expression Matching.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="029-Divide Two Integers.cpp">
@@ -124,15 +112,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="028-Implement strStr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="00-004-Median of Two Sorted Arrays.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="00-016-3Sum Closest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="00-032-Longest Valid Parentheses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="[030-Substring with Concatenation of All Words].cpp">
@@ -177,9 +156,6 @@
     <ClCompile Include="[053-Maximum Subarray].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="000-054-Spiral Matrix.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="056-Merge Intervals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -207,9 +183,6 @@
     <ClCompile Include="064-Minimum Path Sum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="000-065-Valid Number.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="066-Plus One.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -220,9 +193,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="070-Climbing Stairs.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="000-069-Sqrt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="071-Simplify Path.cpp">
@@ -270,9 +240,6 @@
     <ClCompile Include="[087-Scramble String].cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="000-023-Merge k Sorted Lists.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="088-Merge Sorted Array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -283,9 +250,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="093-Restore IP Addresses.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="000-097-Interleaving String.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="[115-Distinct Subsequences].cpp">
@@ -939,9 +903,6 @@
     <ClCompile Include="350 - Intersection of Two Arrays II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="000-351 - Android Unlock Patterns.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="352 - Data Stream as Disjoint Intervals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1175,6 +1136,51 @@
     </ClCompile>
     <ClCompile Include="146 - LRU.cpp">
       <Filter>Source Files\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 004-Median of Two Sorted Arrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 008-String to Integer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 010-Regular Expression Matching.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 013-Roman to Integer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 016-3Sum Closest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 018-4Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 023-Merge k Sorted Lists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 032-Longest Valid Parentheses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 054-Spiral Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 065-Valid Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 069-Sqrt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 097-Interleaving String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 098-Validate Binary Search Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 105-Construct Binary Tree from Preorder and Inorder Traversal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000 - 351 - Android Unlock Patterns.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
