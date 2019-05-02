@@ -4,53 +4,51 @@
 //Given[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1], return 6.
 
 #include "Header.h";
+#include <algorithm>;
 
 int Solution::trap(vector<int>& height) {
-    int water = 0;
-    if (height.size() == 0) {
-        return water;
-    }
-    int i = 0;
-    int j = height.size() - 1;
-    int max = height[i] >= height[j] ? i : j;
-    while (i < j) {
-        if (height[i] >= height[j]) {
-            j--;
-        }
-        else { 
-            i++;
-        }
-        max = height[i] >= height[j] ? i : j;
-    }
-    i = 0;
-    j = height.size() - 1;
-    while (i < max) {
-        int p = i + 1;
-        while (height[p] < height[i]) {
-            p++;
-        }
-        if (p != i + 1) {
-            int k = i + 1;
-            while (k < p) {
-                water += abs(height[i] - height[k]);
-                k++;
-            }
-        }
-        i = p;
-    }
-    while (j > max) {
-        int p = j-1;
-        while (height[p] < height[j]) {
-            p--;
-        }
-        if (p != j - 1) {
-            int k = j - 1;
-            while (k > p) {
-                water += abs(height[j] - height[k]);
-                k--;
-            }
-        }
-        j = p;
-    }
-    return water;
+    //https://leetcode.com/problems/trapping-rain-water/discuss/17414/A-stack-based-solution-for-reference-inspired-by-Histogram
+	int water = 0;
+	stack<int> st;
+	queue<int> q;
+	int i = 0;
+	while (i < height.size()) {
+		if (st.empty() || height[i] < height[st.top()]) {
+			st.push(i);
+			i++;
+		}
+		else {
+			int top = height[st.top()];
+			st.pop();
+			water += st.empty() ? 0 : (min(height[i], height[st.top()]) - top) * (i - st.top() - 1);
+		}
+	}
+
+	return water;
+
+
+	
+	int maxLeft = 0, maxRight = 0;
+	int left = 0, right = height.size() - 1;
+	while (left < right) {
+		if (height[left] <= height[right]) {
+			if (height[left] < maxLeft) {
+				water += maxLeft - height[left];
+			}
+			else {
+				maxLeft = height[left];
+			}
+			left++;
+		}
+		else {
+			if (height[right] < maxRight) {
+				water += maxRight - height[right];
+			}
+			else {
+				maxRight = height[right];
+			}
+			right--;
+		}
+	}
+	return water;
 }
