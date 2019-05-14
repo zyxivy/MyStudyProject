@@ -9,7 +9,7 @@ void combinationSumHelper(vector<int> candidates, vector<vector<int>>& ret, vect
 	if (target < 0) {
 		return;
 	}
-	for (int i = start; i < candidates.size(); i++) {
+	for (int i = start; i < candidates.size() && target >= candidates[i]; i++) {
 		item.push_back(candidates[i]);
 		combinationSumHelper(candidates, ret, item, target - candidates[i], i);
 		item.pop_back();
@@ -18,6 +18,7 @@ void combinationSumHelper(vector<int> candidates, vector<vector<int>>& ret, vect
 vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
 	vector<vector<int>> ret;
 	vector<int> item;
+	sort(candidates.begin(), candidates.end());// sort input so we can skip with target >= candidates[i]
 	combinationSumHelper(candidates, ret, item, target, 0);
 	return ret;
 }
