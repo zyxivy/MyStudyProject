@@ -10,7 +10,6 @@
 *.opendb
 *.db-shm
 *.db-wal
-*.VC.db
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -28,7 +27,7 @@ bld/
 [Oo]bj/
 
 # Visual Studio 2015 cache/options directory
-.vs/MyStudyProject/v15/Browse.VC.db
+.vs/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -71,7 +70,6 @@ artifacts/
 *.pidb
 *.svclog
 *.scc
-*.db
 
 # Chutzpah Test files
 _Chutzpah*
