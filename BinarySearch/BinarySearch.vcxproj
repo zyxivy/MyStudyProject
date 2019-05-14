@@ -20,11 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{EA0D8E89-C98B-415D-8702-CF5083C744B3}</ProjectGuid>
+    <ProjectGuid>{6B1CF7C0-7219-4240-A84B-E3CFCD8B28F1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>StudyProject</RootNamespace>
+    <RootNamespace>BinarySearch</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>Array</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -155,19 +154,15 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="001 - Two Sum.cpp" />
-    <ClCompile Include="004 - Median of Two Sorted Arrays.cpp" />
-    <ClCompile Include="011 - Container With Most Water.cpp" />
-    <ClCompile Include="015 - 3Sum.cpp" />
-    <ClCompile Include="026 - Remove Duplicates from Sorted Array.cpp" />
-    <ClCompile Include="031 - Next Permutation.cpp" />
+    <ClCompile Include="..\StudyProject\034 - Find First and Last Position of Element in Sorted Array.cpp" />
+    <ClCompile Include="035 - Search Insert Position.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="027 - Remove Element.cpp" />
+    <ClCompile Include="033 - Search in Rotated Sorted Array.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

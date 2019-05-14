@@ -21,6 +21,8 @@ public:
 	static double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2);
 	static int removeElement(vector<int>& nums, int val);
 	static int removeDuplicates(vector<int>& nums);
+	static vector<vector<int>> threeSum(vector<int>& nums);
+	static void nextPermutation(vector<int>& nums);
 };
 
 #endif //PCH_H
