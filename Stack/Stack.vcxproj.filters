@@ -23,22 +23,7 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="033 - Search in Rotated Sorted Array.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\StudyProject\034 - Find First and Last Position of Element in Sorted Array.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="035 - Search Insert Position.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\StudyProject\004 - Median of Two Sorted Arrays.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="074 - Search a 2D Matrix.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="081 - Search in Rotated Sorted Array II.cpp">
+    <ClCompile Include="..\StudyProject\042 - Trapping Rain Water.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
