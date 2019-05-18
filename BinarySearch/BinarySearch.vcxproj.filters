@@ -41,5 +41,11 @@
     <ClCompile Include="081 - Search in Rotated Sorted Array II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="153 - Find Minimum in Rotated Sorted Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="154 - Find Minimum in Rotated Sorted Array II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

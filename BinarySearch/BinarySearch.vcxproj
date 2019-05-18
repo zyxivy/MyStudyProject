@@ -159,6 +159,8 @@
     <ClCompile Include="035 - Search Insert Position.cpp" />
     <ClCompile Include="074 - Search a 2D Matrix.cpp" />
     <ClCompile Include="081 - Search in Rotated Sorted Array II.cpp" />
+    <ClCompile Include="153 - Find Minimum in Rotated Sorted Array.cpp" />
+    <ClCompile Include="154 - Find Minimum in Rotated Sorted Array II.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
