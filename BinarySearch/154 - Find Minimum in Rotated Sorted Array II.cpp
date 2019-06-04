@@ -1,5 +1,6 @@
 #include "pch.h";
-int findMin(vector<int>& nums) {
+
+int findMin154(vector<int>& nums) {
 	if (nums.empty()) {
 		return 0;
 	}

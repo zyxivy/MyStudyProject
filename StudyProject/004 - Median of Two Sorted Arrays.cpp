@@ -1,6 +1,6 @@
 #include "pch.h";
 //https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/2481/Share-my-O(log(min(mn))-solution-with-explanation
-double Solution::findMedianSortedArrays(vector<int>& A, vector<int>& B) {
+double findMedianSortedArrays(vector<int>& A, vector<int>& B) {
 	int m = A.size();
 	int n = B.size();
 	if (m > n) {

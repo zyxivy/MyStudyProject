@@ -47,5 +47,17 @@
     <ClCompile Include="154 - Find Minimum in Rotated Sorted Array II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="162 - Find Peak Element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="240 - Search a 2D Matrix II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="274 - H-Index.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="275 - H-Index II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

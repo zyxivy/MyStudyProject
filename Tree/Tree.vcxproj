@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{1D50D5CB-EE85-43A4-9579-0D8B98D72A6E}</ProjectGuid>
+    <ProjectGuid>{A20250BA-AA5F-4268-8DE5-7614182A68F6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>DynamicProgramming</RootNamespace>
+    <RootNamespace>Tree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -154,8 +154,6 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\BinarySearch\174 - Dungeon Game.cpp" />
-    <ClCompile Include="053 - Maximum Subarray.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

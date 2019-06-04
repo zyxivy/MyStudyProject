@@ -23,10 +23,13 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="053 - Maximum Subarray.cpp">
+    <ClCompile Include="..\BinarySearch\167 - Two Sum II - Input array is sorted.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\BinarySearch\174 - Dungeon Game.cpp">
+    <ClCompile Include="209 - Minimum Size Subarray Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="076 - Minimum Window Substring.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
