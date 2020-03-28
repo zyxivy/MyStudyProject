@@ -165,6 +165,7 @@
     <ClCompile Include="240 - Search a 2D Matrix II.cpp" />
     <ClCompile Include="274 - H-Index.cpp" />
     <ClCompile Include="275 - H-Index II.cpp" />
+    <ClCompile Include="278 - First Bad Version.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

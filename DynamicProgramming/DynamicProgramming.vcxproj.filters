@@ -29,5 +29,8 @@
     <ClCompile Include="..\BinarySearch\174 - Dungeon Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Backtracking\377 - Combination Sum IV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

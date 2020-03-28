@@ -32,5 +32,17 @@
     <ClCompile Include="216 - Combination Sum III.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="017 - Letter Combinations of a Phone Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="022 - Generate Parentheses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="037 - Sudoku Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="39 - Combination Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

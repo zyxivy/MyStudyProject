@@ -20,5 +20,8 @@ using namespace std;
 #include <unordered_set>
 #include <unordered_map>
 #include <queue>
-
+class SolutionDP {
+public:
+	static int combinationSum4(vector<int>& nums, int target);
+};
 #endif //PCH_H

@@ -154,6 +154,7 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Backtracking\377 - Combination Sum IV.cpp" />
     <ClCompile Include="..\BinarySearch\174 - Dungeon Game.cpp" />
     <ClCompile Include="053 - Maximum Subarray.cpp" />
     <ClCompile Include="pch.cpp">

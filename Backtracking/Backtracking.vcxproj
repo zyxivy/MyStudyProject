@@ -154,9 +154,13 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="017 - Letter Combinations of a Phone Number.cpp" />
+    <ClCompile Include="022 - Generate Parentheses.cpp" />
+    <ClCompile Include="037 - Sudoku Solver.cpp" />
     <ClCompile Include="039 - Combination Sum.cpp" />
     <ClCompile Include="040 - Combination Sum II.cpp" />
     <ClCompile Include="216 - Combination Sum III.cpp" />
+    <ClCompile Include="39 - Combination Sum.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

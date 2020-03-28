@@ -20,4 +20,13 @@ using namespace std;
 #include <unordered_map>
 #include <queue>
 
+class Solution {
+public:
+	static vector<string> letterCombinations(string digits);
+	static vector<string> generateParenthesis(int n);
+	static void solveSudoku(vector<vector<char>>& board);
+	static vector<vector<int>> combinationSum(vector<int>& candidates, int target);
+	static vector<vector<int>> combinationSumII(vector<int>& candidates, int target);
+	static vector<vector<int>> combinationSum3(int k, int n);
+};
 #endif //PCH_H
