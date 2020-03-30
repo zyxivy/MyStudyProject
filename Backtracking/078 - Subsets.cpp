@@ -18,11 +18,18 @@
 //    ]
 
 #include "pch.h";
-void buildSubsets(vector<int>& nums, vector<vector<int>> result) {
-
+void buildSubsets(vector<int> nums, vector<vector<int>>& result, vector<int> item, int startPos) {
+	result.push_back(item);
+	for (int i = startPos; i < nums.size(); i++) {
+		item.push_back(nums[i]);
+		buildSubsets(nums, result, item, i + 1);
+		item.pop_back();
+	}
 }
 
-vector<vector<int>> subsets(vector<int>& nums) {
+vector<vector<int>> Solution::subsets(vector<int>& nums) {
 	vector<vector<int>> result;
-
+	vector<int> item;
+	buildSubsets(nums, result, item, 0);
+	return result;
 }

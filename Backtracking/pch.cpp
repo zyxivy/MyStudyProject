@@ -4,6 +4,7 @@
 
 int main()
 {
+	vector<vector<char>>& board({ "A","B","C","E" }, { "S","F","C","S" }, { "A","D","E","E" });
 
 }
 // In general, ignore this file, but keep it around if you are using pre-compiled headers.

@@ -33,5 +33,8 @@ public:
 	static string getPermutation(int n, int k);
 	static vector<vector<string>> solveNQueens(int n);
 	static int totalNQueens(int n);
+	static vector<vector<int>> subsetsWithDup(vector<int>& nums);
+	static vector<vector<int>> subsets(vector<int>& nums);
+	static bool exist(vector<vector<char>>& board, string word);
 };
 #endif //PCH_H

@@ -165,6 +165,8 @@
     <ClCompile Include="052 - N-Queens II.cpp" />
     <ClCompile Include="060 - Permutation Sequence.cpp" />
     <ClCompile Include="078 - Subsets.cpp" />
+    <ClCompile Include="079 - Word Search.cpp" />
+    <ClCompile Include="090 - Subsets II.cpp" />
     <ClCompile Include="216 - Combination Sum III.cpp" />
     <ClCompile Include="39 - Combination Sum.cpp" />
     <ClCompile Include="pch.cpp">
