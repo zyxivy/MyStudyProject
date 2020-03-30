@@ -28,5 +28,10 @@ public:
 	static vector<vector<int>> combinationSum(vector<int>& candidates, int target);
 	static vector<vector<int>> combinationSumII(vector<int>& candidates, int target);
 	static vector<vector<int>> combinationSum3(int k, int n);
+	static vector<vector<int>> permute(vector<int>& nums);
+	static vector<vector<int>> permuteUnique(vector<int>& nums);
+	static string getPermutation(int n, int k);
+	static vector<vector<string>> solveNQueens(int n);
+	static int totalNQueens(int n);
 };
 #endif //PCH_H
