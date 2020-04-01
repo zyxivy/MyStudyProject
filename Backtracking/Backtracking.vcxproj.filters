@@ -68,5 +68,8 @@
     <ClCompile Include="079 - Word Search.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="212 - Word Search II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

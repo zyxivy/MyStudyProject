@@ -36,5 +36,6 @@ public:
 	static vector<vector<int>> subsetsWithDup(vector<int>& nums);
 	static vector<vector<int>> subsets(vector<int>& nums);
 	static bool exist(vector<vector<char>>& board, string word);
+	static vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
 };
 #endif //PCH_H

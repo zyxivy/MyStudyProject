@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.539
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zzzMyStudyProject", "MyStudyProject\MyStudyProject.vcxproj", "{C32AC76B-5487-45D0-9B68-3D8B2416B9C2}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoPointers", "TwoPointers\TwoPointers.vcxproj", "{5525A9E7-BE4C-44F4-A92D-8C5603A13F78}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tree", "Tree\Tree.vcxproj", "{A20250BA-AA5F-4268-8DE5-7614182A68F6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Trie", "Trie\Trie.vcxproj", "{D61BA4F5-758C-4ADA-AA17-66D3E0B0A17E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,14 @@ Global
 		{A20250BA-AA5F-4268-8DE5-7614182A68F6}.Release|x64.Build.0 = Release|x64
 		{A20250BA-AA5F-4268-8DE5-7614182A68F6}.Release|x86.ActiveCfg = Release|Win32
 		{A20250BA-AA5F-4268-8DE5-7614182A68F6}.Release|x86.Build.0 = Release|Win32
+		{D61BA4F5-758C-4ADA-AA17-66D3E0B0A17E}.Debug|x64.ActiveCfg = Debug|x64
+		{D61BA4F5-758C-4ADA-AA17-66D3E0B0A17E}.Debug|x64.Build.0 = Debug|x64
+		{D61BA4F5-758C-4ADA-AA17-66D3E0B0A17E}.Debug|x86.ActiveCfg = Debug|Win32
+		{D61BA4F5-758C-4ADA-AA17-66D3E0B0A17E}.Debug|x86.Build.0 = Debug|Win32
+		{D61BA4F5-758C-4ADA-AA17-66D3E0B0A17E}.Release|x64.ActiveCfg = Release|x64
+		{D61BA4F5-758C-4ADA-AA17-66D3E0B0A17E}.Release|x64.Build.0 = Release|x64
+		{D61BA4F5-758C-4ADA-AA17-66D3E0B0A17E}.Release|x86.ActiveCfg = Release|Win32
+		{D61BA4F5-758C-4ADA-AA17-66D3E0B0A17E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
