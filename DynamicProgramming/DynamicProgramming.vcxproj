@@ -156,6 +156,9 @@
   <ItemGroup>
     <ClCompile Include="..\Backtracking\377 - Combination Sum IV.cpp" />
     <ClCompile Include="..\BinarySearch\174 - Dungeon Game.cpp" />
+    <ClCompile Include="005 - Longest Palindromic Substring.cpp" />
+    <ClCompile Include="010 - Regular Expression Matching.cpp" />
+    <ClCompile Include="032 - Longest Valid Parentheses.cpp" />
     <ClCompile Include="053 - Maximum Subarray.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

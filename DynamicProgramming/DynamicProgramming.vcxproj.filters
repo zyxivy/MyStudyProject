@@ -32,5 +32,14 @@
     <ClCompile Include="..\Backtracking\377 - Combination Sum IV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="005 - Longest Palindromic Substring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="010 - Regular Expression Matching.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="032 - Longest Valid Parentheses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

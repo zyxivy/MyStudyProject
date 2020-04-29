@@ -36,7 +36,7 @@ void buildResultCombinationSum4(vector<int> nums, vector<vector<int>>& result, v
 		item.pop_back();
 	}
 }
-int SolutionDP::combinationSum4(vector<int>& nums, int target) {
+int Solution::combinationSum4(vector<int>& nums, int target) {
 	vector<vector<int>> result;
 	vector<int> item;
 	sort(nums.begin(), nums.end());

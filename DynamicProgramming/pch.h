@@ -20,8 +20,11 @@ using namespace std;
 #include <unordered_set>
 #include <unordered_map>
 #include <queue>
-class SolutionDP {
+class Solution {
 public:
 	static int combinationSum4(vector<int>& nums, int target);
+	static string longestPalindrome(string s);
+	static bool isMatch(string s, string p);
+	static int longestValidParentheses(string s);
 };
 #endif //PCH_H
