@@ -188,6 +188,7 @@
     <ClCompile Include="206 - Reverse Linked List.cpp" />
     <ClCompile Include="208 - Implement Trie (Prefix Tree).cpp" />
     <ClCompile Include="209 - Minimum Size Subarray Sum.cpp" />
+    <ClCompile Include="412 - Fizz Buzz.cpp" />
     <ClCompile Include="452 - Minimum Number of Arrows to Burst Balloons.cpp" />
     <ClCompile Include="513 - Find Bottom Left Tree Value.cpp" />
     <ClCompile Include="672 - Bulb Switcher II.cpp" />

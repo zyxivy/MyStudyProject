@@ -13,5 +13,6 @@
 
 #include "pch.h";
 int longestValidParentheses(string s) {
-
+	int maxLen = 0;
+	return maxLen;
 }

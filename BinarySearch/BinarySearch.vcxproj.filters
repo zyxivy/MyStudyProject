@@ -62,5 +62,8 @@
     <ClCompile Include="278 - First Bad Version.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="378 - Kth Smallest Element in a Sorted Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

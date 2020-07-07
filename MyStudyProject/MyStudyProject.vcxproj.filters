@@ -1182,6 +1182,9 @@
     <ClCompile Include="000 - 351 - Android Unlock Patterns.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="412 - Fizz Buzz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
