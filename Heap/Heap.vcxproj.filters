@@ -33,6 +33,9 @@
     <ClCompile Include="264 - Ugly Number II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="313 - Super Ugly Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
