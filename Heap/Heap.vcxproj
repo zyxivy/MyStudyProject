@@ -139,6 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="023 - Merge k Sorted Lists.cpp" />
+    <ClCompile Include="264 - Ugly Number II.cpp" />
+    <ClCompile Include="295 - Find Median from Data Stream.cpp" />
     <ClCompile Include="378 - Kth Smallest Element in a Sorted Matrix.cpp" />
     <ClCompile Include="Heap.cpp" />
     <ClCompile Include="215 - Kth Largest Element in an Array.cpp" />

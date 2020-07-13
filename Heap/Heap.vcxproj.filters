@@ -24,6 +24,15 @@
     <ClCompile Include="215 - Kth Largest Element in an Array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="023 - Merge k Sorted Lists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="295 - Find Median from Data Stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="264 - Ugly Number II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">

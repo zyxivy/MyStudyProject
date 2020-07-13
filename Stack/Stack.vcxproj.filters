@@ -26,5 +26,8 @@
     <ClCompile Include="..\StudyProject\042 - Trapping Rain Water.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="239 - Sliding Window Maximum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

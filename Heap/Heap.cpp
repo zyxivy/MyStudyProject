@@ -6,8 +6,8 @@
 
 int main()
 {
-    vector<int> nums{ 3, 2, 1, 5, 6, 4 };
-    std::cout << "Hello World!\n";
+    priority_queue<int> q;
+    nthUglyNumber(10);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
