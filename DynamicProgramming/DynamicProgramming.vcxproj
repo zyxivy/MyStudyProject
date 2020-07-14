@@ -160,6 +160,8 @@
     <ClCompile Include="010 - Regular Expression Matching.cpp" />
     <ClCompile Include="032 - Longest Valid Parentheses.cpp" />
     <ClCompile Include="053 - Maximum Subarray.cpp" />
+    <ClCompile Include="1277 - Count Square Submatrices with All Ones.cpp" />
+    <ClCompile Include="1314 - Matrix Block Sum.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

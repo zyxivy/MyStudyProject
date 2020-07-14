@@ -41,5 +41,11 @@
     <ClCompile Include="032 - Longest Valid Parentheses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1314 - Matrix Block Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1277 - Count Square Submatrices with All Ones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
