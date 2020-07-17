@@ -47,5 +47,44 @@
     <ClCompile Include="1277 - Count Square Submatrices with All Ones.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1025 - Divisor Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="256 - Paint House.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="121 - Best Time to Buy and Sell Stock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="123 - Best Time to Buy and Sell Stock III.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="746 - Min Cost Climbing Stairs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="070 - Climbing Stairs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="303 - Range Sum Query - Immutable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="198 - House Robber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="276 - Paint Fence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="650 -  2 Keys Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="651 - 4 Keys Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="[413 - Arithmetic Slices].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="309 - Best Time to Buy and Sell Stock with Cooldown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

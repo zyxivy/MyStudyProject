@@ -20,5 +20,6 @@
 
 #include "pch.h";
 vector<vector<int>> matrixBlockSum(vector<vector<int>>& mat, int K) {
-
+	vector<vector<int>> result;
+	return result;
 }

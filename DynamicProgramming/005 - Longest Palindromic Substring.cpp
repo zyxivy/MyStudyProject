@@ -11,7 +11,7 @@
 //	Output : "bb"
 
 #include "pch.h";
-string Solution::longestPalindrome(string s) {
+string longestPalindrome(string s) {
 	int len = s.size();
 	int maxLen = 0;
 	int start = 0;

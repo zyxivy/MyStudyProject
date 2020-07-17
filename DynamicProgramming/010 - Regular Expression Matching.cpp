@@ -44,7 +44,7 @@
 //	Output : false
 
 #include "pch.h";
-bool Solution::isMatch(string s, string p) {
+bool isMatch(string s, string p) {
 
     //1, If p.charAt(j) == s.charAt(i) : dp[i][j] = dp[i - 1][j - 1];
     //2, If p.charAt(j) == '.' : dp[i][j] = dp[i - 1][j - 1];

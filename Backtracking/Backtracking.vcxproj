@@ -169,6 +169,7 @@
     <ClCompile Include="090 - Subsets II.cpp" />
     <ClCompile Include="212 - Word Search II.cpp" />
     <ClCompile Include="216 - Combination Sum III.cpp" />
+    <ClCompile Include="000-351 - Android Unlock Patterns.cpp" />
     <ClCompile Include="39 - Combination Sum.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

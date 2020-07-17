@@ -40,4 +40,5 @@
 #include "pch.h";
 int countSquares(vector<vector<int>>& matrix) {
 //https://leetcode.com/problems/count-square-submatrices-with-all-ones/discuss/441620/DP-with-figure-explanation
+	return 0;
 }

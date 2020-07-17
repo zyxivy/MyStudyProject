@@ -160,8 +160,21 @@
     <ClCompile Include="010 - Regular Expression Matching.cpp" />
     <ClCompile Include="032 - Longest Valid Parentheses.cpp" />
     <ClCompile Include="053 - Maximum Subarray.cpp" />
+    <ClCompile Include="070 - Climbing Stairs.cpp" />
+    <ClCompile Include="1025 - Divisor Game.cpp" />
+    <ClCompile Include="121 - Best Time to Buy and Sell Stock.cpp" />
+    <ClCompile Include="123 - Best Time to Buy and Sell Stock III.cpp" />
     <ClCompile Include="1277 - Count Square Submatrices with All Ones.cpp" />
     <ClCompile Include="1314 - Matrix Block Sum.cpp" />
+    <ClCompile Include="198 - House Robber.cpp" />
+    <ClCompile Include="256 - Paint House.cpp" />
+    <ClCompile Include="276 - Paint Fence.cpp" />
+    <ClCompile Include="303 - Range Sum Query - Immutable.cpp" />
+    <ClCompile Include="309 - Best Time to Buy and Sell Stock with Cooldown.cpp" />
+    <ClCompile Include="[413 - Arithmetic Slices].cpp" />
+    <ClCompile Include="650 -  2 Keys Keyboard.cpp" />
+    <ClCompile Include="651 - 4 Keys Keyboard.cpp" />
+    <ClCompile Include="746 - Min Cost Climbing Stairs.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

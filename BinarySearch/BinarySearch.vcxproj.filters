@@ -65,5 +65,8 @@
     <ClCompile Include="378 - Kth Smallest Element in a Sorted Matrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="392 - Is Subsequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

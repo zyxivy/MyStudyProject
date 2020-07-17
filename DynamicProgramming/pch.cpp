@@ -5,6 +5,6 @@
 // In general, ignore this file, but keep it around if you are using pre-compiled headers.
 int main()
 {
-	Solution::isMatch("ccb", "c*b*b");
+	vector<int> prices{ 2,1,1,2 };
 	return 0;
 }
