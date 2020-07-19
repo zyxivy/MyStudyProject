@@ -86,5 +86,11 @@
     <ClCompile Include="309 - Best Time to Buy and Sell Stock with Cooldown.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="714 - Best Time to Buy and Sell Stock with Transaction Fee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000-898 - Bitwise ORs of Subarrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

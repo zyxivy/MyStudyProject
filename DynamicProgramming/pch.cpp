@@ -5,6 +5,7 @@
 // In general, ignore this file, but keep it around if you are using pre-compiled headers.
 int main()
 {
-	vector<int> prices{ 2,1,1,2 };
+	vector<int> prices{ 13,4,2 };
+	int ret = subarrayBitwiseORs(prices);
 	return 0;
 }

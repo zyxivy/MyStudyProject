@@ -25,4 +25,5 @@ int maxProfit(vector<int>& prices);
 int minCostClimbingStairs(vector<int>& cost);
 int rob(vector<int>& nums);
 int minSteps(int n);
+int subarrayBitwiseORs(vector<int>& A);
 #endif //PCH_H

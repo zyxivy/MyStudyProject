@@ -171,6 +171,8 @@
     <ClCompile Include="276 - Paint Fence.cpp" />
     <ClCompile Include="303 - Range Sum Query - Immutable.cpp" />
     <ClCompile Include="309 - Best Time to Buy and Sell Stock with Cooldown.cpp" />
+    <ClCompile Include="714 - Best Time to Buy and Sell Stock with Transaction Fee.cpp" />
+    <ClCompile Include="000-898 - Bitwise ORs of Subarrays.cpp" />
     <ClCompile Include="[413 - Arithmetic Slices].cpp" />
     <ClCompile Include="650 -  2 Keys Keyboard.cpp" />
     <ClCompile Include="651 - 4 Keys Keyboard.cpp" />
