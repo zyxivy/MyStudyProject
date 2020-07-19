@@ -92,5 +92,11 @@
     <ClCompile Include="000-898 - Bitwise ORs of Subarrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="[361- Bomb Enemy].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="464 - Can I Win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
