@@ -161,8 +161,6 @@
     <ClCompile Include="000 - 065-Valid Number.cpp" />
     <ClCompile Include="000 - 069-Sqrt.cpp" />
     <ClCompile Include="000 - 097-Interleaving String.cpp" />
-    <ClCompile Include="000 - 098-Validate Binary Search Tree.cpp" />
-    <ClCompile Include="000 - 105-Construct Binary Tree from Preorder and Inorder Traversal.cpp" />
     <ClCompile Include="000 - 351 - Android Unlock Patterns.cpp" />
     <ClCompile Include="033-Search in Rotated Sorted Array.cpp" />
     <ClCompile Include="040 - Combination Sum II.cpp" />
@@ -402,14 +400,12 @@
     <ClCompile Include="092-Reverse Linked List II.cpp" />
     <ClCompile Include="093-Restore IP Addresses.cpp" />
     <ClCompile Include="[094-Binary Tree Inorder Traversal].cpp" />
-    <ClCompile Include="000-098-Validate Binary Search Tree.cpp" />
     <ClCompile Include="099-Recover Binary Search Tree.cpp" />
     <ClCompile Include="100-Same Tree.cpp" />
     <ClCompile Include="101-Symmetric Tree.cpp" />
     <ClCompile Include="102-Binary Tree Level Order Traversal.cpp" />
     <ClCompile Include="103-Binary Tree Zigzag Level Order Traversal.cpp" />
     <ClCompile Include="104-Maximum Depth of Binary Tree.cpp" />
-    <ClCompile Include="000-105-Construct Binary Tree from Preorder and Inorder Traversal.cpp" />
     <ClCompile Include="107-Binary Tree Level Order Traversal II.cpp" />
     <ClCompile Include="108-Convert Sorted Array to Binary Search Tree.cpp" />
     <ClCompile Include="109-Convert Sorted List to Binary Search Tree.cpp" />
